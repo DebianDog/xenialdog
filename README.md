@@ -1,3 +1,7 @@
+---
+title:   Xenialdog
+---
+
 # xenialdog
 
 Test mirror repository for XenialDog.
