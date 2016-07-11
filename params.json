@@ -1,6 +1,0 @@
-{
-  "name": "Xenialdog",
-  "tagline": "",
-  "body": "\r\n# XenialDog\r\n\r\nTest mirror repository for XenialDog.\r\n\r\nIn /etc/apt/sources.list :\r\n\r\n```\r\ndeb https://debiandog.github.io/xenialdog/Packages/ ./\r\n```\r\n\r\n",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}
