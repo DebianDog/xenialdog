@@ -1497,6 +1497,40 @@ Description: Warning - This package works only in DebianDog booted with porteus 
  Bug fix: set the correct permissions for /tmp 
  Fix in v 1.0.6: skip symlinks while cleaning man and doc files
 
+Package: cairo-dock-minimal
+Architecture: i386
+Version: 3.4.1
+Priority: optional
+Section: graphics
+Source: cairo-dock
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthieu Baerts (matttbe) <matttbe@ubuntu.com>, Julien Lavergne <julien.lavergne@gmail.com>, Fabrice Rey <fabounet@glx-dock.org>
+Installed-Size: 3528
+Depends: libgldi3 (= 3.4.1-0ubuntu1), libido3-0.1-0, libgnome-menu-3-0 (>= 3.2.0.1), libindicator3-7, libical1a (>= 1.0), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libdbus-glib-1-2 (>= 0.78), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.24.0), libgtk-3-0 (>= 3.4.0), libxml2 (>= 2.7.4)
+Suggests: compiz-plugins, gnome-session
+Conflicts: cairo-dock
+Replaces: cairo-dock-data, cairo-dock-plug-ins-integration, cairo-dock-plug-ins-data, cairo-dock-plug-ins, cairo-dock-plug-ins-dbus-interface-python, cairo-dock, cairo-dock-core
+Filename: ./Extra/cairo-dock-minimal_3.4.1_i386.deb
+Size: 3799122
+MD5sum: 401bb621a5e65edaf80c27cee87c87d5
+SHA1: 1b113ebe331116f6a1cae7eaaae1952b06707bf3
+SHA256: e8921023a9cdf02e4a98d7f565663ed531fcbf015df8275152da1b63b81caa4f
+SHA512: 2a620aff655af3a0352872b63ada314ca8739d4a252e89b052b108fd86700790e9822455aac5492870957014a1d7f34e58bf14aae849213591ee850d7093c353
+Homepage: http://www.glx-dock.org/
+Description: Light and eye-candy dock to launch your programs (core package)
+ Cairo-Dock is a pretty, light and convenient interface to your desktop,
+  able to replace advantageously your system panel!
+ It features multi-docks, taskbar, launchers and a lot of useful applets.
+ Applets can be detached from the dock to act as desktop widgets.
+ Numerous ready-to-use themes are downloadable in 1 click, and can be easily
+  customized at your convenience.
+ It can use hardware acceleration to be very fast and low on CPU.
+ .
+ Some screenshots are available : http://pics.glx-dock.org
+ Development site: https://launchpad.net/cairo-dock
+ .
+ This package is the core of Cairo-Dock project.
+
 Package: smokey-get-gdrive-get
 Architecture: i386
 Version: 1.0.2-mintpup
