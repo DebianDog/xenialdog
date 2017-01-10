@@ -857,6 +857,7 @@ usr/local/bin/loadsfs					    sfsload
 usr/local/bin/loadsfs-fuse				    portablesfs-loadsfs-fuse
 usr/local/bin/loadsfs-fuse-writesfs			    portablesfs-loadsfs-fuse
 usr/local/bin/lspart					    xendogmountscripts
+usr/local/bin/m-play					    youtube-get2,youtube-get
 usr/local/bin/make-deb-package				    makedebpackage
 usr/local/bin/menu-debian				    jwm-setup
 usr/local/bin/menu-openbox				    jwm-setup
@@ -897,6 +898,10 @@ usr/local/bin/xenialdog-full-install			    xenialdoginstallscripts
 usr/local/bin/xenialdog-install				    xenialdoginstallscripts
 usr/local/bin/xload					    jwm-setup
 usr/local/bin/yad-splash				    yad-splash
+usr/local/bin/youtube-dl				    youtube-get2
+usr/local/bin/youtube-get				    youtube-get
+usr/local/bin/youtube-get-xterm				    youtube-get
+usr/local/bin/youtube-get2				    youtube-get2
 usr/local/bin/zenity					    zenity-portable
 usr/local/conky-clock/Analog_clock/choice.sh		    conkyclock
 usr/local/conky-clock/Analog_clock/clock.lua		    conkyclock
@@ -2754,6 +2759,15 @@ usr/local/smokey-get/jemimah				    smokey-get-gdrive-get
 usr/local/smokey-get/pemasu				    smokey-get-gdrive-get
 usr/local/smokey-get/saintless				    smokey-get-gdrive-get
 usr/local/smokey-get/stu90				    smokey-get-gdrive-get
+usr/local/youtube-get2/1url.desktop			    youtube-get2
+usr/local/youtube-get2/2playlist.desktop		    youtube-get2
+usr/local/youtube-get2/3ytuser.desktop			    youtube-get2
+usr/local/youtube-get2/4search.desktop			    youtube-get2
+usr/local/youtube-get2/icons/yt-playlist.png		    youtube-get2
+usr/local/youtube-get2/icons/yt-playlist.pngg		    youtube-get2
+usr/local/youtube-get2/icons/yt-search.png		    youtube-get2
+usr/local/youtube-get2/icons/yt-url.png			    youtube-get2
+usr/local/youtube-get2/icons/yt-user.png		    youtube-get2
 usr/sbin/dhcpcd						    frisbee,wifibox-dhcpcd
 usr/sbin/dhcpcd_dropwait_option				    frisbee,wifibox-dhcpcd
 usr/sbin/get_modem_alternate_device			    frisbee
@@ -2770,7 +2784,10 @@ usr/share/applications/ConkyClock.desktop		    conkyclock
 usr/share/applications/ConkyClock2.desktop		    conkyclock2
 usr/share/applications/DogRadio.desktop			    dogradio
 usr/share/applications/ISO-Tools.desktop		    isotools
+usr/share/applications/Play_with_mplayer.desktop	    youtube-get2,youtube-get
 usr/share/applications/SFS-Load-GUI.desktop		    sfsload
+usr/share/applications/YouTube-Get.desktop		    youtube-get
+usr/share/applications/YouTube-Get2.desktop		    youtube-get2
 usr/share/applications/apt2sfs-fullinst.desktop		    apt2sfs
 usr/share/applications/apt2sfs.desktop			    apt2sfs
 usr/share/applications/cairo-dock-cairo.desktop		    cairo-dock-minimal
@@ -5286,6 +5303,7 @@ usr/share/menu/isotools					    isotools
 usr/share/menu/jwm					    jwm-setup
 usr/share/menu/jwm-theme-change				    jwm-setup
 usr/share/menu/lxinput					    lxinputsave
+usr/share/menu/m-play					    youtube-get2,youtube-get
 usr/share/menu/menumaker				    desktop-editor
 usr/share/menu/mount-wizard				    mount-wizard
 usr/share/menu/move-in-crypt				    move-in-crypt
@@ -5307,6 +5325,8 @@ usr/share/menu/start-openbox				    jwm-setup
 usr/share/menu/xenialdog-full-install			    xenialdoginstallscripts
 usr/share/menu/xenialdog-install			    xenialdoginstallscripts
 usr/share/menu/xvidcap					    xvidcap
+usr/share/menu/youtube-get				    youtube-get
+usr/share/menu/youtube-get2				    youtube-get2
 usr/share/network_tray/README				    sns
 usr/share/network_tray/business/networkblank.xpm	    sns
 usr/share/network_tray/business/networkboth.xpm		    sns
@@ -5379,6 +5399,7 @@ usr/share/pixmaps/dillo.png				    dillo
 usr/share/pixmaps/dillo.xpm				    dillo
 usr/share/pixmaps/dirs.png				    jwm-setup
 usr/share/pixmaps/disc.png				    mount-wizard
+usr/share/pixmaps/dload.png				    youtube-get2
 usr/share/pixmaps/drive.png				    mount-wizard
 usr/share/pixmaps/drive24.png				    mount-wizard
 usr/share/pixmaps/epdfview.xpm				    epdfview
@@ -5390,7 +5411,12 @@ usr/share/pixmaps/floppy24.png				    mount-wizard
 usr/share/pixmaps/folder24.png				    jwm-setup
 usr/share/pixmaps/folder48.png				    jwm-setup
 usr/share/pixmaps/frisbee.png				    frisbee
+usr/share/pixmaps/go-next.png				    youtube-get2
+usr/share/pixmaps/go-previous.png			    youtube-get2
 usr/share/pixmaps/gtk-about.png				    sns
+usr/share/pixmaps/gtk-go-back.png			    youtube-get2
+usr/share/pixmaps/gtk-go-forward.png			    youtube-get2
+usr/share/pixmaps/gtk-info.png				    youtube-get2
 usr/share/pixmaps/gtk-network.png			    sns
 usr/share/pixmaps/gtk-youtube-viewer.png		    youtube-viewer
 usr/share/pixmaps/help-about.png			    sns
@@ -5407,6 +5433,7 @@ usr/share/pixmaps/loadsfs.png				    portablesfs-loadsfs-fuse
 usr/share/pixmaps/lock.png				    jwm-setup
 usr/share/pixmaps/logout.png				    jwm-setup
 usr/share/pixmaps/makedebpkg.png			    makedebpackage
+usr/share/pixmaps/mplayer.png				    youtube-get2,youtube-get
 usr/share/pixmaps/mpv.png				    mpv
 usr/share/pixmaps/network-workgroup.png			    sns
 usr/share/pixmaps/optical24.png				    mount-wizard
@@ -5453,6 +5480,10 @@ usr/share/pixmaps/switch.png				    jwm-setup
 usr/share/pixmaps/transmission.png			    transmission-2.31
 usr/share/pixmaps/upgrade-kernel.png			    upgrade-kernel
 usr/share/pixmaps/xvidcap.png				    xvidcap
+usr/share/pixmaps/yt.png				    youtube-get2
+usr/share/pixmaps/ytb.png				    youtube-get
+usr/share/pixmaps/ytt.png				    youtube-get2
+usr/share/pixmaps/yyt.png				    youtube-get2
 usr/share/polkit-1/actions/com.deepin.daemon.accounts.policy dde-daemon
 usr/share/slitaz/network.conf_migration			    wifibox-dhcpcd,wifibox
 usr/share/tint2/default_icon.png			    tint2

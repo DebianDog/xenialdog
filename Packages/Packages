@@ -1531,6 +1531,27 @@ Description: Light and eye-candy dock to launch your programs (core package)
  .
  This package is the core of Cairo-Dock project.
 
+Package: youtube-get2
+Architecture: i386
+Version: 0.1.7
+Maintainer: fredx181
+Installed-Size: 938
+Depends: libc6, yad, sed, wget, python, gnome-mplayer-1.0.7 | mpv | mplayer | gmplayer-portable, gsu | gksu
+Recommends: locales
+Replaces: youtube-get
+Filename: ./Extra/youtube-get2_0.1.7_i386.deb
+Size: 1342440
+MD5sum: c0941bb1a38fc82453fe4e405ad09077
+SHA1: 7fe378cf2b5c71b34ee628b57e4440df964f36bd
+SHA256: f0cb733a42621d522ce2e266ffbdc1d4aa389103ed574e8b07c14cbd923cba74
+SHA512: aecb488e9598dbac34c004aa10871339121a1eb8632f893fd16c99d97dd9f94b2e7858a5b7a97a7aa2c8ce3c44abc2dc0014fd2cc97fea09c801bd46d0e9768c
+Description: YouTube Downloader, frontend for youtube-dl
+ A Youtube update broke the search function of previous versions; fixed in this version.
+ - A shell script (bash) with yad as GUI for youtube-dl
+ - Options to enter url(s), playlist, username and to do a search:
+ - Gives choice which quality to download, e.g. 360p or 720p, Audio streams, etc...
+ - Extra addition: m-play script + menu entry for playing YouTube url with mplayer or mpv
+
 Package: smokey-get-gdrive-get
 Architecture: i386
 Version: 1.0.2-mintpup
@@ -1565,6 +1586,27 @@ Description:  findnrun 1.10.6 (i18n)
   for freedesktop.org desktop application files.
   Files in this add-on package: localized runtime messages.
   https://github.com/step-/find-n-run/
+
+Package: youtube-get
+Architecture: i386
+Version: 0.1.1
+Maintainer: fredx181
+Installed-Size: 68
+Depends: libc6, yad, sed, wget, xterm, gnome-mplayer-1.0.7 | mpv | mplayer | gmplayer-portable
+Recommends: locales
+Replaces: youtube-get2
+Filename: ./Extra/youtube-get_0.1.1_i386.deb
+Size: 20710
+MD5sum: ee9bca311d6c4a6195172b5db97852f9
+SHA1: 39603d990bf2abf6b709b1664ac02fce8ee39f82
+SHA256: 8b8cdf87a8d5b5c4670b3be643987650f725a016b72bc1ff4d9991008c373319
+SHA512: f3c0a711b2903a6e8df115b4783f7c4e28c963e01c2de5240b5cb7b248562f2ef42069a6b47177e687d81f925ef7df4e5d33599396eebdd8264371c71e997504
+Description: A simple YouTube Downloader
+ - A shell script (bash) with yad as frontend
+ - Based on the idea of Dr. Mark Humphrys, see here:
+  https://computing.dcu.ie/~humphrys/Notes/UNIX/lab.youtube.html
+ - Gives choice which quality to download, e.g. 360p or 720p, etc...
+ - Extra addition: m-play script + menu entry for playing YouTube url with mpv
 
 Package: apulse
 Architecture: i386
