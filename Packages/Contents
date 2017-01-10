@@ -814,7 +814,6 @@ usr/local/bin/firewall_install				    Firewall-Puppy
 usr/local/bin/firewall_install.sh			    Firewall-Puppy
 usr/local/bin/fixdepinstall				    fixdepinstall
 usr/local/bin/flashplayerchoice				    flashplayerchoice
-usr/local/bin/gdrive-get				    smokey-get-gdrive-get
 usr/local/bin/gethosts					    debdog-advert-blocker
 usr/local/bin/gnome-mplayer				    gnome-mplayer-1.0.7
 usr/local/bin/grldr					    xenialdoginstallscripts

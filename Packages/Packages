@@ -12,6 +12,22 @@ SHA256: faf64cd5709c14f5a3eb6e9e4ef6a8ec96c8f7f9101bb73bfc64accc06811f4d
 SHA512: 7e06156d9489f35d88a1826c8e7297fd030674dc0ea8466b0ce41b80c001a469560f8148260dabb9d6701a1112da4c4a473950db4595ba99b3b3cea4e5dce1cf
 Description: Special XenialDog mount and drive information scripts taken from DebianDog.
 
+Package: sfs-get-xendog
+Architecture: i386
+Version: 1.0.4-xendog
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 42
+Depends: libc6, yad, wget, gsu | gksu
+Recommends: smokey-get-gdrive-get
+Filename: ./Included/sfs-get-xendog_1.0.4-xendog_i386.deb
+Size: 3524
+MD5sum: 8224e37e76e44ecf474e87aca781e9d0
+SHA1: 6558a5a8085533db5a774b63873a74513fbfbc9d
+SHA256: 25eca2876516d8823667e3c0dc119d71276761da76fa74b1ad7884a106458ebe
+SHA512: 5faecae61f043c6588e8c3769a61941787b550c4b86410a18a6b8d78a44d17a539944475e4d3307cb4799595715fc86ddeed391a288c50068bcc2922c579fdd7
+Description: The sfs-get-xendog program downloads files from github.com or smokey01.com or kazzascorner.com
+ sfs-get_smokey-get by MakeDEBPackage-GUI.
+
 Package: precord
 Architecture: i386
 Version: 9.0.4
@@ -591,6 +607,22 @@ SHA512: 472b692b7b7309c106609792fc03a5f3ee50dd2c4914921214cc1eb8a3fe897c1a81622b
 Description: Mount .squashfs as unprivileged user.
  Squashfuse lets you mount SquashFS archives in user-space
 
+Package: remaster-scripts
+Architecture: i386
+Version: 1.0.1
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 57
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu
+Filename: ./Included/remaster-scripts_1.0.1_i386.deb
+Size: 9162
+MD5sum: 44718c72db8d7074480d7c6ba14088b3
+SHA1: 97f3082c51e53494cd7b9910fd2bf39706c1ba91
+SHA256: ed90e43d43dfcdf3b83414b7f28bb71ea655ea6714997da754a81e1bb29897e4
+SHA512: f046ba54496d3265c0757294ccf4e8793912a688d2d141b799d3e76498a21138ed3eb5857fb7617605e2eeed795f0ef65e0ec53aa73f80f4ba895eaf74a927fc
+Description: Warning - This package works only in XenialDog!
+ .
+ For creating a *.squashfs module from changes (from /live/cow directory) or full system remaster (from / directory).
+
 Package: desktop-editor
 Architecture: i386
 Version: 1.0
@@ -724,6 +756,24 @@ Description: Small and fast web browser
  .
  It aims to be small in resources, stable, developer-friendly, usable,
  very fast, and extensible.
+
+Package: flashplayerchoice
+Architecture: i386
+Version: 1.0.2
+Maintainer: root
+Installed-Size: 14
+Depends: libc6, wget, inotify-tools, yad, sed, apt, squashfs-tools, menu, tar, gsu | gksu
+Filename: ./Included/flashplayerchoice_1.0.2_i386.deb
+Size: 7532
+MD5sum: d1d0c772451fb6b30fd7f6a780293727
+SHA1: c0e17b8c0433741f4577196388bace5d325a07d8
+SHA256: aa2b0d1bdd6c7d8ac73efd69d3b0acb4237fed8bf31a8996685bfee34b9a67c1
+SHA512: 0e03a08fa5564fb646f62bb509cf12af3fadc82555c4f46fc8afb449a32e17559e9ad9065722129f0db03c4e9df055371bb3e45dfa3b40599874f60e321278ee
+Description: The flashplayerchoice script gives choice of several options to install flashplayer :
+ - version 10 from http://www.smokey01.com/OscarTalks/ (= 12 Mb uncompressed)
+ - version 11 from http://www.smokey01.com/OscarTalks/ (= 17 Mb uncompressed)
+ - Install flashplugin-nonfree with apt-get (= 34 Mb uncompressed)
+ - Create flashplugin-nonfree.sfs module (= 8,9 Mb compressed)
 
 Package: firefox-portable
 Architecture: i386
@@ -1243,11 +1293,11 @@ Installed-Size: 212
 Depends: libc6, yad, wget, elinks, curl, gsu | gksu
 Recommends: sfs-get-xendog
 Filename: ./Extra/smokey-get-gdrive-get_1.0.3-xendog_i386.deb
-Size: 79698
-MD5sum: de4097de13a47980a96f4df55095e491
-SHA1: f0e457a15b1cf702072717020578598a71ed8408
-SHA256: 63c85ddc3a99c8b7c623b36e70bbe4190ee291280707951ffafdf19ff5ed1676
-SHA512: cbb86807f28a9d432b1037bbfea261894eff02d46028dcbaf644810587f8b836b8580603430ac1f4604cd995231b6561a4bc53811dbdd5ed30ae25d3986b6989
+Size: 76452
+MD5sum: 36fdfab1570defa39c8b513b1deae951
+SHA1: 0d106f65f4fb7124300d50a328b2d261774c2d8e
+SHA256: c1bde7d90cb2a29eb58033b5175bd9cd4e86044a0040977d63df0fc2bf06e8d2
+SHA512: daf708611e59771f274fb7a22e1acab1ef79816cb2a08589acd9425259f7422f32aed7988ce1bfd9cecfc56fff9594c7a40f0576b67590b6f932d662ed8c3722
 Description: The smokey-get-gdrive-get program downloads files from github.com or smokey01.com or kazzascorner.com 0r google drive
  sfs-get_smokey-get by MakeDEBPackage-GUI.
 
