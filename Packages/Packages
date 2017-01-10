@@ -17,14 +17,14 @@ Architecture: i386
 Version: 1.0.4-xendog
 Maintainer: fredx181 dog@root.nl
 Installed-Size: 42
-Depends: libc6, yad, wget, gsu | gksu
+Depends: libc6, yad, wget, gsu | gksu, elinks
 Recommends: smokey-get-gdrive-get
 Filename: ./Included/sfs-get-xendog_1.0.4-xendog_i386.deb
-Size: 3524
-MD5sum: 8224e37e76e44ecf474e87aca781e9d0
-SHA1: 6558a5a8085533db5a774b63873a74513fbfbc9d
-SHA256: 25eca2876516d8823667e3c0dc119d71276761da76fa74b1ad7884a106458ebe
-SHA512: 5faecae61f043c6588e8c3769a61941787b550c4b86410a18a6b8d78a44d17a539944475e4d3307cb4799595715fc86ddeed391a288c50068bcc2922c579fdd7
+Size: 3536
+MD5sum: ade97ca13fce014ff1ce64f268870920
+SHA1: 7e1dc06a8aa9e703793e371c10dbf32a0694c096
+SHA256: b2ecf278425cb482903a350172244e5a00ac13bbccd390778398d5d789f35586
+SHA512: cbb993d1f4b9132ee0565d1df275438078f19cf59463d1fbd997a5072f7c5150ac5ea5492e7719397216aed3b68e8064fd9e894b84b05a8aa6cb42e5c413fb87
 Description: The sfs-get-xendog program downloads files from github.com or smokey01.com or kazzascorner.com
  sfs-get_smokey-get by MakeDEBPackage-GUI.
 
