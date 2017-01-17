@@ -89,11 +89,11 @@ Maintainer: root
 Installed-Size: 863
 Depends: libc6, xendogmountscripts
 Filename: ./Included/xenialdoginstallscripts_1.0.8_i386.deb
-Size: 427986
-MD5sum: c49bb97a9a51c1142134df1d9c6c41f4
-SHA1: 0dce01c44f84882153f538d582976052b92b5e52
-SHA256: 53bddaf65e92cf865c8e742d8a1d7943445085801bc9110f002eb0d006eac2a1
-SHA512: 5edd8ec103aebb1be6a1e2f09ffe0a3bb5f44799e112e86821e0e487e03b033e56e3b3b91a5c98b59c0075cca1c74a384fcc97c1c88e4ebb9f93b75a54009931
+Size: 428670
+MD5sum: e1039c77e87aeac8d32b7b057de1a9be
+SHA1: d584300fffd15b3b9fb05e5beb159008e2ad4d80
+SHA256: 1ec439d10200f12390225f8186564b86084d034207658694d3cbaf7034555c4a
+SHA512: 64cdcc02be6f5ed029cb61c6dfd6fdc49c1595c6e21691592c358173288520b319133c35eb8273e0eb96435cc87ed94870ff23e8bd9cb673e1adde0bfc370372
 Description: Special XenialDog frugal and full install scripts taken from DebianDog.
 
 Package: portablesfs-loadsfs-fuse
@@ -129,11 +129,11 @@ Maintainer: fredx181
 Installed-Size: 480
 Depends: libatk1.0-0, libc6, libcairo2, libfontconfig1, libfreetype6, libgdk-pixbuf2.0-0, libglib2.0-0, libgtk2.0-0, libmenu-cache3, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, sed, jwm, rox-filer
 Filename: ./Included/jwm-setup_0.0.2_i386.deb
-Size: 112546
-MD5sum: dde813b26cf5c4b81f227529c03b96ef
-SHA1: 229d1198270f05b35a113125b126d3e345afbfcd
-SHA256: 819a87edada33193eaf0ac00cc3d3cbf1bfe92a60eafd47cdd205b2f50e345a6
-SHA512: 3dc2dccc0546595f4128d558dca71fc1355cc49e10ec011afb3bc1be8b7a9567dd7b59e77ae4f091d326ea16f8f02c9ffba12949aa539b72b425c05257e00881
+Size: 112548
+MD5sum: 9836ca37b179c3f8195058d8519da98b
+SHA1: 46aa9c5f9032b5c978129e09ea5d5c00f89f7906
+SHA256: a5b03bcb00cda85cf7b10e8a3d822d6feaa1824478123c5913db4be54c59475a
+SHA512: b55fc3c874c884bc61af208bd2274cc8432e5e7c5a119ad29453c2821f100bfe571f405214d34bcdeacdb4e161fde63fcabb33133edee147963ea60d7ceb2a63
 Description: Jwm custom setup for Xendog, includes:
  - openbox-menu, pipe-menu setup for JWM (NOTE: menu-cached is not used) to display entries in *.desktop files
  - jwm-obmenu script for the Jwm window manager. It provides
@@ -346,13 +346,13 @@ Section: x11
 Maintainer: root
 Installed-Size: 268
 Provides: pictures-joiner
-Depends: libc6, gtkdialog, libnetpbm9 | libnetpbm10
+Depends: libc6, gtkdialog, libnetpbm10
 Filename: ./Included/peasyglue_1.8_i386.deb
-Size: 37718
-MD5sum: bb8331aa1833a3e668c68aae04c836d5
-SHA1: 53bb993826cbeeacabf7a7b89eabc57866ec29de
-SHA256: 7e28d2b286357d2d1a5ca2f8237e44727cfac9942e7714d705d6060c741668c4
-SHA512: 2027df1b8d3c74c7aee89f9b493927aeb56f75230e437a40f036c7fc7a7c3481d19cddd3cdae499d111a7417e78c94a5f69b79b7eba6a7c23bf4dc09db3c95f3
+Size: 37486
+MD5sum: ea8d9e99e41c8d2889f971f8a01cde0a
+SHA1: 2e176cddd8d86c53b2bce7681072e4dad8eacd05
+SHA256: 0a5ae9c93c136cf0a6b8ada3212e809f160905a6a0e48e04c0b8d9543d36b67d
+SHA512: 3305e8396412563138b8cd755823b44a03dd52c632c0c714162adeabbb73d57476669ea2b428a79b87e8cb622ae7d2b016f00b48ba56d212dbd87b6036b6c5fc
 Description: graphic-utility
 
 Package: lxinputsave
@@ -764,11 +764,11 @@ Maintainer: root
 Installed-Size: 14
 Depends: libc6, wget, inotify-tools, yad, sed, apt, squashfs-tools, menu, tar, gsu | gksu
 Filename: ./Included/flashplayerchoice_1.0.2_i386.deb
-Size: 7532
-MD5sum: d1d0c772451fb6b30fd7f6a780293727
-SHA1: c0e17b8c0433741f4577196388bace5d325a07d8
-SHA256: aa2b0d1bdd6c7d8ac73efd69d3b0acb4237fed8bf31a8996685bfee34b9a67c1
-SHA512: 0e03a08fa5564fb646f62bb509cf12af3fadc82555c4f46fc8afb449a32e17559e9ad9065722129f0db03c4e9df055371bb3e45dfa3b40599874f60e321278ee
+Size: 7540
+MD5sum: 1946d0c83bfbd7abed100f7f76928b76
+SHA1: f0b1624ee6433b3b2d7ca2b12a7b023eb10bf44c
+SHA256: 96c5b5a4e31e190b0f8c5c792cdf69a5c98a0b174504af5587766e86ca909910
+SHA512: 55db62daf1631ccb0f18eaaf3bcfaa8425126b11b6c52b6dc74d333bcff680d500b98d9d6aead0a4e37a14d48bc65fed77c360ed62386f67a4f91e2e2c8b1931
 Description: The flashplayerchoice script gives choice of several options to install flashplayer :
  - version 10 from http://www.smokey01.com/OscarTalks/ (= 12 Mb uncompressed)
  - version 11 from http://www.smokey01.com/OscarTalks/ (= 17 Mb uncompressed)
@@ -1511,11 +1511,11 @@ Suggests: compiz-plugins, gnome-session
 Conflicts: cairo-dock
 Replaces: cairo-dock-data, cairo-dock-plug-ins-integration, cairo-dock-plug-ins-data, cairo-dock-plug-ins, cairo-dock-plug-ins-dbus-interface-python, cairo-dock, cairo-dock-core
 Filename: ./Extra/cairo-dock-minimal_3.4.1_i386.deb
-Size: 3799122
-MD5sum: 401bb621a5e65edaf80c27cee87c87d5
-SHA1: 1b113ebe331116f6a1cae7eaaae1952b06707bf3
-SHA256: e8921023a9cdf02e4a98d7f565663ed531fcbf015df8275152da1b63b81caa4f
-SHA512: 2a620aff655af3a0352872b63ada314ca8739d4a252e89b052b108fd86700790e9822455aac5492870957014a1d7f34e58bf14aae849213591ee850d7093c353
+Size: 2273338
+MD5sum: 09a10ba6fa268a3f348a7043f9a8b938
+SHA1: b76f8ac4e72ad5711af3dac6adf54286608b9af5
+SHA256: 5f12f93e6c0500987a13852556e18c39aec9ec62cd964a920ee996ce58fecd38
+SHA512: 32e9eb143866fc00ded214a80f0a10d6bbb8380463c493bcb280d6852f908a98fe139c439834f551bc61880946a4a1cfdcb7a608fcfa378a1b6c3e26d8925966
 Homepage: http://www.glx-dock.org/
 Description: Light and eye-candy dock to launch your programs (core package)
  Cairo-Dock is a pretty, light and convenient interface to your desktop,
