@@ -180,6 +180,24 @@ SHA256: 1b0e213f86d4f73f5761b5642e7f34a63d51e01bd1e9881d41d20cf031df2874
 SHA512: de1fc5c4addd5a7b1bf15d62a413d485070bb572e491f81b06762986fe4abbf9beb29b22b250d7c10e612c319c8ed9a3347b119fdf1c39bbda26682501b8e43b
 Description: squashfs editor, converter
 
+Package: flashplayerchoice
+Architecture: i386
+Version: 1.0.3
+Maintainer: root
+Installed-Size: 14
+Depends: libc6, wget, inotify-tools, yad, sed, apt, squashfs-tools, menu, tar, gsu | gksu
+Filename: ./Included/flashplayerchoice_1.0.3_i386.deb
+Size: 7532
+MD5sum: 5f8f81d54fc12cda1cc3f1c901784be3
+SHA1: 5223907a640b8aca642e2c2a5080921c22cc3981
+SHA256: ccfc062415aa728fb360c70ab31b2d214bcb4001371e28726c8f34db6b4ada7a
+SHA512: f76c66895a0358cb69a50c9e8a58ab2aa9c5a1ba5dbda005a4706a8037c62779a4da87e625c90e3f14af0722c5e17967248de0425434a6dd63dbabe616f0dd46
+Description: The flashplayerchoice script gives choice of several options to install flashplayer :
+ - version 10 from http://www.smokey01.com/OscarTalks/ (= 12 Mb uncompressed)
+ - version 11 from http://www.smokey01.com/OscarTalks/ (= 17 Mb uncompressed)
+ - Install flashplugin-nonfree with apt-get (= 34 Mb uncompressed)
+ - Create flashplugin-nonfree.sfs module (= 8,9 Mb compressed)
+
 Package: gtkdialog
 Architecture: i386
 Version: 0.8.3-1
@@ -756,24 +774,6 @@ Description: Small and fast web browser
  .
  It aims to be small in resources, stable, developer-friendly, usable,
  very fast, and extensible.
-
-Package: flashplayerchoice
-Architecture: i386
-Version: 1.0.2
-Maintainer: root
-Installed-Size: 14
-Depends: libc6, wget, inotify-tools, yad, sed, apt, squashfs-tools, menu, tar, gsu | gksu
-Filename: ./Included/flashplayerchoice_1.0.2_i386.deb
-Size: 7540
-MD5sum: 1946d0c83bfbd7abed100f7f76928b76
-SHA1: f0b1624ee6433b3b2d7ca2b12a7b023eb10bf44c
-SHA256: 96c5b5a4e31e190b0f8c5c792cdf69a5c98a0b174504af5587766e86ca909910
-SHA512: 55db62daf1631ccb0f18eaaf3bcfaa8425126b11b6c52b6dc74d333bcff680d500b98d9d6aead0a4e37a14d48bc65fed77c360ed62386f67a4f91e2e2c8b1931
-Description: The flashplayerchoice script gives choice of several options to install flashplayer :
- - version 10 from http://www.smokey01.com/OscarTalks/ (= 12 Mb uncompressed)
- - version 11 from http://www.smokey01.com/OscarTalks/ (= 17 Mb uncompressed)
- - Install flashplugin-nonfree with apt-get (= 34 Mb uncompressed)
- - Create flashplugin-nonfree.sfs module (= 8,9 Mb compressed)
 
 Package: firefox-portable
 Architecture: i386

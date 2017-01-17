@@ -9,35 +9,35 @@ Codename: xenial
 Architectures: i386
 Components: main
 Description: XenialDog repository
-Date: Tue, 17 Jan 2017 22:51:29 UTC
+Date: Tue, 17 Jan 2017 23:03:07 UTC
 MD5Sum:
- 74611ec2d462096ab2647246b0521546            78768 Packages
- 316d2ad231d910da0380fc63bc9b18c4            29811 Packages.gz
- 69bcd877a1947c2fdc76f5ccf1eb75e6              183 Release
- 316d2ad231d910da0380fc63bc9b18c4            29811 Translation-en.gz
+ 8bf102e1e8c2b78cbb6f390535d38143            78768 Packages
+ 9c21994cc297d9f15c398eb4b7da3598            29954 Packages.gz
+ 596a86667517f4fda49f5ee7a8917b83              183 Release
+ 9c21994cc297d9f15c398eb4b7da3598            29954 Translation-en.gz
 SHA1:
- c480b57f032ad278d9bae8c371f8451a9de67591            78768 Packages
- ee87bd4cb034e0f5e420b921cb418cd8076f2df8            29811 Packages.gz
- 2dfafc0993dcc0bbafa0b28a9758cfa9486f0907              183 Release
- ee87bd4cb034e0f5e420b921cb418cd8076f2df8            29811 Translation-en.gz
+ 84e2ddcc82234a5073498e8b75d71b1980b00130            78768 Packages
+ f1cb4961ac3cf2828e5d279c472f3766a78fe186            29954 Packages.gz
+ 0d56ec290803f4a90799822d369045de6ef2ef50              183 Release
+ f1cb4961ac3cf2828e5d279c472f3766a78fe186            29954 Translation-en.gz
 SHA256:
- cfc9f5f040397bcf0466f0cf9e5111a433ea07107436438f469220ed3dd334b5            78768 Packages
- e24a683cea1e657a52288b59746e5678ba6dafc8254797ade2d2c4494e892478            29811 Packages.gz
- 83d7b150605166eadc441c022923bdd0bd236a93faf188d8bb8847d9e5b20ba4              183 Release
- e24a683cea1e657a52288b59746e5678ba6dafc8254797ade2d2c4494e892478            29811 Translation-en.gz
+ 2d0beabe9b87b7992076438b4860ebc97e90d3582af927ed26e5ac4fe3ec1241            78768 Packages
+ 33487746915547462c8713929f9aea8ff8a03016f58f492de9abea0f513a2502            29954 Packages.gz
+ 68085a135f25c6dc004b7b6e943999c8d93ec173c3372a6eb94332dd289ff3e0              183 Release
+ 33487746915547462c8713929f9aea8ff8a03016f58f492de9abea0f513a2502            29954 Translation-en.gz
 SHA512:
- 66e96f7365f206dfc7db625d969ebf47b9bc83f15b72df0494820580dde6b35a848a25c83b8ceee058f1e1a128939c55cde0fcc718068aa56220de91c62f21b2            78768 Packages
- 8719cf61d886f4b09d973b27442329a6211ad149dc7ccdd0630186d1f7605ca08fdf02c2d07bb3659bc674716ad8200bb038a06b0c0ead73f6421d3f84be9907            29811 Packages.gz
- 27aac6b636c7bb0c652b3f0d78c39459e6f305de8e6aed0812f1baef912981b4b23710b54c092f68453e193061356a58a4ca2fbc2475192a0c7dec9e871b2782              183 Release
- 8719cf61d886f4b09d973b27442329a6211ad149dc7ccdd0630186d1f7605ca08fdf02c2d07bb3659bc674716ad8200bb038a06b0c0ead73f6421d3f84be9907            29811 Translation-en.gz
+ 8fb0aec57088cbbf5bc27300902fadc1eaccdfc2c8b79c2dc6a20ff776c7760d1a3184fdf8b4a6984d03d4ecf584cfff422e26985a08432c1849a6a559276a4c            78768 Packages
+ ac0675e8723ad6dc8fb007136faf6f1cd408ca3244798e3539a121684b16eee0731257c76b96f61410b2a10060acbfec10e9aa8887e7028fb45320b262875254            29954 Packages.gz
+ 7311ca9791f05a2ffe764cbb5d515b23b4e0ba931949a65f97dfb70e465c229963831369d9c9d9f7406f80e15857a14dfad4c2e53ebc0550707d8e8daf3d3b1b              183 Release
+ ac0675e8723ad6dc8fb007136faf6f1cd408ca3244798e3539a121684b16eee0731257c76b96f61410b2a10060acbfec10e9aa8887e7028fb45320b262875254            29954 Translation-en.gz
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBCAAGBQJYfp/5AAoJEK2HvHp9cwgdTjMH/1jnp9NbldFAx2D98qYO0EuV
-qEtgb2Kl0cYK5IgdDSumQSrPB18ZLWaWXfIEbUkdkprXiKjk1lBGlrOukWUIoBT1
-iV/EGBUnWXIfY5pn1GZYbrQDczqRNB52iomeYQ5EIwc6w3JtitxOG4jqx5QNhaLL
-pIb9+lINjRL4cYleGCudJfK30L4nx5q4PWXWhpZg8EbNJbuGikq5y8eC5VZKqQhT
-sMckqbzmkxyoicx1C621aaPbXaOB07QvDosBOyiIASJc3jy8QMxGjJ9h7fXDspq5
-KaRnMLtOwFeI1el/vGlu0PkVzubC0zNyhZ9jLRgNob3834Qz3ceZt+7ywbpyp3w=
-=QrS0
+iQEcBAEBCAAGBQJYfqKxAAoJEK2HvHp9cwgdwJIIAKUqxd6ORb1x92qP3gZbwj4x
+PJO2HuqX/jKCsmaZyNlGbNBpfbOYnlq6WR0TMZhf4CcBWiyLWAdMHOxL/9zvOOCQ
+n7QnKD8H5lVstkWyzAaDIR01KjCtU5bfMoKEazwjc+pnrWgwM/VKKPSHkm3nrUaS
+mJjQS8O0VPkBVjH0uWxCr2mbVfjBju+RnHiwg+YOZUi8X3KN33jYJ5BRQpsSIN8O
+okn//m/MOOsVXQ2mLhizBdit9YPZRjAe+FObbtxTY+i59oLnUaLJpvfFi2mA6bZl
+GR49CBAS1b29HyIPLEukjKa9zvU3j2FlxIoHlsGB2xacd/nblLaaCd/DFwXc0gk=
+=TBBC
 -----END PGP SIGNATURE-----
