@@ -782,22 +782,6 @@ SHA256: 1e953156e2349a10650dd08dc1189e63f53f8153bf3135995c8747c99b46b314
 SHA512: e0763ddb8055214f530a87f6aa109a637fa00956a9773b99d6ce6dde7e7aa302f93625a37b27bad76abfd4d4fa5e0319716abf4a87374622050ab4d67b43b2bf
 Description: Changes from v. 1.0.1 - added SD card support. Mount drives utility moded by sfs, fredx181 and mcewanw.
 
-Package: resize-save-file
-Architecture: i386
-Version: 1.0.0-1
-Priority: extra
-Section: system
-Maintainer: root@wheezy
-Installed-Size: 158
-Depends: libc6, gtkdialog, yad, e2fsprogs, gsu | gksu
-Filename: ./Included/resize-save-file_1.0.0-1_i386.deb
-Size: 2212
-MD5sum: 79bc8e1e4867d3abc1aa1c553e4375c4
-SHA1: cae97914cfe37413326d209defab7ba85114be81
-SHA256: 0f6c695b125d94addaeeb68c090adfbc102545c454803ede8cb3c00aa51c1331
-SHA512: a56ca182d16159ac5cfe074fa7ff60ea1448bb19b8c235ffb21641ef64a974c209794e11ac0b55825b826811a7267d16b104017ad1cf9ebe3a89a06fe3feb302
-Description: Utilty for save file resizing.
-
 Package: firefox-portable
 Architecture: i386
 Version: 45.1.0.0
@@ -922,6 +906,22 @@ Homepage: http://trac.emma-soft.com/epdfview/
 Description: Lightweight pdf viewer based on poppler libs
  The aim of ePDFView is to make a simple PDF document viewer, in the lines of
  Evince but without using the GNOME libraries.
+
+Package: resize-save-file
+Architecture: all
+Version: 1.0.0-1
+Priority: extra
+Section: system
+Maintainer: root@wheezy
+Installed-Size: 158
+Depends: libc6, gtkdialog, yad, e2fsprogs, gsu | gksu
+Filename: ./Included/resize-save-file_1.0.0-1_all.deb
+Size: 3584
+MD5sum: cdd2f6f77a63cd0292a679ed2ac96e87
+SHA1: c2afeae46cdeb3faea09bfa26ba114771ba3f86f
+SHA256: ced03ee68ce7706f54aa4a25d78bd11d35dd07379614cb063b74d56822523914
+SHA512: 7d033f6433f7a66272b1f67152599fe0449f8a8dcff90e27c2fd201697526dbedd7d517037cf46a6c60c0522f0e8c48903138e9494092c7416618fbe68d0058c
+Description: Utilty for save file resizing.
 
 Package: pup-volume-monitor
 Architecture: i386

@@ -204,7 +204,6 @@ opt/bin/ifplugstatus-0.28				    sns
 opt/bin/ipinfo						    sns
 opt/bin/network_tray					    sns
 opt/bin/proxy-setup					    sns
-opt/bin/resize-save					    resize-save-file
 opt/bin/smokey-get					    smokey-get-gdrive-get
 opt/bin/sns						    sns
 opt/bin/xhost						    sns
@@ -884,6 +883,7 @@ usr/local/bin/remastercow				    remaster-scripts
 usr/local/bin/remastercow-start				    remaster-scripts
 usr/local/bin/remasterdog				    remaster-scripts
 usr/local/bin/remasterdog-start				    remaster-scripts
+usr/local/bin/resize-save				    resize-save-file
 usr/local/bin/sfs-get-xen				    sfs-get-xendog
 usr/local/bin/smokey-get				    smokey-get-gdrive-get
 usr/local/bin/start-jwm					    jwm-setup
@@ -5199,6 +5199,7 @@ usr/share/pixmaps/isoedit.png				    isotools
 usr/share/pixmaps/isomake.png				    isotools
 usr/share/pixmaps/isotools.png				    isotools
 usr/share/pixmaps/isousb.png				    isotools
+usr/share/pixmaps/keditbookmarks.xpm			    resize-save-file
 usr/share/pixmaps/loadsfs.png				    portablesfs-loadsfs-fuse
 usr/share/pixmaps/lock.png				    jwm-setup
 usr/share/pixmaps/logout.png				    jwm-setup
