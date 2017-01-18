@@ -103,11 +103,11 @@ Maintainer: fredx181 dog@root.nl
 Installed-Size: 87
 Depends: libc6, yad, unionfs-fuse, gsu | gksu, linux-user-chroot, squashfuse, aufs-tools, lsof
 Filename: ./Included/portablesfs-loadsfs-fuse_1.0.7_all.deb
-Size: 9158
-MD5sum: 6da14af4877067415e3bc515a4b30bba
-SHA1: e6026929006abf5142cfb5130a8dcceb3e8d1f42
-SHA256: 3b02547ca32a02e69198082d6c1a8f732fb95e2f167fd7dd16d0904da7795641
-SHA512: 94c64f5009c59f0ec6c2e1690e9b690ad38f21351802aeb4df4c1e35d088353024315eed3801b986812307540558032a9065b6257c077ff71fed5374a56659e3
+Size: 9050
+MD5sum: 3ec81e7a473185664292140127aca77c
+SHA1: 3226ed74c7062a04f1b6be509742234293337a4b
+SHA256: 83c10fa0af91c4a33e9f49f7c7c655cf64cb1e5588041547e388fe5f0ed5ba01
+SHA512: 1373f8a8aa265350f7e934bff693bda1cb0d6e288ba37d8d03342e439e66d94ddbc7f49377820e9eaf5f21d222b1fdec3f4d10aa737c41c82eebdbd27a7a1737
 Description: Load a *.squashfs or *.sfs module.
  Changes in v 1.0.3:
  When logged in as unprivileged user, no password is required to run portable sfs script with 'Chroot Mode'
@@ -565,30 +565,6 @@ SHA1: 32cd554e998fa1716ca3da9b21a6f6be6547decb
 SHA256: 3c4713634dc9560eca72c631b03221192dca5a4b1478aafd83cfb9cc213c4e17
 SHA512: bd0488ce1902b67d382107e6edb73e814530745743389e76fec175eb7d9afb09bff790eaac215e151456011f807c9163e8bddca2274acc524115a2d034f92498
 Description: Small portable old(er) version of zenity
-
-Package: portablesfs-loadsfs-fuse
-Architecture: all
-Version: 1.0.5
-Maintainer: fredx181 dog@root.nl
-Installed-Size: 87
-Depends: libc6, yad, unionfs-fuse, gsu | gksu, linux-user-chroot, squashfuse, aufs-tools, lsof
-Filename: ./Included/portablesfs-loadsfs-fuse_1.0.5_all.deb
-Size: 8878
-MD5sum: b23f87d4b5b6f4002beb5c0f97a5f597
-SHA1: c15da88c61f8bf7a242e4220f31cb7bce910a5ae
-SHA256: c520568595a8009043fe6312ba7e7fce03141b3a111492f367c33ea3b8c73826
-SHA512: 455fcd6b8d57197f01287e6c9d7c056b79c202e0cd4b2595c237880f6688986af2cb3d6597e765ad3ae26dab7efba37856ab4da7af5cd1339edd716065c862f4
-Description: Load a *.squashfs or *.sfs module.
- Changes in v 1.0.3:
- When logged in as unprivileged user, no password is required to run portable sfs script with 'Chroot Mode'
- Same for activating a .squashfs module with loadsfs-fuse.
- - portablesfs creates a portable script to activate *.squashfs or *.sfs module
- (changed in v 1.0.2: added (optional) choice to enter a command that will be executed directly when running created portable script, instead of showing 'Applications' menu)  
- - loadsfs-fuse activates a provided *.squashfs or *.sfs module from the commandline or:
- by drag and drop (can be used on a full install).
- - loadsfs-fuse-writesfs: basically the same as loadsfs-fuse but it leaves no traces in / (rootfs), instead it writes the config files (or any other) that a program creates to: /root/<name_of_module> directory  
- Changes in v 1.0.5:
- - kill processes which are keeping from proper unmounting (might be needed in some cases for SFS-load mode)
 
 Package: gnome-mplayer-1.0.7
 Architecture: i386

@@ -1,0 +1,59 @@
+#!/bin/bash
+
+# Simple way to create simple repository using apt-ftparchive.
+
+echo "This script assumes that a directory (or subdirectories) containing .deb files have been made already."
+echo "The directory or subdirectories may also contain other files besides .deb"
+echo "Run this script from terminal opened in the directory containing .deb files (can also include subdirectories with .deb files)"
+echo "Type 'y' if you want to create a signed key (if .gnupg folder does not exist yet)"
+echo "Type 'n' if you have already created a signed key and continue"
+
+read -p "Create signed key (y/n)?" choice
+case "$choice" in 
+  y|Y ) gpg --gen-key --homedir $PWD/.gnupg
+cp -a $PWD/.gnupg/pubring.gpg $PWD/debdog.gpg
+[ "$?" -eq 0 ] && echo -e "\e[0;32mSigned key is created!\033[0m"
+echo
+echo "Creating the required files e.g. Packages.gz by apt-ftparchive..."
+cd "$PWD"
+# Insert needed info first in Release file
+echo 'Origin: Ubuntu
+Label: XenialDog
+Suite: stable
+Version: 1.0
+Codename: xenial
+Architectures: i386
+Components: main
+Description: XenialDog repo' > Release
+
+apt-ftparchive packages . > Packages
+gzip -c Packages > Packages.gz
+apt-ftparchive contents . > Contents
+gzip -c Contents > Contents.gz 
+apt-ftparchive release . >> Release
+echo "When updating choose 'y' to overwrite Release.gpg"
+gpg -abs --homedir .gnupg -o Release.gpg Release
+;;
+  n|N ) cd "$PWD"
+echo "Creating the required files e.g. Packages.gz by apt-ftparchive..."
+# Insert needed info first in Release file
+echo 'Origin: Ubuntu
+Label: XenialDog
+Suite: stable
+Version: 1.0
+Codename: xenial
+Architectures: i386
+Components: main
+Description: XenialDog repo' > Release
+
+apt-ftparchive packages . > Packages
+gzip -c Packages > Packages.gz
+apt-ftparchive contents . > Contents
+gzip -c Contents > Contents.gz 
+apt-ftparchive release . >> Release
+echo
+echo "When updating choose 'y' to overwrite Release.gpg"
+gpg -abs --homedir .gnupg -o Release.gpg Release;;
+  * ) echo "invalid"
+;;
+esac 
