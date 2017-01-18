@@ -79,3 +79,26 @@ gpg --no-permission-warning --no-use-agent --no-tty --homedir .gnupg --clearsign
   * ) echo "invalid"
 ;;
 esac
+
+./cr-index
+
+for dir in $(ls)
+do
+    if [ -d $dir -a "$(ls -A $dir )" ]
+    then
+        cd $dir
+echo $dir
+../cr-index
+cd ..
+    fi
+done
+
+if [ "$(uname -m)" = "i686" ]; then
+loadmodule -a ../../git.squashfs
+else
+loadmodule -a ../../git64.squashfs
+fi
+
+. ../../gitpushxen
+
+
