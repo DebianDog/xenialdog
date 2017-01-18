@@ -146,11 +146,11 @@ Maintainer: fredx181 dog@root.nl
 Installed-Size: 72
 Depends: libc6, x11-utils, x11-xserver-utils, findutils, yad, unionfs-fuse, coreutils, menu, mount, procps, sed, squashfs-tools, apt, xterm, gsu | gksu
 Filename: ./Included/apt2sfs_1.1.1_i386.deb
-Size: 9720
-MD5sum: a48565f41df728f4b0c22ee7f58ee890
-SHA1: 52f9e7799317b3366177a099ddc4278c30bccede
-SHA256: 4184c9e2ea5f1f300a138be3f6c7f1aeca3b752b477246757f6bbe595a112530
-SHA512: 790f2ff6ea232c61b340f45bc6a49c0dc7e17d2bd0ebdd8a44ab01da4e111924afc1cd6bee81bacc0c689661aae175a6d51c9ab546e240204f1bd3d596094a93
+Size: 9742
+MD5sum: 20fbeb63d0a1510de528bd160779e28c
+SHA1: f41bc666cc916b8cbcc2524114682cdd1b513e80
+SHA256: 433bde0f7f7531979c34bc3656cf0d45e08c291b1937687606365d0acf45b3c9
+SHA512: 2a8c72cfe4d2c3cf28ed26aff09542614bffdf7b6a2c042caf99997bff5d8f88e842c9de94f5e45bf2f79a548d7dd57b7557e84bab9becfd56555a8910fbcef3
 Description: Warning - This package works only in XenialDog! Fix: Force being user 'root' in chroot, otherwise installing might fail (for example when running with new created user).  
  Fix: version 1.0.4 (and earlier) doesn't work well because of 'stable' entry in /etc/apt/sources.list after jessie became stable at 2015-04-25.
  .
@@ -608,11 +608,11 @@ Maintainer: fredx181 dog@root.nl
 Installed-Size: 57
 Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu
 Filename: ./Included/remaster-scripts_1.0.1_i386.deb
-Size: 9162
-MD5sum: 44718c72db8d7074480d7c6ba14088b3
-SHA1: 97f3082c51e53494cd7b9910fd2bf39706c1ba91
-SHA256: ed90e43d43dfcdf3b83414b7f28bb71ea655ea6714997da754a81e1bb29897e4
-SHA512: f046ba54496d3265c0757294ccf4e8793912a688d2d141b799d3e76498a21138ed3eb5857fb7617605e2eeed795f0ef65e0ec53aa73f80f4ba895eaf74a927fc
+Size: 9158
+MD5sum: 50547e79111471f0987f8426db1478a1
+SHA1: e7865ed5ccc2e5edb8a60837141b0d2c43130ccd
+SHA256: adb33d3994398c11d7969b9f043d0fbbe9e7cf4a2d4d4aaf03088ab4c7091d05
+SHA512: 15c8d53cebefc909c5202d4ea5f94b2b44976401ba0dedae30965ef9eb5f0e2b9d5a9ee52f580e0a892fc23f10b89646cbac659272207b51a98cec44af4418f4
 Description: Warning - This package works only in XenialDog!
  .
  For creating a *.squashfs module from changes (from /live/cow directory) or full system remaster (from / directory).
