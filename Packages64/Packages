@@ -857,11 +857,11 @@ Maintainer: root@wheezy
 Installed-Size: 158
 Depends: libc6, gtkdialog, yad, e2fsprogs, gsu | gksu
 Filename: ./Included/resize-save-file_1.0.0-1_all.deb
-Size: 3642
-MD5sum: fa682e8a8af0be7e2c599916c865861e
-SHA1: 0e5eb645fbb0bb560c0604a26f6ce4076ea6ff25
-SHA256: 20244921c2764db21840ffb6630b9d0671ca74546585da78ada912670ca6266c
-SHA512: ce8a8d1c478548e1197e2ab30d70b8ab2d2f942bc2e426609e6ea16567badd67ad21379256da2beb248d5495e3dc36c81b7ed0b45a5957e0459d3bdcdd0a8ce5
+Size: 3584
+MD5sum: cdd2f6f77a63cd0292a679ed2ac96e87
+SHA1: c2afeae46cdeb3faea09bfa26ba114771ba3f86f
+SHA256: ced03ee68ce7706f54aa4a25d78bd11d35dd07379614cb063b74d56822523914
+SHA512: 7d033f6433f7a66272b1f67152599fe0449f8a8dcff90e27c2fd201697526dbedd7d517037cf46a6c60c0522f0e8c48903138e9494092c7416618fbe68d0058c
 Description: Utilty for save file resizing.
 
 Package: edit-sfs-pcmanfm
@@ -1109,11 +1109,11 @@ Installed-Size: 42
 Depends: libc6, yad, wget, gsu | gksu, elinks
 Recommends: smokey-get-gdrive-get
 Filename: ./Included/sfs-get-xendog_1.0.4-xendog_all.deb
-Size: 3542
-MD5sum: 99a4f5b6370c1be045033f88f8dd833e
-SHA1: ac2271aacd5f0a6be1e13bfd6fececc1ba56d379
-SHA256: cf97a1520a14f2d759220745fb91f7b72c7e7394ac576fcfd9bd4fb0957ab6b2
-SHA512: 269237711f9b224138e9e93f7710f244d89cf25a84aff7ed835d2554dcd707badb21fe38700a2114ea90d40c36260dda9f7c44f53a385e153e5a46394bc1e799
+Size: 3528
+MD5sum: ab41df0584550a7fba6c5aa02e78f41b
+SHA1: a042e47f182ef38ca49fb06b258415ea99f90783
+SHA256: 8e9f5d7aed4d55ec476d4b91fdb6cc30068c8cf8ec52fb28a63b819f38e4518d
+SHA512: d035665363b8004a65a29f8f360e2c5cfb8c726c4c2e0decfb3d57fe082b111af8f59ff166a36bb792eed51e9df9ff1fa07a39a6d2ada64084d1ddf13ad478f8
 Description: The sfs-get-xendog program downloads files from github.com or smokey01.com or kazzascorner.com
  sfs-get_smokey-get by MakeDEBPackage-GUI.
 
