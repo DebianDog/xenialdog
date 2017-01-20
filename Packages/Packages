@@ -1084,6 +1084,22 @@ Description: mplayer/mplayer2 based video player, minimal build
  This package is not part of Debian. It was created by mpv-build scripts with
  statically linked ffmpeg (not libav) and libass from upstream.
 
+Package: desktop-drive-icons
+Architecture: i386
+Version: 0.0.6
+Priority: extra
+Section: system
+Maintainer: root@wheezy
+Installed-Size: 115
+Depends: libc6, libgtk2.0-0, libatk1.0-0, libpango1.0-0, libgdk-pixbuf2.0-0, libcairo2, libglib2.0-0, libfreetype6, libfontconfig1, libx11-6, hicolor-icon-theme, libgtk2.0-bin, hicolor-icon-theme, pup-volume-monitor
+Filename: ./Included/desktop-drive-icons_0.0.6_i386.deb
+Size: 42850
+MD5sum: 9967c8c42c9401032d74df130cc05974
+SHA1: 819dca2caad5fd22aeea4a486aff827d842bdad2
+SHA256: 62dafb79546520f7acaebc288202ac60fb7aa7289a13e9eb5677f3bc14989b76
+SHA512: 465d1b5af2a9e5cffd56aca963f2a313692b783ce1ed68071b66ef3a3bc100d044522095e0161b19fcd3e4adb8c872e60a2ae03d67f008d4a34c34e62f316d33
+Description: Show drive icons on desktop
+
 Package: filemnt-rox
 Architecture: i386
 Version: 1.0.0
