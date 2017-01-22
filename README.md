@@ -2,7 +2,10 @@
 
 ### (based on Ubuntu 16.04 'Xenial Xerus' LTS)
 (Ubuntu minimal "live")  
-version 2017-01-18   
+version 2017-01-22
+
+**Update 2017-01-22:**       
+ISO's upgraded to version 2017-01-22, below information and download links updated         
 
 [Thread on Puppy Linux forum (32 bit)](http://murga-linux.com/puppy/viewtopic.php?t=106696)   
 [Thread on Puppy Linux forum (64 bit)](http://murga-linux.com/puppy/viewtopic.php?t=109476)   
@@ -52,15 +55,15 @@ The Iso size became quite big mainly because:
 - Python and Perl installed      
 
 **32 bit:**      
-Iso: [XenialDog_32bit-openbox_jwm-2017-01-18-firmware-all.iso](https://github.com/DebianDog/xenialdog/releases/download/v0.1/XenialDog_32bit-openbox_jwm-2017-01-18-firmware-all.iso) **Size: 304MB**        
-Md5sum: [XenialDog_32bit-openbox_jwm-2017-01-18-firmware-all.md5](https://github.com/DebianDog/xenialdog/releases/download/v0.1/XenialDog_32bit-openbox_jwm-2017-01-18-firmware-all.md5)   
+Iso: [XenialDog_32bit-openbox_jwm-2017-01-22-firmware-all.iso](https://github.com/DebianDog/xenialdog/releases/download/v0.1/XenialDog_32bit-openbox_jwm-2017-01-22-firmware-all.iso) **Size: 304MB**        
+Md5sum: [XenialDog_32bit-openbox_jwm-2017-01-22-firmware-all.md5](https://github.com/DebianDog/xenialdog/releases/download/v0.1/XenialDog_32bit-openbox_jwm-2017-01-22-firmware-all.md5)   
 
 DEVX: [61-DEVX-XenialDog32-2017-01-18.squashfs](https://github.com/DebianDog/xenialdog/releases/download/v1.0/61-DEVX-XenialDog-2016-05-21.squashfs)    
 Locales: [99-locales-XenialDog32-2017-01-18.squashfs](https://github.com/DebianDog/xenialdog/releases/download/v1.0/99-locales-XenialDog-2016-05-21.squashfs)    
       
 **64 bit:**   
- Iso: [XenialDog_64bit-openbox_jwm-2017-01-18-firmware-all.iso](https://github.com/DebianDog/xenialdog/releases/download/v0.2/XenialDog_64bit-openbox_jwm-2017-01-18-firmware-all.iso) **Size: 310MB**        
-Md5sum: [XenialDog_64bit-openbox_jwm-2017-01-18-firmware-all.md5](https://github.com/DebianDog/xenialdog/releases/download/v0.2/XenialDog_64bit-openbox_jwm-2017-01-18-firmware-all.md5)
+ Iso: [XenialDog_64bit-openbox_jwm-2017-01-22-firmware-all.iso](https://github.com/DebianDog/xenialdog/releases/download/v0.2/XenialDog_64bit-openbox_jwm-2017-01-22-firmware-all.iso) **Size: 310MB**        
+Md5sum: [XenialDog_64bit-openbox_jwm-2017-01-22-firmware-all.md5](https://github.com/DebianDog/xenialdog/releases/download/v0.2/XenialDog_64bit-openbox_jwm-2017-01-22-firmware-all.md5)
 
 DEVX: [61-DEVX-XenialDog64-2017-01-18.squashfs](https://github.com/DebianDog/xenialdog/releases/download/v2.0/61-DEVX-XenialDog-2016-05-21.squashfs)       
 Locales: [99-locales-XenialDog64-2017-01-18.squashfs](https://github.com/DebianDog/xenialdog/releases/download/v2.0/99-locales-XenialDog-2016-05-21.squashfs)        
