@@ -579,6 +579,21 @@ SHA256: c5033ef06e9bc2d752ccb4b54e64bb4eee47b55a7a7150dae90cd2971afb2154
 SHA512: c2613b838775837fb9c43bdb5acb111aa1ca450dd85b3997e95565d165eec91689dd5a12dcc07759a8add2875f96764285ad6ca78eae5d94b0c20899414dcd0c
 Description: Small old(er) version of zenity
 
+Package: xd-desktop-manager
+Architecture: all
+Version: 1.0.0
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 142
+Depends: libc6, yad, wmctrl
+Replaces: jwm-setup
+Filename: ./Included/xd-desktop-manager_1.0.0_all.deb
+Size: 117308
+MD5sum: 89507f1c993d7162529eb1d4dc70c966
+SHA1: 13fdffa1558036543c9d7010b4b5233915361a3a
+SHA256: 2677bbbce4966d63bdb7b06872cfca1a5ae1ddefec5fabf5f9d63475b0c6d900
+SHA512: 1c85ce562bba16945b97a5f92dc36a034592be05866f449bdd43e2bcba63ef440da47179f3291b26a52bf46f805f45ad4c15362ad5554940d7eaf32477db8f1e
+Description: Choose Desktop mode (openbox only)
+
 Package: move-in-crypt
 Architecture: all
 Version: 1.0.1
@@ -1116,6 +1131,23 @@ SHA256: 8e9f5d7aed4d55ec476d4b91fdb6cc30068c8cf8ec52fb28a63b819f38e4518d
 SHA512: d035665363b8004a65a29f8f360e2c5cfb8c726c4c2e0decfb3d57fe082b111af8f59ff166a36bb792eed51e9df9ff1fa07a39a6d2ada64084d1ddf13ad478f8
 Description: The sfs-get-xendog program downloads files from github.com or smokey01.com or kazzascorner.com
  sfs-get_smokey-get by MakeDEBPackage-GUI.
+
+Package: Firewall-Puppy
+Architecture: all
+Version: 1.0.0-1
+Priority: extra
+Section: system
+Maintainer: root@wheezy
+Installed-Size: 200
+Provides: Firewall
+Depends: libc6, dialog, iptables
+Filename: ./Testing/firewall-puppy_1.0.0-1_all.deb
+Size: 19530
+MD5sum: a3bc18288b3ba6910c5eff56a49387c5
+SHA1: f414045298db4c431623ab8bd30a54831b4874ef
+SHA256: 8d9748730c0a9a67c01b6f3894e41f27c6f44011d5688af28b57c86dd5e4a67c
+SHA512: d2e3741096585f265c8b178cda83fa5ad54b48bddca728eb50e99a506eca06ef40054d79b082f1db01c5cb08952e1f7d43881471de0a10eb5787770aec80d905
+Description: system-firewall
 
 Package: wifibox
 Architecture: amd64

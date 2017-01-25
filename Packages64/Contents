@@ -52,6 +52,7 @@ etc/skel/.local/share/applications/gparted.desktop	    jwm-setup
 etc/skel/.local/share/applications/synaptic.desktop	    jwm-setup
 etc/skel/.xsession-jwm					    jwm-setup
 etc/skel/Startup/exec_lxinput-autostart			    lxinputsave
+etc/skel/Startup/firewall-puppy				    Firewall-Puppy
 etc/skel/Startup/killmenu-cached			    jwm-setup
 etc/skel/Startup/netmon_wce				    wifibox
 etc/skel/startup-jwm					    jwm-setup
@@ -98,6 +99,7 @@ home/puppy/.local/share/applications/gparted.desktop	    jwm-setup
 home/puppy/.local/share/applications/synaptic.desktop	    jwm-setup
 home/puppy/.xsession-jwm				    jwm-setup
 home/puppy/Startup/exec_lxinput-autostart		    lxinputsave
+home/puppy/Startup/firewall-puppy			    Firewall-Puppy
 home/puppy/Startup/killmenu-cached			    jwm-setup
 home/puppy/Startup/netmon_wce				    wifibox
 home/puppy/startup-jwm					    jwm-setup
@@ -231,6 +233,7 @@ root/.local/share/applications/gparted.desktop		    jwm-setup
 root/.local/share/applications/synaptic.desktop		    jwm-setup
 root/.xsession-jwm					    jwm-setup
 root/Startup/exec_lxinput-autostart			    lxinputsave
+root/Startup/firewall-puppy				    Firewall-Puppy
 root/Startup/killmenu-cached				    jwm-setup
 root/Startup/netmon_wce					    wifibox
 root/startup-jwm					    jwm-setup
@@ -706,6 +709,8 @@ usr/local/bin/dogradiorip				    dogradio
 usr/local/bin/drive-info				    xendogmountscripts
 usr/local/bin/filemnt					    filemnt-pcmanfm
 usr/local/bin/firefox					    firefox-portable
+usr/local/bin/firewall_install				    Firewall-Puppy
+usr/local/bin/firewall_install.sh			    Firewall-Puppy
 usr/local/bin/fixdepinstall				    fixdepinstall
 usr/local/bin/flashplayerchoice				    flashplayerchoice
 usr/local/bin/gdialog					    zenity-2.30
@@ -745,6 +750,7 @@ usr/local/bin/mount-wizard				    mount-wizard
 usr/local/bin/mountlink					    xendogmountscripts
 usr/local/bin/move-in-crypt				    move-in-crypt
 usr/local/bin/mplayer					    gnome-mplayer-1.0.6
+usr/local/bin/ob-desktop				    xd-desktop-manager
 usr/local/bin/openbox-menu				    jwm-setup
 usr/local/bin/portablesfs				    portablesfs-loadsfs-fuse
 usr/local/bin/ppm2mpeg.sh				    xvidcap
@@ -758,7 +764,8 @@ usr/local/bin/remasterdog				    remaster-scripts
 usr/local/bin/remasterdog-start				    remaster-scripts
 usr/local/bin/resize-save				    resize-save-file
 usr/local/bin/scrox					    scrox
-usr/local/bin/setbackdrop				    jwm-setup
+usr/local/bin/setbackdrop				    jwm-setup,xd-desktop-manager
+usr/local/bin/setwallpaper				    xd-desktop-manager
 usr/local/bin/sfs-get-xen				    sfs-get-xendog
 usr/local/bin/smokey-get				    smokey-get-gdrive-get
 usr/local/bin/start-jwm					    jwm-setup
@@ -2488,6 +2495,14 @@ usr/local/lib/libgmtk.so.0.0.0				    gnome-mplayer-1.0.6
 usr/local/lib/libnotify.so.1				    zenity-2.30
 usr/local/lib/libnotify.so.1.2.3			    zenity-2.30
 usr/local/lib/libssl.so.1				    transmission-2.60
+usr/local/obdesktop/01-tint2d.desktop			    xd-desktop-manager
+usr/local/obdesktop/02-roxd.desktop			    xd-desktop-manager
+usr/local/obdesktop/03-cairoroxd.desktop		    xd-desktop-manager
+usr/local/obdesktop/04-pcmand.desktop			    xd-desktop-manager
+usr/local/obdesktop/icons/cairoroxd.png			    xd-desktop-manager
+usr/local/obdesktop/icons/pcmand.png			    xd-desktop-manager
+usr/local/obdesktop/icons/roxd.png			    xd-desktop-manager
+usr/local/obdesktop/icons/tint2d.png			    xd-desktop-manager
 usr/local/pburn/.gtkrc-2.0				    pburn
 usr/local/pburn/box					    pburn
 usr/local/pburn/box_chooser				    pburn
@@ -2830,6 +2845,7 @@ usr/share/applications/epdfview.desktop			    epdfview
 usr/share/applications/ffconvert.desktop		    ffconvert
 usr/share/applications/findnrun.desktop			    findnrun
 usr/share/applications/firefox.desktop			    firefox-portable
+usr/share/applications/firewall-puppy.desktop		    Firewall-Puppy
 usr/share/applications/fixdepinstall.desktop		    fixdepinstall
 usr/share/applications/flashplayerchoice.desktop	    flashplayerchoice
 usr/share/applications/frisbee.desktop			    frisbee
@@ -5011,6 +5027,7 @@ usr/share/menu/epdfview					    epdfview
 usr/share/menu/ffconvert				    ffconvert
 usr/share/menu/findnrun					    findnrun
 usr/share/menu/firefox					    firefox-portable
+usr/share/menu/firewall-puppy				    Firewall-Puppy
 usr/share/menu/fixdepinstall				    fixdepinstall
 usr/share/menu/flashplayerchoice			    flashplayerchoice
 usr/share/menu/gdrive-get				    smokey-get-gdrive-get
