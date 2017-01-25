@@ -6,24 +6,24 @@ Codename: xenial
 Architectures: i386
 Components: main
 Description: XenialDog repository
-Date: Fri, 20 Jan 2017 16:37:44 UTC
+Date: Wed, 25 Jan 2017 18:56:18 UTC
 MD5Sum:
- b477854e5639353348cad2fdee541c48            77971 Packages
- aebda503cf9655ffd1609ee067fd89cf            29827 Packages.gz
- 8ab1179c226b7c9a8051d79cbb6ef8b7              183 Release
- aebda503cf9655ffd1609ee067fd89cf            29827 Translation-en.gz
+ d49153300ba565cbed021163b30eee05            78519 Packages
+ b02d9ba9db278accd9b85a7245ca66b8            30090 Packages.gz
+ f3294f341cde2a1989df1511c7f7c7db              183 Release
+ b02d9ba9db278accd9b85a7245ca66b8            30090 Translation-en.gz
 SHA1:
- b621e70d951791bd806e0e4704c944799d773f5a            77971 Packages
- a48df157a5017507da6baaccc08f0dc6095ea597            29827 Packages.gz
- e521b8ce3857f506faee056dd65eea12a2f2beb4              183 Release
- a48df157a5017507da6baaccc08f0dc6095ea597            29827 Translation-en.gz
+ 01823d857e928fe3be29e502c4bbbc869d87bdc6            78519 Packages
+ ddce435d06f04f5d30f4993d385f695e9d4bce78            30090 Packages.gz
+ 3564360473b8ab4ea5b5a59dfeda10e51035a3e2              183 Release
+ ddce435d06f04f5d30f4993d385f695e9d4bce78            30090 Translation-en.gz
 SHA256:
- 6007548aabad290993a58fd56d7b72ef4e988cc5e3844b8dcae1a4a643600848            77971 Packages
- 10cc592fa4bb4d7824acec99eacc5d0a4ee2c2c2d9ebb0e945b8e14f591f5043            29827 Packages.gz
- b215ebc0f0f0a0c7c54f21335fff120407c048a8c68dacaab39712f39c906f9e              183 Release
- 10cc592fa4bb4d7824acec99eacc5d0a4ee2c2c2d9ebb0e945b8e14f591f5043            29827 Translation-en.gz
+ 05e840dd560ea014072de1aba5d80b923b3e58d06baf2bc55262e197a761ae43            78519 Packages
+ d3f08f3335bb384ce6302632d31387e7c71a7a4ef50a3e6502ab8e3ebfea05c0            30090 Packages.gz
+ 5e20eeb953fe23ab73eea999fc4e5a44fed2cea420e6fcc753566c4cfa0042b9              183 Release
+ d3f08f3335bb384ce6302632d31387e7c71a7a4ef50a3e6502ab8e3ebfea05c0            30090 Translation-en.gz
 SHA512:
- 647ee1dea94d63151fbb01a28098359878ff922133bc930c7a8225450302a96d809f08db3b9c2ad887ac3536f0da2ea77cb04b9dedddb228f2cc546c869e4676            77971 Packages
- d09dcaec69e46e0e686da2b79882c30ce73b1b4b9a45777038c3cae8d922b45352c078dbf76ddf660f632fd08f36d088d112d72e7fb04e638200ac441de93693            29827 Packages.gz
- 757595bc1fc8a668fbea3f40ab4d7cc17df2a27c7d3bc816114e66c4f398d945a5dd31a0285091ea41ef8aeacf9662bfe34b88c785e75b230146345a2bc63bfe              183 Release
- d09dcaec69e46e0e686da2b79882c30ce73b1b4b9a45777038c3cae8d922b45352c078dbf76ddf660f632fd08f36d088d112d72e7fb04e638200ac441de93693            29827 Translation-en.gz
+ 5ee6b62ebcc8913588fc1a6ea4fef0ea48dec0cfff918d0acaf5bef426c4b406f99a10652dd88445acd6b1d04d02d875df1cf91eaf9ebc8b585ddb44fc7e3505            78519 Packages
+ 01628fc4ee4f66837fb93ccfd2109d2c8279cf3d40bbcdc32c8c0f44f90f7c172b464b51fe6948709ca5df52b2b0eba1e8836ec4d542785110c6a1655da6bce9            30090 Packages.gz
+ d3338ddcf2c752ff4d77d0783fa8c141ec30a143dd6274f11652a3d895054518054f373e502b2efadb3a88b96fa8bd00ead6de78ae0613b1ed0f287f4d892b34              183 Release
+ 01628fc4ee4f66837fb93ccfd2109d2c8279cf3d40bbcdc32c8c0f44f90f7c172b464b51fe6948709ca5df52b2b0eba1e8836ec4d542785110c6a1655da6bce9            30090 Translation-en.gz

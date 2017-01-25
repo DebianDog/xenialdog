@@ -868,6 +868,7 @@ usr/local/bin/mount-wizard				    mount-wizard
 usr/local/bin/mountlink					    xendogmountscripts
 usr/local/bin/move-in-crypt				    move-in-crypt
 usr/local/bin/mplayer					    gnome-mplayer-1.0.7
+usr/local/bin/ob-desktop				    xd-desktop-manager
 usr/local/bin/openbox-menu				    jwm-setup
 usr/local/bin/peasyglue					    peasyglue
 usr/local/bin/pngtopnm					    peasyglue
@@ -884,6 +885,8 @@ usr/local/bin/remastercow-start				    remaster-scripts
 usr/local/bin/remasterdog				    remaster-scripts
 usr/local/bin/remasterdog-start				    remaster-scripts
 usr/local/bin/resize-save				    resize-save-file
+usr/local/bin/setbackdrop				    xd-desktop-manager
+usr/local/bin/setwallpaper				    xd-desktop-manager
 usr/local/bin/sfs-get-xen				    sfs-get-xendog
 usr/local/bin/smokey-get				    smokey-get-gdrive-get
 usr/local/bin/start-jwm					    jwm-setup
@@ -2623,6 +2626,14 @@ usr/local/lib/i386-linux-gnu/perl/5.20.2/auto/LWP/UserAgent/Cached/.packlist you
 usr/local/lib/i386-linux-gnu/perl/5.20.2/auto/XML/Fast/.packlist youtube-viewer
 usr/local/lib/i386-linux-gnu/perl/5.20.2/auto/XML/Fast/Fast.so youtube-viewer
 usr/local/lib/i386-linux-gnu/perl/5.20.2/perllocal.pod	    youtube-viewer
+usr/local/obdesktop/01-tint2d.desktop			    xd-desktop-manager
+usr/local/obdesktop/02-roxd.desktop			    xd-desktop-manager
+usr/local/obdesktop/03-cairoroxd.desktop		    xd-desktop-manager
+usr/local/obdesktop/04-pcmand.desktop			    xd-desktop-manager
+usr/local/obdesktop/icons/cairoroxd.png			    xd-desktop-manager
+usr/local/obdesktop/icons/pcmand.png			    xd-desktop-manager
+usr/local/obdesktop/icons/roxd.png			    xd-desktop-manager
+usr/local/obdesktop/icons/tint2d.png			    xd-desktop-manager
 usr/local/pburn/.gtkrc-2.0				    pburn
 usr/local/pburn/box					    pburn
 usr/local/pburn/box_chooser				    pburn

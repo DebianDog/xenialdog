@@ -704,6 +704,20 @@ SHA512: a94d0ac43774b0639850516b455aa1780b5df56226ae06edd2448351b6214e9c6f492bd9
 Description: precord for DebianDog:
  precord by mcewanw
 
+Package: xd-desktop-manager
+Architecture: all
+Version: 1.0.0
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 142
+Depends: libc6, yad
+Filename: ./Included/xd-desktop-manager_1.0.0_all.deb
+Size: 222330
+MD5sum: e3ada5ed16e852ce0bc6c86990067264
+SHA1: 4a6a9c02af1bea77e3d1f1029fecc91f1126ba09
+SHA256: df47e0a1369c075c1548183ca5eb82259c5ab656ba870a5b268efd84cafa73c4
+SHA512: e623bf867fa96191379e941d9fba5a0c4ac3ad89edf609778e3095c6faa2c5dd59db66dadf65ea5eab05185f1e6a0fa16a3401f40f8b59c18fd328ae3e2f1e7c
+Description: Choose Desktop mode (openbox only)
+
 Package: apt2sfs
 Architecture: i386
 Version: 1.0.8
