@@ -1,0 +1,13 @@
+Package: upgrade-kernel
+Maintainer: fredx181 dog@root.nl
+Architecture: all
+Version: 1.0.1
+Installed-Size: 20
+Depends: libc6, dpkg, xterm, findutils, cpio, xz-utils, gzip, gsu | gksu
+Description: Warning - This package works only in XenialDog!
+ bugfix 2016-11-25: v1.0.1 make backup of /usr/sbin/update-initramfs (and restore later) instead previously create symlink to /usr/share/casper/casper-update-initramfs and improved checking for which kernel version just upgraded to
+
+
+
+
+

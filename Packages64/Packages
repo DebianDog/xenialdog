@@ -1448,6 +1448,24 @@ SHA256: 003e836cb5e2d2ece33e186e44c5ed56ebd23c949c33871baa0bd160a78fb9e7
 SHA512: 2ecc11dcd59f9a8dcbf50308ee0d2c649295564c068d7906c84020ff1c46597d6fb13dd6b5edecf708a5ff2db2a16bb0554c0594bbdd2a8e744e2247e7de7bda
 Description: Conky-clock, choose analog clock display on the Desktop
 
+Package: wifibox
+Architecture: amd64
+Version: 1.0.5
+Priority: extra
+Section: checkinstall
+Maintainer: root@wheezy
+Installed-Size: 290
+Depends: libc6, rfkill, libiw30, yad, libgtk2.0-0, libglade2-0, psmisc, wpasupplicant, wireless-tools, net-tools, gsu | gksu
+Conflicts: ceni, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, frisbee, wifibox-tazpanel, wifibox-dhcpcd
+Replaces: ceni, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, udhcpc, frisbee, wifibox-tazpanel, wifibox-dhcpcd
+Filename: ./Extra/wifibox_1.0.5_amd64.deb
+Size: 43434
+MD5sum: bde0bbc4e9e95400a1ca39f4c61e06bb
+SHA1: 02c24a456c505fc1aa591b2045c0e3e9c35441f6
+SHA256: 7a6203b8172b058c4ea2f33f3899834b005ffb1857bab350738e00755e262fa1
+SHA512: 324db08be806b3377af3ec2f9f792a313281bb1264e24cdb8a523282d1148726300ccbacb19d924a7490683f5837c8cc81e940612a1e387c4f06cee7a27296ec
+Description: Wireless Network manager
+
 Package: quick-remaster
 Architecture: all
 Version: 1.0.6
