@@ -1028,6 +1028,22 @@ SHA512: c3bec2821b0658eaa11e31c3fbd34e7e516b168c2bada81602c5b302c397d8a733df1486
 Description: domyfile for DebianDog:
  domyfile by mcewanw
 
+Package: remaster-scripts
+Architecture: amd64
+Version: 1.0.2
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 57
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu
+Filename: ./Included/remaster-scripts_1.0.2_amd64.deb
+Size: 9204
+MD5sum: 8e4395a27aca80ae94ba15a85e47fdca
+SHA1: a4cf53303ea97b36a4abb5035132ca87f8f9a149
+SHA256: a5169b964dd05bffdd33b256c0772835dfb4b442ae4650b4b0b6dbd35c1daefa
+SHA512: 73317ba54d775224f452cc1dc44274bc07299f7e5a3fbbbf4e2566f2c205ec26a4242f7423fa5f7d03a9668fbfc34ea56117eed3f2e5a8c57c75d33ca994224d
+Description: Warning - This package works only in XenialDog!
+ .
+ For creating a *.squashfs module from changes (from /live/cow directory) or full system remaster (from / directory).
+
 Package: libx264-122
 Architecture: amd64
 Version: 3:0.122.2184+git5c85e0a-0.1
