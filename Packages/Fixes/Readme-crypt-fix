@@ -1,0 +1,4 @@
+Bugfix for when using encrypted savefile:
+If XenialDog is frugally installed using "porteus-boot":
+https://github.com/DebianDog/xenialdog/wiki/Porteus-boot
+Replace initrd1.xz in the "casper" folder with the one in this directory and encrypted savefile should work.
