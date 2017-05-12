@@ -315,6 +315,25 @@ Description: Yet Another Dialog - dialogs for shell
  the long time, but many interesting ideas which are ignored by
  developers/maintainers were in GNOME Bugzilla.
 
+Package: frisbee
+Architecture: amd64
+Version: 1.2-20170408dd64-mod
+Priority: extra
+Section: checkinstall
+Maintainer: root@wheezy
+Installed-Size: 524
+Depends: gtkdialog, libgtk2.0-0, libglade2-0, psmisc, wpasupplicant, gsu | gksu, rfkill
+Conflicts: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd
+Replaces: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd
+Filename: ./Included/frisbee_1.2-20170408dd64-mod_amd64.deb
+Size: 92382
+MD5sum: e9f5e160750ff4147876e038bfd11422
+SHA1: d8298bfd7e8637bb2db402b42f262e44e05791b8
+SHA256: fde95f9295e15d08ded9258518fe685342158a0e1cc60503fe3fff0855a4ad95
+SHA512: 1d2425481fe9f60d8d3e0deff66a340d6d311f4c6570ef41b13552779e854b84b1379a2d41414097c36da3cc2376d88a81b3a064df2573112e88ac087850810c
+Description: Wireless Network manager
+ Fixed refreshing network_tray icon, e.g. when plugging the cable in/out and when connecting to wireless
+
 Package: firefox-portable
 Architecture: amd64
 Version: 27.0.0.0
@@ -1534,6 +1553,25 @@ SHA1: 833a7e122ee274d5d5783a848ae3deedc7b7b9d4
 SHA256: 81f6aafce7f3b09693c244ad36c3e2953f38750259482dee900fc79f5587d4a7
 SHA512: b7fa275ddf4d7e47d5904d2234646a92b252385909d7c461801a8a9696651ac6e339fd23a621aa52f841164eed855455feafec20bf811663f09f8e6e8ac6b422
 Description: weX AV and X11 recorder
+
+Package: quick-remaster
+Architecture: all
+Version: 1.0.7
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 343
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso, isotools
+Filename: ./Extra/quick-remaster_1.0.7_all.deb
+Size: 158184
+MD5sum: a68b024473d7d11b7e5da6ac7ca2aa06
+SHA1: 66d7bbf239f27b5887dd86ce91f3ac9e2f1f7072
+SHA256: 7504dd70f85bb251e644491b8ab26f0723f83f30469ff26d1eaa79b422913740
+SHA512: dfb0ff88f8b868f3e42ee6d0aad389e584d7a6f10f866d368336c3e67306e4419dd370cf5e37d0290a152766720b74cb901d56d984f83055a34c7d13861afa07
+Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
+ Included GUI version using yad: quick-remastergui
+ Bug fix: gz compression option not working in previous version 1.0.3
+ Bug fix: set the correct permissions for /tmp 
+ Fix in v 1.0.6: skip symlinks while cleaning man and doc files
+ Version 1.0.7, added option to quick-remaster GUI to make ISO
 
 Package: findnrun-nls
 Architecture: all
