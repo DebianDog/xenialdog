@@ -862,6 +862,7 @@ usr/local/bin/menu-debian				    jwm-setup
 usr/local/bin/menu-openbox				    jwm-setup
 usr/local/bin/menu1					    jwm-setup
 usr/local/bin/menumaker					    desktop-editor
+usr/local/bin/mkiso					    quick-remaster
 usr/local/bin/mnt-all					    xendogmountscripts
 usr/local/bin/mnt-backing				    xendogmountscripts
 usr/local/bin/mount-wizard				    mount-wizard
@@ -2603,6 +2604,16 @@ usr/local/gdrive-get/pupli				    smokey-get-gdrive-get
 usr/local/gdrive-get/stemsee				    smokey-get-gdrive-get
 usr/local/gdrive-get/stemsee-pets			    smokey-get-gdrive-get
 usr/local/gdrive-get/toni				    smokey-get-gdrive-get
+usr/local/isodata/casper/xenial-i486.sgn		    quick-remaster
+usr/local/isodata/casper/xenial-x86_64.sgn		    quick-remaster
+usr/local/isodata/isolinux/boot.cat			    quick-remaster
+usr/local/isodata/isolinux/isolinux.bin			    quick-remaster
+usr/local/isodata/isolinux/isolinux.cfg			    quick-remaster
+usr/local/isodata/isolinux/live.cfg			    quick-remaster
+usr/local/isodata/isolinux/menu.cfg			    quick-remaster
+usr/local/isodata/isolinux/splash.png			    quick-remaster
+usr/local/isodata/isolinux/stdmenu.cfg			    quick-remaster
+usr/local/isodata/isolinux/vesamenu.c32			    quick-remaster
 usr/local/lib/X11/mini-icons				    frisbee,ceni,wifibox-dhcpcd
 usr/local/lib/X11/mini-icons/info16.xpm			    sns
 usr/local/lib/X11/mini-icons/mini-question.xpm		    sns
@@ -2795,6 +2806,7 @@ usr/share/applications/ConkyClock.desktop		    conkyclock
 usr/share/applications/ConkyClock2.desktop		    conkyclock2
 usr/share/applications/DogRadio.desktop			    dogradio
 usr/share/applications/ISO-Tools.desktop		    isotools
+usr/share/applications/Make ISO from frugal install.desktop quick-remaster
 usr/share/applications/Play_with_mplayer.desktop	    youtube-get2,youtube-get
 usr/share/applications/SFS-Load-GUI.desktop		    sfsload
 usr/share/applications/YouTube-Get.desktop		    youtube-get
@@ -5215,6 +5227,7 @@ usr/share/pixmaps/loadsfs.png				    portablesfs-loadsfs-fuse
 usr/share/pixmaps/lock.png				    jwm-setup
 usr/share/pixmaps/logout.png				    jwm-setup
 usr/share/pixmaps/makedebpkg.png			    makedebpackage
+usr/share/pixmaps/mkiso.png				    quick-remaster
 usr/share/pixmaps/mplayer.png				    youtube-get2,youtube-get
 usr/share/pixmaps/mpv.png				    mpv
 usr/share/pixmaps/network-workgroup.png			    sns

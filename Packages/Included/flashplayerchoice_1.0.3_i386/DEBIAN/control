@@ -1,0 +1,24 @@
+Package: flashplayerchoice
+Maintainer: root
+Architecture: i386
+Version: 1.0.3
+Installed-Size: 14 
+Depends: libc6, wget, inotify-tools, yad, sed, apt, squashfs-tools, menu, tar, gsu | gksu
+Description: The flashplayerchoice script gives choice of several options to install flashplayer :
+ - version 10 from http://www.smokey01.com/OscarTalks/ (= 12 Mb uncompressed)
+ - version 11 from http://www.smokey01.com/OscarTalks/ (= 17 Mb uncompressed)
+ - Install flashplugin-nonfree with apt-get (= 34 Mb uncompressed)
+ - Create flashplugin-nonfree.sfs module (= 8,9 Mb compressed)
+
+
+
+
+
+
+
+
+
+
+
+
+

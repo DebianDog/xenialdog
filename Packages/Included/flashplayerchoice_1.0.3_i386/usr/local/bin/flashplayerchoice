@@ -1,0 +1,320 @@
+#!/bin/bash
+
+[ "`whoami`" != "root" ] && exec gsu xterm -e ${0}
+
+# Start functions section.
+
+flashplugin() {
+apt-get update
+apt-get install -q -y flashplugin-installer
+update-menus
+rm -f /var/cache/flashplugin-installer/*.tar.gz
+}
+
+purgeflashplugin() {
+apt-get purge -q -y flashplugin-installer
+apt-get autoremove -q -y
+dpkg --purge `dpkg --get-selections | grep deinstall | cut -f1` 2> /dev/null
+update-menus
+}
+
+# As long flashplayer is at version 11.xxx this should work even when OscarTalks updates it.
+flasplayer11() {
+mkdir /usr/lib/mozilla
+mkdir /usr/lib/mozilla/plugins
+cd /usr/lib/mozilla/plugins
+# Sort of wildcard workaround for wget: 'flashplayer11*'
+wget -r -e robots=off -nd -l1 -A "flashplayer11*" http://smokey01.com/OscarTalks/
+# Create variable to continue
+FLASH=$(ls flashplayer11*)
+mv $FLASH ${FLASH}.tar.gz
+tar -zxvf ${FLASH}.tar.gz
+rm -f ${FLASH}.tar.gz
+# Strip .pet from filename to get directory name.
+DIRFLASH=$(echo "${FLASH}" | sed '$s/....$//')
+mv $DIRFLASH/usr/lib/mozilla/plugins/libflashplayer.so /usr/lib/mozilla/plugins/libflashplayer.so
+rm -fr $DIRFLASH
+}
+
+flasplayer24() {
+mkdir /usr/lib/mozilla 2> /dev/null
+mkdir /usr/lib/mozilla/plugins 2> /dev/null
+cd /tmp
+wget --no-check-certificate https://debiandog.github.io/xenialdog/Packages/Extra/flashplayer-24.0.0.194.tar.gz
+tar -zxvf flashplayer-24.0.0.194.tar.gz -C /usr/lib/mozilla/plugins
+rm -f flashplayer-24.0.0.194.tar.gz
+}
+
+flasplayer10() {
+mkdir /usr/lib/mozilla
+mkdir /usr/lib/mozilla/plugins
+cd /usr/lib/mozilla/plugins
+wget http://www.smokey01.com/OscarTalks/flashplayer10-10.3.183.90.pet
+mv flashplayer10-10.3.183.90.pet flashplayer10-10.3.183.90.pet.tar.gz
+tar -zxvf flashplayer10-10.3.183.90.pet.tar.gz
+rm -f flashplayer10-10.3.183.90.pet.tar.gz
+mv /usr/lib/mozilla/plugins/flashplayer10-10.3.183.90/usr/lib/mozilla/plugins/libflashplayer.so /usr/lib/mozilla/plugins/libflashplayer.so
+rm -fr flashplayer10-10.3.183.90
+}
+
+rmflasplayer() {
+rm -f /usr/lib/mozilla/plugins/libflashplayer.so
+}
+
+flashplugin2sfs() {
+# Apt2Sfs from Fredx181 for flasplugin-nonfree module.
+if [ -z `which inotifywait` ]; then
+yad --image=gtk-info --button="gtk-quit:0" --title="Dependency check" --text=" Cannot continue without inotifywait. \n Please install the 'inotify-tools' package. \n With synaptic, or in terminal: \n apt-get install inotify-tools "
+exit 0
+fi
+
+persist=`cat /proc/cmdline | grep -P '( persistent | persistence | changes=)' 2> /dev/null`
+if [ -n "$persist" ]; then
+yad --title="flashplugin2sfs" --center --text=" You are running the system with persistency enabled. \n Advice for best result of creating a working module: \n Run DebianDog without persistency or: \n Make sure not having any packages manually installed. " \
+--image="dialog-information" --window-icon="dialog-information"
+ret=$?
+[[ $ret -ne 0 ]] && exit 1
+fi
+
+if [ -f /mnt/live/tmp/modules ]; then
+CHNGS=/mnt/live/memory/changes
+else
+CHNGS=/live/cow
+fi
+
+rm -f /tmp/instfiles /tmp/whfiles /var/log/dpkg.log
+
+LFONT="<span size='large' foreground='dark blue'><b>          *** Setup flashplugin2sfs ***</b></span>"
+devs="$(blkid -o list | grep /dev | grep -E -v "swap|ntfs|vfat" | sort | cut -d" " -f1 | grep -E -v "/loop|sr0|swap" | sed 's|/dev/||g')"
+echo $devs
+DEVS=`echo $devs | sed 's/ /!/g'`
+SETUP=`yad  --center --title="flashplugin2sfs"  --text="  $LFONT \n Create module from temporary installed <b>flashplugin-installer</b> by apt-get. \n <b>Note: These package will not be registered by dpkg. </b> \n The installed package(s) will be uninstalled afterwards \n Also <b>only</b> the .deb packages downloaded by this script are removed. " \
+--window-icon="preferences-system" --form --columns=1 \
+--field="   Choose where to create new module, must be on linux filesystem, \n  ntfs or fat filesytems are excluded.  :LBL"  "" \
+--field=" :CB" "$DEVS" \
+--field=" flashplugin-installer is already typed. Just click OK button:LBL" "" \
+--field=" : " "flashplugin-installer" \
+--field=" Run 'apt-get update' first (recommended):CHK" "TRUE" \
+ --button="gtk-quit:1" --button="gtk-ok:0"`
+ret=$?
+[[ $ret -ne 0 ]] && exit
+
+yad --on-top --title="flashplugin2sfs" --text="  <span size='large' foreground='dark green'><b>*** Checking network connection... ***</b></span>  " --center --undecorated --no-buttons &
+pd=$!
+
+if (ping -w5 -c3 4.2.2.1) > /dev/null; then
+echo "Up"
+else
+kill $pd
+yad --text="  There is no network connection. " --title="flashplugin2sfs" --button="gtk-close:0"
+exit 0
+fi
+kill $pd
+
+DRV="`echo $SETUP | cut -d "|" -f 2`"
+INSTALL="`echo $SETUP | cut -d "|" -f 4`"
+UPDATE="`echo $SETUP | cut -d "|" -f 5`"
+
+if [ -z "$DRV" ] || [ -z "$INSTALL" ]; then
+yad --center --title="flashplugin2sfs" --text=" You probably did not fill in all fields, \n Please run again." --button="gtk-close:0"
+exit 0
+fi
+
+if [ "$UPDATE" = "TRUE" ]; then
+yad --on-top --title="flashplugin2sfs" --text="  <span size='large' foreground='dark green'><b>*** Updating the repositories... ***</b></span>  " --center --undecorated --no-buttons &
+pd=$!
+apt-get update
+ret=$?
+kill $pd
+if [[ $ret -eq 100 ]]; then
+yad --title flashplugin2sfs --text " There are one or more errors with updating. \n Check your /etc/apt/sources.list. \n         Still continue? \n        (not recommended) " --button="gtk-no:1" --button="gtk-yes:0"
+ret=$?
+[[ $ret -eq 1 ]] && exit 0
+fi
+fi
+
+SFS=$(for i in "$INSTALL"; do echo $(echo $i | sed 's| |_|g'); done)
+echo $SFS
+
+yad --on-top --title="flashplugin2sfs" --text="  <span size='large' foreground='dark green'><b>*** Checking package(s)... ***</b></span>  " --center --undecorated --no-buttons &
+pd=$!
+export DEBIAN_FRONTEND=noninteractive
+apt-get install -s -y --force-yes $INSTALL
+ret=$?
+kill $pd
+if [[ $ret -eq 100 ]]; then
+apt-get install -s -y --force-yes $INSTALL 2>&1 | yad --width 400 --height 300 --title flashplugin2sfs --wrap --tail --text " Sorry, there are one or more errors, see below. " --text-info --button="gtk-close:0"
+exit 0
+fi
+
+mkdir /mnt/$DRV 2> /dev/null
+mount /dev/$DRV /mnt/$DRV 2> /dev/null
+if [ -d "/mnt/$DRV/$SFS" ]; then
+yad --center --title="flashplugin2sfs" --text=" Directory "/mnt/$DRV/$SFS" already exists, \n Please rename and run again. " --button="gtk-close:0"
+exit 0
+fi
+
+cd "$CHNGS"
+
+inotifywait -mr . -e create -e moved_to |
+    while read path action file; do
+        #echo "The file '$file' appeared in directory '$path' via '$action'"
+        echo "$path/$file" >> /tmp/instfiles
+    done &
+
+
+cmd="apt-get install -y --force-yes $INSTALL"
+(
+apt-get install -y --force-yes $INSTALL
+echo
+echo "This window will close in a few seconds..."
+) 2>&1 | yad --title=flashplugin2sfs --text-info --text="  <span foreground='dark green'><b>Installing package(s)...</b></span> " --height=300 --width=600 --wrap --tail --button="gtk-cancel:1" &
+
+pdnoti="`ps -eo pid,cmd | grep -v grep | grep "inotifywait -mr . -e create -e moved_to" | awk '{ print $1 }'`"
+pdapt="`ps -eo pid,cmd | grep -v grep | grep "$cmd" | awk '{ print $1 }'`"
+pdyad="`ps -eo pid,cmd | grep -v grep | grep "yad --title=flashplugin2sfs" | awk '{ print $1 }'`"
+
+while ps -p $pdapt > /dev/null
+do sleep 1
+pdyad="`ps -eo pid,cmd | grep -v grep | grep "yad --title=flashplugin2sfs" | awk '{ print $1 }'`"
+if [ -z $pdyad ]; then
+kill $pdapt
+exit 0
+fi
+done
+
+sleep 3
+kill $pdyad 2> /dev/null
+kill $pdnoti 2> /dev/null
+#grep -v "^\./var\|^\./root\|^\./opt" /tmp/instfiles > /tmp/newfiles
+mkdir -p "/mnt/$DRV/$SFS" # Make new directory.
+
+yad --on-top --title="flashplugin2sfs" --text="  <span size='large' foreground='dark green'><b>*** Copying files to /mnt/$DRV/$SFS... ***</b></span>  " --center --undecorated --no-buttons &
+pd=$!
+
+cd /
+debfiles=`grep  "^\./var/cache/apt/archives" /tmp/instfiles`
+rm -f $debfiles
+
+cd "$CHNGS"
+
+cat /tmp/instfiles | grep -v "^\./var\|^\./tmp\|^\./mnt\|^\./media\|^\./live\|^\./root\|^\./opt\|.wh." | \
+while read CMD; do
+cp -a --parents "$CMD" "/mnt/$DRV/$SFS" 2> /dev/null
+done
+kill $pd
+
+
+echo "Cleaning..."
+rm -f "/mnt/$DRV/$SFS"/etc/menu.old 
+rm -f "/mnt/$DRV/$SFS"/var/lib/alsa/asound.state
+rm -f "/mnt/$DRV/$SFS"/root/.bash_history
+rm -f "/mnt/$DRV/$SFS"/root/.xsession-errors
+rm -rf "/mnt/$DRV/$SFS"/root/.cache
+rm -rf "/mnt/$DRV/$SFS"/root/.thumbnails
+rm -f "/mnt/$DRV/$SFS"/etc/blkid-cache
+rm -f "/mnt/$DRV/$SFS"/etc/resolv.conf
+rm -rf "/mnt/$DRV/$SFS"/etc/udev/rules.d/70-persistent*
+
+cd "/mnt/$DRV/$SFS"
+
+zerosize() {
+  find $* | while read file; do
+    echo -n "."
+    rm -f $file
+    touch $file
+  done
+}
+
+    zerosize usr/share/doc -type f -size +1c
+#    zerosize usr/share/doc -type l
+
+    zerosize usr/share/man -type f -size +1c
+#    zerosize usr/share/man -type l
+
+
+    zerosize usr/share/info -type f -size +1c
+#    zerosize usr/share/info -type l
+
+    zerosize usr/share/gnome/help -type f -size +1c
+#    zerosize usr/share/gnome/help -type l
+
+    zerosize usr/share/gtk-doc -type f -size +1c
+#    zerosize usr/share/gtk-doc -type l
+
+    chown -R man:root usr/share/man
+
+yad --on-top --geometry=560+40+40 --title="flashplugin2sfs" --text=" <span size='large' foreground='dark green'><b>       *** Uninstall package(s) *** </b></span> \n <b>The working directory for creating the module is ready. \n The previously installed packages can be removed from the system. \n Click on the terminal window to focus it. \n <span foreground='dark red'><b>Please have a close look at what's being uninstalled. </b></span> \n If you agree, confirm by typing 'y' and pressing Enter (or just Enter). </b>  " --undecorated --no-buttons &
+pd=$!
+
+cd "$CHNGS"
+
+inotifywait -mr . -e create -e moved_to |
+    while read path action file; do
+        #echo "The file '$file' appeared in directory '$path' via '$action'"
+        echo "$path/$file" >> /tmp/whfiles
+    done &
+
+pdnoti="`ps -eo pid,cmd | grep -v grep | grep "inotifywait -mr . -e create -e moved_to" | awk '{ print $1 }'`"
+sleep 2
+PURGE=`cat /var/log/dpkg.log  |grep ' unpacked ' |cut -d\  -f5 |cut -d: -f1 |sort |uniq`
+#apt-get purge $PURGE
+xterm -T "flashplugin2sfs" -si -sb -fg black -bg white -geometry 75x18 -e apt-get purge $PURGE
+
+kill $pd
+kill $pdnoti
+cat /tmp/whfiles | grep '.wh.*' | \
+while read CMD; do
+rm -fr "$CMD" 2> /dev/null
+done
+
+find . -xtype l -delete
+
+cd "/mnt/$DRV"
+xterm -T "flashplugin2sfs" -si -sb -fg black -bg white -geometry 65x10 -e "mksquashfs "$SFS" "$SFS".squashfs -comp xz -b 1M -Xbcj x86"
+yad --title="flashplugin2sfs" --center --text=" Done creating '/mnt/$DRV/$SFS.squashfs' \n Do you want to remove '/mnt/$DRV/$SFS'? " --button="gtk-yes:0" --button="gtk-no:1"
+ret=$?
+[[ $ret -eq 1 ]] && exit 0
+if [ -d "/mnt/$DRV/$SFS" ]; then
+rm -rf "/mnt/$DRV/$SFS"
+fi
+exit 0
+}
+
+# End functions section.
+ 
+echo ###
+echo "Available install/remove flashplayer options."
+echo ###
+echo "1)Install flashplugin-installer with apt-get (= 38 Mb uncompressed)."
+echo "2)Flash-Player-24 - download and extract (= 19 Mb uncompressed)."
+echo "3)Flash-Player-11 - download and extract (= 17 Mb uncompressed)."
+echo "4)Flash-Player-10 - download and extract (= 12 Mb uncompressed)."
+echo ###
+echo "5)Remove flashplugin-installer (if it is installed)."
+echo "6)Remove Flash-Player-24 (if exists)."
+echo "7)Remove Flash-Player-11 (if exists)."
+echo "8)Remove Flash-Player-10 (if exists)."
+echo ###
+echo "9)Create flashplugin-installer.sfs (= 8,9 Mb compressed)."
+echo ###
+echo "0)Exit."
+echo ###
+echo ###
+echo "Type the number and press Enter."
+echo ###
+
+read n
+case $n in
+    1) flashplugin;;
+    2) flasplayer24;;
+    3) flasplayer11;;
+    4) flasplayer10;;
+    5) purgeflashplugin;;
+    6) rmflasplayer;;
+    7) rmflasplayer;;
+    8) rmflasplayer;;
+    9) flashplugin2sfs;;
+    0) exit;;
+esac
+exit 0

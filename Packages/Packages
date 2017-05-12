@@ -1574,6 +1574,25 @@ Description: YouTube Downloader, frontend for youtube-dl
  - Gives choice which quality to download, e.g. 360p or 720p, Audio streams, etc...
  - Extra addition: m-play script + menu entry for playing YouTube url with mplayer or mpv
 
+Package: quick-remaster
+Architecture: all
+Version: 1.0.7
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 343
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso, isotools
+Filename: ./Extra/quick-remaster_1.0.7_all.deb
+Size: 158184
+MD5sum: a68b024473d7d11b7e5da6ac7ca2aa06
+SHA1: 66d7bbf239f27b5887dd86ce91f3ac9e2f1f7072
+SHA256: 7504dd70f85bb251e644491b8ab26f0723f83f30469ff26d1eaa79b422913740
+SHA512: dfb0ff88f8b868f3e42ee6d0aad389e584d7a6f10f866d368336c3e67306e4419dd370cf5e37d0290a152766720b74cb901d56d984f83055a34c7d13861afa07
+Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
+ Included GUI version using yad: quick-remastergui
+ Bug fix: gz compression option not working in previous version 1.0.3
+ Bug fix: set the correct permissions for /tmp 
+ Fix in v 1.0.6: skip symlinks while cleaning man and doc files
+ Version 1.0.7, added option to quick-remaster GUI to make ISO
+
 Package: smokey-get-gdrive-get
 Architecture: i386
 Version: 1.0.2-mintpup
