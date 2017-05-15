@@ -181,6 +181,21 @@ SHA256: decf64c8b4552162c920eb8b93f0460d2845a80d89d17b0f6fbceadc1ba0f42b
 SHA512: bc8b810211dc1f75f68801d0031201f1aac380b81cbf883ed77d600ca1aa57cefcbc5bcbf39c6180838af4780f5062a2b8fe2c57bc94ff015f6f65a46277d6af
 Description: gtkdialog
 
+Package: xenialdoginstallscripts
+Architecture: amd64
+Version: 1.0.9
+Maintainer: root
+Installed-Size: 863
+Depends: libc6, xendogmountscripts, gtkdialog
+Filename: ./Included/xenialdoginstallscripts_1.0.9_amd64.deb
+Size: 434470
+MD5sum: de882348f5d7bcd5fcc037d8ae0119eb
+SHA1: 800b03a6b7051b21768ce7f7c22d7eae40ff8862
+SHA256: 9895dc995e8785d01fa5a01eb241ac5a2b5e33a5352c1a2d98c4c0f13c231c84
+SHA512: 9bfd17a495ecd6c9a0ae37daf7483a3c40bb41d722955ae4c403711936063d27ea139b3f32b0b7574d3b66cd09e48494c147a03c18413468e4e5a306b4a230ee
+Description: Special XenialDog frugal and full install scripts taken from DebianDog.
+ Version 1.0.9 fixed menu.lst entries for save to folder (in /casper/ now)
+
 Package: dogradio
 Architecture: amd64
 Version: 0.0.7c
