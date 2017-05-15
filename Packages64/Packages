@@ -1498,6 +1498,25 @@ SHA256: 003e836cb5e2d2ece33e186e44c5ed56ebd23c949c33871baa0bd160a78fb9e7
 SHA512: 2ecc11dcd59f9a8dcbf50308ee0d2c649295564c068d7906c84020ff1c46597d6fb13dd6b5edecf708a5ff2db2a16bb0554c0594bbdd2a8e744e2247e7de7bda
 Description: Conky-clock, choose analog clock display on the Desktop
 
+Package: quick-remaster
+Architecture: all
+Version: 1.0.8
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 343
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso, isotools
+Filename: ./Extra/quick-remaster_1.0.8_all.deb
+Size: 158856
+MD5sum: 6e7fafe42e4253d7791b456c9679567a
+SHA1: d36578732726a839f8933a0c95626b81c105e107
+SHA256: ad4e0cb94bc52190bd73aa722d435501d2da313b3c57247ff56304ee1e40db12
+SHA512: d4e3aec09ba9378cd268034714460b5e41fde5fe1bb3e0e2f2f2d19c8054e89d5d90e5e20ed67222aea5c3d6e59962e8ff02a7c384c9b2148440df4f328a3d20
+Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
+ Included GUI version using yad: quick-remastergui
+ Bug fix: gz compression option not working in previous version 1.0.3
+ Bug fix: set the correct permissions for /tmp 
+ Fix in v 1.0.6: skip symlinks while cleaning man and doc files
+ Version 1.0.7, added option to quick-remaster GUI to make ISO
+
 Package: wifibox
 Architecture: amd64
 Version: 1.0.5
