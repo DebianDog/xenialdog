@@ -15,6 +15,7 @@ etc/frisbee/dhcpcd.conf					    frisbee
 etc/frisbee/frisbee.conf				    frisbee
 etc/frisbee/wpa_supplicant.conf				    frisbee
 etc/init.d/casper					    casper
+etc/init.d/firewall.sh					    peasyfwmon
 etc/init.d/frisbee					    frisbee
 etc/init.d/network.sh					    wifibox
 etc/init.d/rc.functions					    wifibox
@@ -31,6 +32,7 @@ etc/ppp/chatscripts/gprs-connect-chat			    frisbee
 etc/ppp/chatscripts/gprs-disconnect-chat		    frisbee
 etc/ppp/options.gprs					    frisbee
 etc/precord/.precordrc					    precord
+etc/rc.d/rc.firewall.pfm				    peasyfwmon
 etc/rcS.conf						    wifibox
 etc/skel/.config/rox.sourceforge.net/OpenWith/.application_octet-stream/convert-sfs edit-sfs-pcmanfm,edit-sfs-rox
 etc/skel/.config/rox.sourceforge.net/OpenWith/.application_octet-stream/edit-sfs edit-sfs-pcmanfm,edit-sfs-rox
@@ -55,6 +57,7 @@ etc/skel/Startup/exec_lxinput-autostart			    lxinputsave
 etc/skel/Startup/firewall-puppy				    Firewall-Puppy
 etc/skel/Startup/killmenu-cached			    jwm-setup
 etc/skel/Startup/netmon_wce				    wifibox
+etc/skel/Startup/peasyfwmon_tray			    peasyfwmon
 etc/skel/startup-jwm					    jwm-setup
 etc/slitaz/wifibox_udhcpc				    wifibox
 etc/systemd/system/frisbee.service			    frisbee
@@ -102,6 +105,7 @@ home/puppy/Startup/exec_lxinput-autostart		    lxinputsave
 home/puppy/Startup/firewall-puppy			    Firewall-Puppy
 home/puppy/Startup/killmenu-cached			    jwm-setup
 home/puppy/Startup/netmon_wce				    wifibox
+home/puppy/Startup/peasyfwmon_tray			    peasyfwmon
 home/puppy/startup-jwm					    jwm-setup
 lib/dhcpcd/dhcpcd-hooks					    frisbee
 lib/dhcpcd/dhcpcd-run-hooks				    frisbee
@@ -236,6 +240,7 @@ root/Startup/exec_lxinput-autostart			    lxinputsave
 root/Startup/firewall-puppy				    Firewall-Puppy
 root/Startup/killmenu-cached				    jwm-setup
 root/Startup/netmon_wce					    wifibox
+root/Startup/peasyfwmon_tray				    peasyfwmon
 root/startup-jwm					    jwm-setup
 sbin/casper-getty					    casper
 sbin/casper-login					    casper
@@ -753,6 +758,7 @@ usr/local/bin/move-in-crypt				    move-in-crypt
 usr/local/bin/mplayer					    gnome-mplayer-1.0.6
 usr/local/bin/ob-desktop				    xd-desktop-manager
 usr/local/bin/openbox-menu				    jwm-setup
+usr/local/bin/peasyfwmon				    peasyfwmon
 usr/local/bin/portablesfs				    portablesfs-loadsfs-fuse
 usr/local/bin/ppm2mpeg.sh				    xvidcap
 usr/local/bin/quick-remaster				    quick-remaster
@@ -2874,6 +2880,7 @@ usr/share/applications/mpv.desktop			    mpv
 usr/share/applications/openbox.desktop			    jwm-setup
 usr/share/applications/pavrecord.desktop		    pavrecord
 usr/share/applications/pburn.desktop			    pburn
+usr/share/applications/peasy_firewall_monitor.desktop	    peasyfwmon
 usr/share/applications/pfind.desktop			    pfind
 usr/share/applications/precord.desktop			    precord
 usr/share/applications/quick-remaster.desktop		    quick-remaster
@@ -5117,6 +5124,8 @@ usr/share/pixmaps/epdfview.xpm				    epdfview
 usr/share/pixmaps/fd.png				    mount-wizard
 usr/share/pixmaps/ffconvert.png				    ffconvert
 usr/share/pixmaps/firefox48.png				    firefox-portable
+usr/share/pixmaps/firewall-24.png			    peasyfwmon
+usr/share/pixmaps/firewall-48.png			    peasyfwmon
 usr/share/pixmaps/flash.png				    flashplayerchoice
 usr/share/pixmaps/floppy24.png				    mount-wizard
 usr/share/pixmaps/folder24.png				    jwm-setup

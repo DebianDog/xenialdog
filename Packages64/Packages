@@ -1607,6 +1607,24 @@ Description: Warning - This package works only in DebianDog booted with porteus 
  Fix in v 1.0.6: skip symlinks while cleaning man and doc files
  Version 1.0.7, added option to quick-remaster GUI to make ISO
 
+Package: peasyfwmon
+Architecture: amd64
+Version: 1.0.1
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 163
+Depends: libc6, gtkdialog, iptables
+Conflicts: firewall-puppy
+Replaces: firewall-puppy
+Filename: ./Extra/peasyfwmon_1.0.1_amd64.deb
+Size: 22730
+MD5sum: 5d01afab72b4f8a17ba712749dd8ccb1
+SHA1: 35dd993fefaa3e086b3b02ae3864070186f5157a
+SHA256: f8ac68d07e7867c9ca0bf24d0e39d54a29e67641938e8e54697dc6d7f8e37010
+SHA512: ff244bc21ed7a5aab0e52709a530334a3a34a79c39f91bd5b240017d4571dce2296c3154b0c6482a232c88062ff1de751f16e6a72f17d2a42f7c2c5467e22a91
+Description: Peasy Firewall Monitor
+
 Package: findnrun-nls
 Architecture: all
 Version: 1.10.6-1
