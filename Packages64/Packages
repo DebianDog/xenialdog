@@ -1618,11 +1618,11 @@ Depends: libc6, gtkdialog, iptables
 Conflicts: firewall-puppy
 Replaces: firewall-puppy
 Filename: ./Extra/peasyfwmon_1.0.1_amd64.deb
-Size: 22730
-MD5sum: 5d01afab72b4f8a17ba712749dd8ccb1
-SHA1: 35dd993fefaa3e086b3b02ae3864070186f5157a
-SHA256: f8ac68d07e7867c9ca0bf24d0e39d54a29e67641938e8e54697dc6d7f8e37010
-SHA512: ff244bc21ed7a5aab0e52709a530334a3a34a79c39f91bd5b240017d4571dce2296c3154b0c6482a232c88062ff1de751f16e6a72f17d2a42f7c2c5467e22a91
+Size: 22766
+MD5sum: 3e64b5c07418e416307d2a6baeb418a8
+SHA1: 453f7a2e5da40ebe9bb64b4abb086c3699cbc72c
+SHA256: 9a30e9bf2184e574d4f8fecc9a7ab1304c8dde92017034e7bea90673be406b2c
+SHA512: a9ef6d8374de0d80cc1cabec7310628c2c10b5fd5d91fd3fb70811a8bc510491eaa635a8ebd0fdb35d61b321f7867a9d0f7b3888cb7a3db5312daf84e42cf105
 Description: Peasy Firewall Monitor
 
 Package: findnrun-nls
