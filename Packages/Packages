@@ -1753,11 +1753,11 @@ Depends: libc6, gtkdialog, iptables
 Conflicts: firewall-puppy
 Replaces: firewall-puppy
 Filename: ./Extra/peasyfwmon_1.0.1_i386.deb
-Size: 22642
-MD5sum: 85a566174e6629cc2918a8f3ff2cc2f1
-SHA1: 892e2c54927e9320a99c551cce3ac9bc3cf4192d
-SHA256: fd89568e4766f20cef08b41a5a719be6e0a6427fc50be58e2d0c7cba9e4658d2
-SHA512: 7eb7b1e56b798e1361b6f595ceaf976a4b86c523fa92bd568d197c89b4838899169e4fd029c38a77479e68b5004a833aaf4fa3b84e6af58cd2dc31d46020f063
+Size: 22676
+MD5sum: 3c81c85beec9749c61414b9704c38fbd
+SHA1: 10f5ee70ae2432a898672f12bf98ef69b8ad20a0
+SHA256: aa73eb93ed451a0e232ace1cca89f00650a50fad92f98826ffde41b5939ce460
+SHA512: 7f599330481cc696c295079f355ae453e7dcee85934f1f6df9d33cd3f0ad34b36121c77efda7eb85601a19d686ea585127cb4814a5dc343261d2acb4a772b43a
 Description: Peasy Firewall Monitor
 
 Package: upgrade-kernel
