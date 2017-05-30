@@ -9,35 +9,35 @@ Codename: xenial
 Architectures: i386
 Components: main
 Description: XenialDog repository
-Date: Mon, 15 May 2017 10:50:09 +0000
+Date: Tue, 30 May 2017 18:23:13 UTC
 MD5Sum:
- 4ea7bbeddedb916ac0bda32c51762e52            81960 Packages
- 64341e989705ed697d6a1428f7e8d548            30926 Packages.gz
- 232f2e7e29a111741f449faacf1aa019              185 Release
- 64341e989705ed697d6a1428f7e8d548            30926 Translation-en.gz
+ 847236f5c5994ce187405fc03f96f384            82567 Packages
+ 9d9071e7d8e256472d50138b786f5a5c            31170 Packages.gz
+ 7a93c077ddff4b1ffc8920cb0167194b              183 Release
+ 9d9071e7d8e256472d50138b786f5a5c            31170 Translation-en.gz
 SHA1:
- 5087fea756892946d54e07214ef467845edf6b8e            81960 Packages
- 2ccc5feebc8bf50a23a1007f82531a53693c9fde            30926 Packages.gz
- 076ff7c69876a22bd95c0971f801812aea885413              185 Release
- 2ccc5feebc8bf50a23a1007f82531a53693c9fde            30926 Translation-en.gz
+ 7e2b8a3ee3b28ba295b604e3f52dbd653c3e664b            82567 Packages
+ c3849ad89f8225026bb25002a796ccd87bd3e581            31170 Packages.gz
+ 693b8dfc458c3172251d6c854f56577a0cc4493c              183 Release
+ c3849ad89f8225026bb25002a796ccd87bd3e581            31170 Translation-en.gz
 SHA256:
- 5c7d3ab68328b467330a9ea6cf3a258b3c3d6799421424e1466d92971b73f74a            81960 Packages
- a6b77ae96b816c171621490f4473ccc81a92833d4a804e76ce7cbcff5b8b44a4            30926 Packages.gz
- 32adaa85876a911f38300717029d3e265202c8049b0be1c59ff6f3246a3ec59c              185 Release
- a6b77ae96b816c171621490f4473ccc81a92833d4a804e76ce7cbcff5b8b44a4            30926 Translation-en.gz
+ c2d7521815243b7870f5242d24cda67e1653ce6217d92e25bb118fe1f6261458            82567 Packages
+ 943dcd671fd529f5c0435ef71ce9c93ee37e8ae479bca92193c54026a40650ce            31170 Packages.gz
+ 2939166dead8adbcc894c348e485a9e839787191dc0df95553853c55f128e910              183 Release
+ 943dcd671fd529f5c0435ef71ce9c93ee37e8ae479bca92193c54026a40650ce            31170 Translation-en.gz
 SHA512:
- 244c8a7b8bce69a4bb31b0df42fbf3d34d8961235994330ee975041e61e5fc9a7a6cafa9a7acc8c7014cdb7e40897040d43b784781738aad4ef7ae4b2cd4db40            81960 Packages
- b1bfe9330887ac50e807b77be0dbd47116481533ee434ffa8dbb00310afe817d93d99e0ffd7e4c0c990d63d62084c51bbd2728fba128d38dd61994a7e923ae2e            30926 Packages.gz
- f4cdfe8246d59312fc5908d1051d785e780f7a5956c61bc526402326842a3ef65716ddb2c8e6e70a2a1371d065c326721bbbb19ede2658f0917f0c48dce49bc1              185 Release
- b1bfe9330887ac50e807b77be0dbd47116481533ee434ffa8dbb00310afe817d93d99e0ffd7e4c0c990d63d62084c51bbd2728fba128d38dd61994a7e923ae2e            30926 Translation-en.gz
+ d116c2cc9cdccfc9c47e1a123c15d9e608959a3371051bb586d0c373351ad47d767dfd8e80b1395069b49f9aa5243801fc41a32a9912b72b783c94be2d9dcb56            82567 Packages
+ 9359d138715bb12b63d834cb225cc0f6f22944f88893e3b743c8b5c9ca52aea2a50e4109d932cbe37d4a87eb9136d09288c6da045f700a87c8c162abeee91b48            31170 Packages.gz
+ 09856c1731d488a88d47670d1be0ce114f08a4d20aeb3a39c356a490d167a5550c9dde4012bc61831d182b0de0de8103583c196aa514c66278a9bb47452afe92              183 Release
+ 9359d138715bb12b63d834cb225cc0f6f22944f88893e3b743c8b5c9ca52aea2a50e4109d932cbe37d4a87eb9136d09288c6da045f700a87c8c162abeee91b48            31170 Translation-en.gz
 -----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
 
-iQEzBAEBCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAlkZiAcACgkQrYe8en1z
-CB0vEAgAoSPC3APOtYNt5WYtIxHtSku45XW8IZU54PWHMh+79N9Lvm+qQTsVXqb5
-GlQUW5MJDtRAl/nc13yeJFh36sAPESOEiO/+DpS5mBCyPXJxXNlAQ9CHQSUEjBjj
-AvUS7IvjNCIRm9jzfrpnhdxj6AykZcz+tHs0gf0ppygqmXE7drip1YSpPEGD6xaP
-q/nHIh2Yf/AHy6DC9vQxLlXiih34+M4bjJT9BpyKssey5KRgVuNqOF6gJAxTdKEd
-jtat0ZO/XfLHc0/Y+J+YwudnyjpPDRrm7g1ybTJcQpd2iPnhq9DQ0R6Mg4EANWrZ
-t21vPdKwHXC63BaenT9/EjMjCjlOyA==
-=zhxH
+iQEcBAEBCAAGBQJZLbiXAAoJEK2HvHp9cwgdTIYIAJyMKKEO9EeKtNpwFcIbWde8
+MzCIW6zQY5YllHTt5IANPrERIESrDQ0SVd80xIZbdJ9etthmdjqB08DrPM+rpBgG
+b9vPx/o964RbW7EGOXlsk4PBxvOWsMs2T3rCPH655QO7R8KHmkyUPKwcFu6w0Udi
+g5Fpcgus2uQ9sQSY1BMKtvOdZqNDB9FSVzkqePGWRqtHCIf0K8MFTaMfwfJhJXVH
+LpFWq4bjZejltAfUV0ncuhD+CaSBoK06PM6doh1v23RwQwIbF33tpTli4RYt5cL0
+q7ZfxrjfNSlaSzYoDRX2/XZ05SKDywihmgTmvL/4gl8ELgrGeP0nmvBsHRR2GFk=
+=MQx9
 -----END PGP SIGNATURE-----

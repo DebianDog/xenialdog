@@ -28,6 +28,7 @@ etc/frisbee/wpa_supplicant.conf				    frisbee
 etc/gconf/gconf.xml.defaults/%gconf-tree.xml		    gnome-mplayer-1.0.7
 etc/init.d/casper					    casper
 etc/init.d/dde-sessd					    dde-daemon
+etc/init.d/firewall.sh					    peasyfwmon
 etc/init.d/frisbee					    frisbee
 etc/init.d/network.sh					    wifibox-dhcpcd,wifibox
 etc/init.d/rc.functions					    wifibox-dhcpcd,wifibox
@@ -49,6 +50,7 @@ etc/ppp/chatscripts/gprs-connect-chat			    frisbee
 etc/ppp/chatscripts/gprs-disconnect-chat		    frisbee
 etc/ppp/options.gprs					    frisbee
 etc/precord/.precordrc					    precord
+etc/rc.d/rc.firewall.pfm				    peasyfwmon
 etc/rcS.conf						    wifibox-dhcpcd,wifibox
 etc/skel/.config/rox.sourceforge.net/OpenWith/.application_octet-stream/convert-sfs edit-sfs-pcmanfm,edit-sfs-rox
 etc/skel/.config/rox.sourceforge.net/OpenWith/.application_octet-stream/edit-sfs edit-sfs-pcmanfm,edit-sfs-rox
@@ -71,6 +73,7 @@ etc/skel/Startup/firewall-puppy				    Firewall-Puppy
 etc/skel/Startup/netmon_wce				    wifibox
 etc/skel/Startup/network_tray				    ceni
 etc/skel/Startup/network_tray.sh			    sns,wifibox-dhcpcd
+etc/skel/Startup/peasyfwmon_tray			    peasyfwmon
 etc/skel/Startup/statdebmenu				    jwm-setup
 etc/skel/startup-jwm					    jwm-setup
 etc/slitaz/dhcpcd.conf					    wifibox-dhcpcd
@@ -110,6 +113,7 @@ home/puppy/Startup/firewall-puppy			    Firewall-Puppy
 home/puppy/Startup/netmon_wce				    wifibox
 home/puppy/Startup/network_tray				    ceni
 home/puppy/Startup/network_tray.sh			    sns,wifibox-dhcpcd
+home/puppy/Startup/peasyfwmon_tray			    peasyfwmon
 home/puppy/Startup/statdebmenu				    jwm-setup
 home/puppy/startup-jwm					    jwm-setup
 lib/X11/mini-icons/network_tray				    ceni
@@ -314,6 +318,7 @@ root/Startup/firewall-puppy				    Firewall-Puppy
 root/Startup/netmon_wce					    wifibox
 root/Startup/network_tray				    ceni
 root/Startup/network_tray.sh				    sns,wifibox-dhcpcd
+root/Startup/peasyfwmon_tray				    peasyfwmon
 root/Startup/statdebmenu				    jwm-setup
 root/startup-jwm					    jwm-setup
 sbin/casper-getty					    casper
@@ -871,6 +876,7 @@ usr/local/bin/move-in-crypt				    move-in-crypt
 usr/local/bin/mplayer					    gnome-mplayer-1.0.7
 usr/local/bin/ob-desktop				    xd-desktop-manager
 usr/local/bin/openbox-menu				    jwm-setup
+usr/local/bin/peasyfwmon				    peasyfwmon
 usr/local/bin/peasyglue					    peasyglue
 usr/local/bin/pngtopnm					    peasyglue
 usr/local/bin/pnmcat					    peasyglue
@@ -2846,6 +2852,7 @@ usr/share/applications/mpv.desktop			    mpv
 usr/share/applications/openbox.desktop			    jwm-setup
 usr/share/applications/pavrecord.desktop		    pavrecord
 usr/share/applications/pburn.desktop			    pburn
+usr/share/applications/peasy_firewall_monitor.desktop	    peasyfwmon
 usr/share/applications/peasyglue.desktop		    peasyglue
 usr/share/applications/pfind.desktop			    pfind
 usr/share/applications/precord.desktop			    precord
@@ -5199,6 +5206,8 @@ usr/share/pixmaps/epdfview.xpm				    epdfview
 usr/share/pixmaps/fd.png				    mount-wizard
 usr/share/pixmaps/ffconvert.png				    ffconvert
 usr/share/pixmaps/firefox48.png				    firefox-portable
+usr/share/pixmaps/firewall-24.png			    peasyfwmon
+usr/share/pixmaps/firewall-48.png			    peasyfwmon
 usr/share/pixmaps/flash.png				    flashplayerchoice
 usr/share/pixmaps/floppy24.png				    mount-wizard
 usr/share/pixmaps/folder24.png				    jwm-setup
