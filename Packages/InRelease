@@ -9,35 +9,35 @@ Codename: xenial
 Architectures: i386
 Components: main
 Description: XenialDog repository
-Date: Fri, 02 Jun 2017 18:22:05 UTC
+Date: Sun, 04 Jun 2017 10:23:21 UTC
 MD5Sum:
- 7245de59956b6cc208e79929db4948f1            84241 Packages
- dfd89bcb1b2ba05f86432902858d5042            31815 Packages.gz
- 4f38938f123d073675259570789cd801              183 Release
- dfd89bcb1b2ba05f86432902858d5042            31815 Translation-en.gz
+ efd9a5c011de45d55a5a387a9fd394a9            85082 Packages
+ d0581e96b5b56f559653ec5105106ab8            32223 Packages.gz
+ 9d3f4bdcc6e2a0d5c82f57586cf1fd20              183 Release
+ d0581e96b5b56f559653ec5105106ab8            32223 Translation-en.gz
 SHA1:
- 4e45355bf6a158dc5624d645565ab7c7eba61ec4            84241 Packages
- ed6366257004f40e748a01509947c0b6ff55764f            31815 Packages.gz
- c5cb24b1f4401c9ff451d60f7d29d04b133d3641              183 Release
- ed6366257004f40e748a01509947c0b6ff55764f            31815 Translation-en.gz
+ 655eeb0e502ae3b6715f812919e4458a8023b766            85082 Packages
+ b5a4b9b68be219b878b08806ac5d95eb07ccb67e            32223 Packages.gz
+ 63a561492be83db825b5d62e02add321c8b5a62d              183 Release
+ b5a4b9b68be219b878b08806ac5d95eb07ccb67e            32223 Translation-en.gz
 SHA256:
- a08d41f425b62ccaa6ec3986604e5bcf1998a734171a39bd4e79a80787f2c915            84241 Packages
- 9ec993353ad512fb70dea755c510d3d3a44abe061de6d35202aed2ec0c65c7de            31815 Packages.gz
- a1279a2279482578796dded2a7a4822931fa98d3f2ed6aa88d8511bffacddd79              183 Release
- 9ec993353ad512fb70dea755c510d3d3a44abe061de6d35202aed2ec0c65c7de            31815 Translation-en.gz
+ c3c7aee81255fe061da655481d482ab678cddfb674ffd54580f5f05e1fd3f414            85082 Packages
+ 27bb4eeb584444561c867caad9eab023d77acb094e0d516835686dbb7934d05b            32223 Packages.gz
+ 2b40ca84a2448b1a26d14442877ae1ad70d5e9b696b31d39d86e0ac7938d48b4              183 Release
+ 27bb4eeb584444561c867caad9eab023d77acb094e0d516835686dbb7934d05b            32223 Translation-en.gz
 SHA512:
- b6f60d39f861af0d4ebbeb9b9fc87bb34cf7bf2e69415c2a975b47e6333619beddbb94ba1d420e03e94ddc68b049ee65ef70ba6ec279a09104b3b50d33655f24            84241 Packages
- 0d453ed33ae06445053a60ad0950171c276cdba77edaa80b50bf8c9d012832daad75b97ba433708cd26fd57ea941ca508dfddff0b8a348b3976555113af36569            31815 Packages.gz
- c63ba7135372913625d6633ca4076d8209a931204cc08851424cfb2ecbfdbde643426494d3f0ad8fa7d29a14981dd6d1687cf618352c44485885bd6117245bc9              183 Release
- 0d453ed33ae06445053a60ad0950171c276cdba77edaa80b50bf8c9d012832daad75b97ba433708cd26fd57ea941ca508dfddff0b8a348b3976555113af36569            31815 Translation-en.gz
+ 18db0e84f189ad86a76887b1334f0bd563648dd889501c938cfba709f59ca6fe3c783f2fd58c735431846934d18f15fd9e2bca4cd4cecef259e5fa43d5749b77            85082 Packages
+ 890f5c415f84606a204b91428280b877cb5f04c09988ed87c457cff9befbbd531ac21e01368f9ba766a0b95038a6d5435318f7c856768e972c7c43546dd8f1e1            32223 Packages.gz
+ 293bc57b7f6bbfbec35e3359a92da66c35e1327383d345e2dec91ccd8f4835e9d6721da0089e0f6cb482968e03a6f850a7eba9b97d870479790a785140759b77              183 Release
+ 890f5c415f84606a204b91428280b877cb5f04c09988ed87c457cff9befbbd531ac21e01368f9ba766a0b95038a6d5435318f7c856768e972c7c43546dd8f1e1            32223 Translation-en.gz
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBCAAGBQJZMazhAAoJEK2HvHp9cwgd6ZQIAKahCyI1G1dVJnYEn68zyVdD
-822AwY/Ix5SZPuInVfi6gJwMSYkExYsCS88CYbN0praYNnPLiEe/bmLLMutanraG
-l9lsw4jPQYX3OxXNRNesxArl7+dOdYOsp4CxkOMfdXdqIwJPYBXbcF0kbxSQw5DW
-X0Nr+RjnPD1PUhZg700KVD7QvnR/2Rx+b58JomPaQ8xdlrzIGxk6irpCz8d13uVQ
-yDjmgPl/YlyjunSKg8wMquwCxTXGZt2q51fVm114TIcJGaPissKUoRLMrA6slkn/
-92Okf0pEvU4ujKoX6S7vUQLobnt3x5N+B/CZypCSnGc9IoJdeNCad77KKWlaruU=
-=Dx07
+iQEcBAEBCAAGBQJZM9+iAAoJEK2HvHp9cwgdTcQH/0ZgLo7CbDpQNty9MZcGZaIx
+1ThUlP4wiT1eAF9C3E0ZnFMVWDDES59Ag5YXgLJbN+iUD+gXz14mBzMD5/lrRC/R
+jfTLyfdsnPOP74my98H5Jhxf/TtkrAostZe5lD4BgwKykXzGg7RzzDfOXhHnrmeL
+KNzLLM03P0bq5SOdN/SBr/cp21fiajozTkKK5X4u98I66zWYMiu5yNzAIxTfa417
+hfiF1V98SKfxOuwCS4Bbb0bNCfzkwHKLbANvNhiFL6DJ2TqTu20g1d8KnsZnoHGy
+tF4gxJ2SCdrYNLsw6WaRWJD54zZeHXPZiu0prU4IBdO/jmFW6UV4X69F4IwkWIo=
+=Gr6I
 -----END PGP SIGNATURE-----

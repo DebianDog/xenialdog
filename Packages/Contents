@@ -231,8 +231,18 @@ opt/docs/jwm-themes/jwm.tail-vista_green		    jwm-setup
 opt/docs/jwm-themes/jwm.tail-white_green		    jwm-setup
 opt/docs/portablesfs-chroot.template			    portablesfs-loadsfs-fuse
 opt/docs/portablesfs.template				    portablesfs-loadsfs-fuse
+opt/tmp/Create Savefile.desktop				    porteusbootscripts
+opt/tmp/initchanges.sh					    porteusbootscripts
 opt/tmp/jwm						    jwm-setup
 opt/tmp/jwm-debdog					    jwm-setup
+opt/tmp/makepfile.sh					    porteusbootscripts
+opt/tmp/mk-save.gtkdlg					    porteusbootscripts
+opt/tmp/save2flash					    porteusbootscripts
+opt/tmp/snap-ex						    porteusbootscripts
+opt/tmp/snapexit					    porteusbootscripts
+opt/tmp/snapmergepuppy					    porteusbootscripts
+opt/tmp/wmpoweroff					    porteusbootscripts
+opt/tmp/wmreboot					    porteusbootscripts
 root/.config/rox.sourceforge.net/OpenWith/.application_octet-stream/convert-sfs edit-sfs-pcmanfm,edit-sfs-rox
 root/.config/rox.sourceforge.net/OpenWith/.application_octet-stream/edit-sfs edit-sfs-pcmanfm,edit-sfs-rox
 root/.config/rox.sourceforge.net/OpenWith/.application_ogg/ffconvert ffconvert
