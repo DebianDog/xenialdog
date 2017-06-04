@@ -152,8 +152,18 @@ opt/docs/pictures/desktop.jpg				    jwm-setup
 opt/docs/pictures/xerus_wallpaper_secret_squirrel_color4_by_werewolf_cat-da6r0c7.png jwm-setup
 opt/docs/portablesfs-chroot.template			    portablesfs-loadsfs-fuse
 opt/docs/portablesfs.template				    portablesfs-loadsfs-fuse
+opt/tmp/Create Savefile.desktop				    porteusbootscripts
+opt/tmp/initchanges.sh					    porteusbootscripts
 opt/tmp/jwm						    jwm-setup
 opt/tmp/jwm-debdog					    jwm-setup
+opt/tmp/makepfile.sh					    porteusbootscripts
+opt/tmp/mk-save.gtkdlg					    porteusbootscripts
+opt/tmp/save2flash					    porteusbootscripts
+opt/tmp/snap-ex						    porteusbootscripts
+opt/tmp/snapexit					    porteusbootscripts
+opt/tmp/snapmergepuppy					    porteusbootscripts
+opt/tmp/wmpoweroff					    porteusbootscripts
+opt/tmp/wmreboot					    porteusbootscripts
 root/.config/rox.sourceforge.net/OpenWith/.application_octet-stream/convert-sfs edit-sfs-pcmanfm,edit-sfs-rox
 root/.config/rox.sourceforge.net/OpenWith/.application_octet-stream/edit-sfs edit-sfs-pcmanfm,edit-sfs-rox
 root/.config/rox.sourceforge.net/OpenWith/.application_ogg/ffconvert ffconvert

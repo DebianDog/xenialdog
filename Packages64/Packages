@@ -880,6 +880,25 @@ Description: GTK+ interface for MPlayer
  used with Gecko Mediaplayer and is the modern replacement for
  mplayerplug-in (from the same author).
 
+Package: porteusbootscripts
+Architecture: all
+Version: 0.0.3
+Section: checkinstall
+Maintainer: root@jessie
+Installed-Size: 56
+Depends: libc6
+Filename: ./Included/porteusbootscripts_0.0.3_all.deb
+Size: 10878
+MD5sum: 7288bd9eb7cf9b9418b18998ae0ecfac
+SHA1: 56abc261c215d4ad2de8ff8edc840c6a2800cf14
+SHA256: 43e49f26e4bb8094a8e8e0fc8f030b44bfb516c2eb2a282fd84e2ac2cd12bf15
+SHA512: c2a009a2c168ded4f694e42abe05f7bc2b58fae3542557dd17d2c303a35b970129ef38f8d719f3af40793f44c02d766924d8f70b30b099c0722ec86e5ee80d42
+Description: Porteus-boot helper-scripts (Note: works only on DebianDog)
+ This version has included the scripts for the new-save-setup
+ Note: Removing this package does not make any change.
+ This is on purpose because the scrips are essential for porteus-boot to work
+ Bug fix: set the correct permissions for /tmp (save2flash script)
+
 Package: edit-sfs-rox
 Architecture: all
 Version: 2.1
