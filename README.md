@@ -4,6 +4,8 @@
 (Ubuntu minimal "live")  
 version 2017-01-22
 
+**Maintainer:** fredx181
+
 **XenialDog is a fork of "DebianDog" which is a community project once started by forum member saintless.**   
 See also for Debiandog history: [Here](https://debiandog.github.io/doglinux/zz07about.html)   
 DebianDog full credits: [Here](https://github.com/DebianDog/Wheezy/blob/master/Credits.md)   
