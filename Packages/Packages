@@ -1298,6 +1298,28 @@ Description: Conky-clock v2 Luxe edition, choose analog clock display on the Des
  Choice from 300 clock images with the appropriate hands
  Option to display the date on the clock
 
+Package: youtube-get2
+Architecture: all
+Version: 0.1.9
+Maintainer: fredx181
+Installed-Size: 938
+Depends: libc6, yad, sed, wget, python, gsu | gksu
+Recommends: locales
+Replaces: youtube-get
+Filename: ./Extra/youtube-get2_0.1.9_all.deb
+Size: 1534052
+MD5sum: f477af1b7b09faf9fe80d4678a0519b0
+SHA1: 8ba34d5029e1ca6c46d43935720214625d41e965
+SHA256: 3aa452ac33c9376a93982cdb124fd509b7c59433d502e0b25f134398142773be
+SHA512: 210ade04cf73eacc2593fe96de8678bdfaa94cf99ab227abf20596376015f4bc5d5459881bd690846da471b47767d414955b318548c30357eb7aac3faccb1a24
+Description: YouTube Downloader, frontend for youtube-dl
+ A Youtube update broke the search function of previous versions; fixed in this version.
+ - A shell script (bash) with yad as GUI for youtube-dl
+ - Options to enter url(s), playlist, username and to do a search:
+ - Gives choice which quality to download, e.g. 360p or 720p, Audio streams, etc...
+ - Extra addition: m-play script + menu entry for playing YouTube url with mplayer or mpv
+ - Download from Playlist supports channel download also now (version 0.1.8)
+
 Package: libssl0.9.8
 Architecture: i386
 Version: 0.9.8o-7ubuntu3.2.14.04.1
