@@ -1345,6 +1345,20 @@ Description: SSL shared libraries
  .
  It is part of the OpenSSL implementation of SSL.
 
+Package: grub4dosconfig
+Architecture: i386
+Version: 1.8.9b
+Maintainer: root
+Installed-Size: 420
+Depends: libc6, probepart, guessfstype, coreutils, procps, gtkdialog, mount, menu, sed, x11-xserver-utils, gsu | gksu
+Filename: ./Extra/grub4dosconfig_1.8.9b_i386.deb
+Size: 154622
+MD5sum: 7f8aeddf6d514759fdefc7ec4b10c6d9
+SHA1: 86ea6445a70359d02fed4775b98bc6be2b3fbfd9
+SHA256: a13d76449ed052af40b6da0711e79f4117f5ea880265274b6d972b0c402fea72
+SHA512: 6b93ab3d7a8b39195d6c8a3457015508785517f366ef31ddce5b797029510e5a92d9c5c87fb193d3e3e533ec24eeab7dfc6c0cbe37460d4e96556c9ce2be05d0
+Description: Grub4DosConfig GUI script from Shinobar written for Puppy linux.
+
 Package: PeasyWiFi
 Architecture: i386
 Version: 4.4-1
@@ -1712,6 +1726,20 @@ Description: Warning - This package works only in DebianDog booted with porteus 
  Bug fix: set the correct permissions for /tmp 
  Fix in v 1.0.6: skip symlinks while cleaning man and doc files
  Version 1.0.7, added option to quick-remaster GUI to make ISO
+
+Package: guessfstype
+Architecture: i386
+Version: 1.0.0
+Maintainer: root
+Installed-Size: 40
+Depends: libc6
+Filename: ./Extra/guessfstype_1.0.0_i386.deb
+Size: 11120
+MD5sum: a12b17509300116e2cd29a0a1e0f1c19
+SHA1: b0e8e985f49c7e71a2a16271e7dec82f66d87074
+SHA256: 1c89cd0c9b1a2b6371e5b4fba1e1d62c7328fe425e686c7794e1ecbd0bc3717f
+SHA512: 7221036fc777ce1ee6c15fad1dfbe46e505691fe4a21beb8db472541dd6d33a8349c30fe3e3170f747794379f94e38369629186fd845941f2486073b2703df3d
+Description: File system type CLI tool from Puppy linux.
 
 Package: smokey-get-gdrive-get
 Architecture: i386
