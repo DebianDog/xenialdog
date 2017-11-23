@@ -1584,6 +1584,20 @@ SHA256: 003e836cb5e2d2ece33e186e44c5ed56ebd23c949c33871baa0bd160a78fb9e7
 SHA512: 2ecc11dcd59f9a8dcbf50308ee0d2c649295564c068d7906c84020ff1c46597d6fb13dd6b5edecf708a5ff2db2a16bb0554c0594bbdd2a8e744e2247e7de7bda
 Description: Conky-clock, choose analog clock display on the Desktop
 
+Package: guessfstype
+Architecture: amd64
+Version: 1.0.0
+Maintainer: root
+Installed-Size: 40
+Depends: libc6
+Filename: ./Extra/guessfstype_1.0.0_amd64.deb
+Size: 5378
+MD5sum: 0786b18c3e1b54ff78408ac41ff8ae50
+SHA1: 91b0c3c9901b02d5e8a2789ea38f2347078d6d52
+SHA256: 8298a9d4151ddf46cc23406aa03ff3ad6353c31b8f4309719b59e3870246f58f
+SHA512: 1697cd482081dc47fc149aaa045a220b632597c100033d3eb2fb46a79b8927beef23ebbc6dfb829415978c05b5fc45a5800bca81c90d5ca78a7ad456c14c38ac
+Description: File system type CLI tool from Puppy linux.
+
 Package: quick-remaster
 Architecture: all
 Version: 1.0.8
@@ -1620,6 +1634,20 @@ SHA1: 02c24a456c505fc1aa591b2045c0e3e9c35441f6
 SHA256: 7a6203b8172b058c4ea2f33f3899834b005ffb1857bab350738e00755e262fa1
 SHA512: 324db08be806b3377af3ec2f9f792a313281bb1264e24cdb8a523282d1148726300ccbacb19d924a7490683f5837c8cc81e940612a1e387c4f06cee7a27296ec
 Description: Wireless Network manager
+
+Package: grub4dosconfig
+Architecture: amd64
+Version: 1.8.9
+Maintainer: root
+Installed-Size: 420
+Depends: libc6, probepart, guessfstype, coreutils, procps, gtkdialog, mount, menu, sed, x11-xserver-utils, gsu | gksu
+Filename: ./Extra/grub4dosconfig_1.8.9_amd64.deb
+Size: 154578
+MD5sum: 85b29d0307d749562983dcce81d163f0
+SHA1: 1c4edc2d89c2374aad093adb684b8637e6318b37
+SHA256: 7529c1b1bd8c8fdefa579421e28733485ccfaf2862131a63f6581fdfb4b47330
+SHA512: f042144e6a5db3b4dab4ad27ecd238a4150575e5f3a281f80be1416e264d732f2075fd2149cb609b4ce09da57acc45f614a8118c1e718b296252da01c0e77f19
+Description: Grub4DosConfig GUI script from Shinobar written for Puppy linux.
 
 Package: quick-remaster
 Architecture: all

@@ -141,6 +141,7 @@ opt/apps/syslinux/syslinux.bin				    xenialdoginstallscripts
 opt/apps/syslinux/syslinux.cfg				    xenialdoginstallscripts
 opt/apps/syslinux/syslinuxinst				    xenialdoginstallscripts
 opt/apps/syslinux/vesamenu.c32				    xenialdoginstallscripts
+opt/bin/special/dc					    grub4dosconfig
 opt/docs/jwm-themes/jwm.tail-blood_red			    jwm-setup
 opt/docs/jwm-themes/jwm.tail-blue_jay			    jwm-setup
 opt/docs/jwm-themes/jwm.tail-calm_blue			    jwm-setup
@@ -361,6 +362,7 @@ usr/include/pupvm/pupvm-utils.h				    pup-volume-monitor
 usr/include/pupvm/socket.h				    pup-volume-monitor
 usr/include/pupvm/transfer.h				    pup-volume-monitor
 usr/include/pupvm/utils.h				    pup-volume-monitor
+usr/lib/X11/mini-icons/mini-clock.xpm			    grub4dosconfig
 usr/lib/X11/mini-icons/network_tray			    frisbee
 usr/lib/X11/mini-icons/network_tray-xpm/dead.xpm	    frisbee
 usr/lib/X11/mini-icons/network_tray-xpm/ethernet-active.xpm frisbee
@@ -473,6 +475,9 @@ usr/lib/geany/splitwindow.so				    geany
 usr/lib/gio/modules/libpup-volume-monitor.a		    pup-volume-monitor
 usr/lib/gio/modules/libpup-volume-monitor.la		    pup-volume-monitor
 usr/lib/gio/modules/libpup-volume-monitor.so		    pup-volume-monitor
+usr/lib/grub4dos/default				    grub4dosconfig
+usr/lib/grub4dos/grldr					    grub4dosconfig
+usr/lib/grub4dos/wee.mbr				    grub4dosconfig
 usr/lib/i386-linux-gnu/perl5/5.20/auto/WWW/YoutubeViewer/.packlist youtube-viewer
 usr/lib/jwm/jwm-poweroff.sh				    jwm
 usr/lib/libgeany.so					    geany
@@ -748,6 +753,7 @@ usr/local/bin/gsu-notimeout				    gsu
 usr/local/bin/gsu-root					    remaster-scripts
 usr/local/bin/gsu-timeout				    gsu
 usr/local/bin/gsu-xterm					    gsu
+usr/local/bin/guess_fstype				    guessfstype
 usr/local/bin/gvidcap					    xvidcap
 usr/local/bin/install-deb-and-dependencies		    fixdepinstall
 usr/local/bin/install-dir-debs-and-dependencies		    fixdepinstall
@@ -2522,6 +2528,8 @@ usr/local/isodata/isolinux/splash.png			    quick-remaster
 usr/local/isodata/isolinux/stdmenu.cfg			    quick-remaster
 usr/local/isodata/isolinux/vesamenu.c32			    quick-remaster
 usr/local/lib/X11/mini-icons				    frisbee
+usr/local/lib/X11/pixmaps/edit24.png			    grub4dosconfig
+usr/local/lib/X11/pixmaps/file24.png			    grub4dosconfig
 usr/local/lib/i386-linux-gnu/perl/5.20.2/XML/Fast.pm	    youtube-viewer
 usr/local/lib/i386-linux-gnu/perl/5.20.2/auto/LWP/UserAgent/Cached/.packlist youtube-viewer
 usr/local/lib/i386-linux-gnu/perl/5.20.2/auto/XML/Fast/.packlist youtube-viewer
@@ -2858,14 +2866,17 @@ usr/local/youtube-get2/icons/yt-playlist.pngg		    youtube-get2
 usr/local/youtube-get2/icons/yt-search.png		    youtube-get2
 usr/local/youtube-get2/icons/yt-url.png			    youtube-get2
 usr/local/youtube-get2/icons/yt-user.png		    youtube-get2
+usr/sbin/bootlace.com					    grub4dosconfig
 usr/sbin/dhcpcd						    frisbee
 usr/sbin/dhcpcd_dropwait_option				    frisbee
 usr/sbin/get_modem_alternate_device			    frisbee
+usr/sbin/grub4dosconfig					    grub4dosconfig
 usr/sbin/micro-edit					    desktop-editor
 usr/share/aclocal/yad.m4				    yad
 usr/share/applications/ConkyClock.desktop		    conkyclock
 usr/share/applications/ConkyClock2.desktop		    conkyclock2
 usr/share/applications/DogRadio.desktop			    dogradio
+usr/share/applications/Grub4DosConfig.desktop		    grub4dosconfig
 usr/share/applications/ISO-Tools.desktop		    isotools
 usr/share/applications/Make ISO from frugal install.desktop quick-remaster
 usr/share/applications/Play_with_mplayer.desktop	    youtube-get2,youtube-get
@@ -3327,6 +3338,9 @@ usr/share/doc/findnrun/images/findnrun-1.10.6-main.png	    findnrun
 usr/share/doc/findnrun/images/lubuntu-winate-1.10.6-main.png findnrun
 usr/share/doc/findnrun/index.md				    findnrun
 usr/share/doc/findnrun/no-help.md			    findnrun
+usr/share/doc/help/C/grub4dos.html			    grub4dosconfig
+usr/share/doc/help/C/grub4dosconfig.html		    grub4dosconfig
+usr/share/doc/help/images/gnibbles.png			    grub4dosconfig
 usr/share/doc/jwm/README.Debian				    jwm
 usr/share/doc/jwm/README.Debian-source			    jwm
 usr/share/doc/jwm/TODO.Debian				    jwm
@@ -3378,6 +3392,7 @@ usr/share/doc/mount/changelog.gz			    mount
 usr/share/doc/mount/copyright				    mount
 usr/share/doc/mount/examples/fstab			    mount
 usr/share/doc/nls/findnrun/findnrun.pot			    findnrun
+usr/share/doc/nls/grub4dosconfig/grub4dosconfig.pot	    grub4dosconfig
 usr/share/doc/pburn.html				    pburn
 usr/share/doc/x11-xserver-utils/changelog.gz		    x11-xserver-utils
 usr/share/doc/x11-xserver-utils/copyright		    x11-xserver-utils
@@ -5058,6 +5073,7 @@ usr/share/man/man8/swapoff.8.gz				    mount
 usr/share/man/man8/swapon.8.gz				    mount
 usr/share/man/man8/umount.8.gz				    mount
 usr/share/menu/Frisbee					    frisbee
+usr/share/menu/Grub4DosConfig				    grub4dosconfig
 usr/share/menu/apt2sfs					    apt2sfs
 usr/share/menu/apt2sfs-fullinst				    apt2sfs
 usr/share/menu/ceni					    ceni
@@ -5159,6 +5175,7 @@ usr/share/pixmaps/floppy24.png				    mount-wizard
 usr/share/pixmaps/folder24.png				    jwm-setup
 usr/share/pixmaps/folder48.png				    jwm-setup
 usr/share/pixmaps/frisbee.png				    frisbee
+usr/share/pixmaps/gnibbles.png				    grub4dosconfig
 usr/share/pixmaps/gnome-mplayer.xpm			    gnome-mplayer-1.0.6
 usr/share/pixmaps/go-next.png				    youtube-get2
 usr/share/pixmaps/go-previous.png			    youtube-get2
