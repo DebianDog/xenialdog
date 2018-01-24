@@ -1464,10 +1464,10 @@ Installed-Size: 20
 Depends: libc6, dpkg, xterm, findutils, cpio, xz-utils, gzip, gsu | gksu
 Filename: ./Extra/upgrade-kernel_1.0.2_all.deb
 Size: 10200
-MD5sum: c11f1d6eb7659eaf94fa51a92e146f3c
-SHA1: b8f36e0e81e6f80e988cd1de2a5aa8d9cbee3f8a
-SHA256: 1ea80bf7b05fb899a56f82a25ffc458423ceacc1d0611a3d296e76a2c71fc4b5
-SHA512: 18b487d14f18103f79730c75d256d17783a3683305a22eac80ff6f4f3b7fa5b755cbc3b0d50d90a6f7e43ba09a2d8eda66b7735aeacb60ebdc18cf9665e5b7fa
+MD5sum: 77bd74408ac34e88d841728bc70d7866
+SHA1: 33344658db87bca18e26d1d66982a85772b27955
+SHA256: 17351417d2140fe82c1e9bbc24fb7d777946ff25f4acc2fec50816374dca988a
+SHA512: f5a5a45daabb1ef0de6bfc2feeb9bb38a7e49c2056c0981866fa099643736f0682bf433fcdf58bded333a2798fe2a48490f14c8878e1c0cfae6e31ac0156d3b2
 Description: Warning - This package works only in XenialDog!
  bugfix 2016-11-25: v1.0.1 make backup of /usr/sbin/update-initramfs (and restore later) instead previously create symlink to /usr/share/casper/casper-update-initramfs and improved checking for which kernel version just upgraded to
  bugfix 2018-01-24: better check for mountpoint frugal install
