@@ -9,35 +9,35 @@ Codename: xenial
 Architectures: i386
 Components: main
 Description: XenialDog repository
-Date: Thu, 23 Nov 2017 20:16:47 +0000
+Date: Wed, 24 Jan 2018 18:31:19 +0000
 MD5Sum:
- ae2bddc559877a8a57789be18f53246a            88177 Packages
- 6d1b5179558370d1a22f72160e2f3fcc            33344 Packages.gz
- 1df2c52ba0653c8fe6ed9febd44bf22e              185 Release
- 6d1b5179558370d1a22f72160e2f3fcc            33344 Translation-en.gz
+ 5453bdb07087174ba921946c437b1928            89073 Packages
+ 1822f805a740ff1b3b94a2d0a4842cca            33578 Packages.gz
+ 04a8897c54bc064abe067d7f9df9fe1b              185 Release
+ 1822f805a740ff1b3b94a2d0a4842cca            33578 Translation-en.gz
 SHA1:
- 4a7e60d716556bc875ea3801ae385a70a11fc37c            88177 Packages
- 359d35ad98a015bd8acde27f09c6a05418bbc3a9            33344 Packages.gz
- e33b0556c468f3dc8a667aebc0c9241f5b9c4e0e              185 Release
- 359d35ad98a015bd8acde27f09c6a05418bbc3a9            33344 Translation-en.gz
+ 01c69d1908afb380d0d110c2a2b196f139c89e3b            89073 Packages
+ d3b15f5b7bf2e4ea713593fe757a811162370291            33578 Packages.gz
+ c8538fd18d02d4f09402f9b4b26adc8d6b318757              185 Release
+ d3b15f5b7bf2e4ea713593fe757a811162370291            33578 Translation-en.gz
 SHA256:
- df7bcd0022501c863b4d56bc8bffc5117cdb0c6871d06e358666bd287414a372            88177 Packages
- 17c5c37002bb13f6b8ebf21126278b2c86b073b67a0063b99d3429be912b5bb8            33344 Packages.gz
- 4d276a10322dae8341973b5f0b6228308d7e0e08437ba908a1ca803b6e8ad3a8              185 Release
- 17c5c37002bb13f6b8ebf21126278b2c86b073b67a0063b99d3429be912b5bb8            33344 Translation-en.gz
+ 004fd1d16db74ad10049f810b0e0fab1877b57b99b0fcd033960adb39ebfce72            89073 Packages
+ 9c37e8b652a94c4d28c97f9b773e8915a5715b850520443237e4c5f0f11df033            33578 Packages.gz
+ 1e8e9b19035b47549ce977f6070b515d86c6a04c1294000d9c803e1479b6ca3a              185 Release
+ 9c37e8b652a94c4d28c97f9b773e8915a5715b850520443237e4c5f0f11df033            33578 Translation-en.gz
 SHA512:
- 7f93aedd4d6307409925db6eea74eda1a6a41c831fc1854316ad2dc642fd8245549faddf623428bc534d01f57a7b5d744ebb44e70f5e6bb0f60e4d9f03d81858            88177 Packages
- e553e5596af817c173cd0deda8ac30cd9aea40bb8a548fc87080c178f65da141fcd26985dd46507464bdeed781e23b4d7d42f8cef57c3d6ba137422936575b74            33344 Packages.gz
- 5a648bd51726d9deb767e64a01cb4e00928c12034a0d576e486c92eede81d651b2d5231683f3645587799e15cb8dc3094b972c4933d2b6c52aae182223893e70              185 Release
- e553e5596af817c173cd0deda8ac30cd9aea40bb8a548fc87080c178f65da141fcd26985dd46507464bdeed781e23b4d7d42f8cef57c3d6ba137422936575b74            33344 Translation-en.gz
+ de72ec17b473c5aafd8c26e59ea1b1940ba0f7701ada27c85f1ac27cc13e12b634dc0ed3a0fe50091e83ffd98e66094d43108610380b083127dd2dd38072cf79            89073 Packages
+ 0ccf1b7ef67407b7085fa27e6d4b8b2c7546fae4a1cb3e3609400a0dcfcf1b5a49b8f385d2ac68e1ed67a2ac1237d9af857ca41ceaa191b0cd0c4f12e4bd539b            33578 Packages.gz
+ c0625aa43956060443da30f9a6926b146899bfce316cc3d6e5a03e4262ebfa7ea2dad9de771c02ee2afca1b5e5315a2a1b1f278e8594624a790af508f92bbbc0              185 Release
+ 0ccf1b7ef67407b7085fa27e6d4b8b2c7546fae4a1cb3e3609400a0dcfcf1b5a49b8f385d2ac68e1ed67a2ac1237d9af857ca41ceaa191b0cd0c4f12e4bd539b            33578 Translation-en.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAloXLLwACgkQrYe8en1z
-CB0xsQgAjvMWfygcQuSqeaiEZkB3OzjhHlzHwW4SA6gHiIFs18CozFDvTDk+YOPv
-fSueTW/ypaWwEDjxjKQClPD4Ln1FC9cNW/418w3p/iRaKs0VBMEVWBPX+8QRCbjF
-Il2ASkLZg2Qqaa/Tfqeqk3REDtaeJLFqgSoLNBVU/H3tm+VGpKxMFCXq+KVN0uZt
-n1rS2Gsrna4oDpiYD2fM3ycVZ6oKfLWmWjwsmGEu01pLRm8GChaJuI7UYHngWAUt
-PYrj3wVvQAEBI4gmfH0msY/mmRntcKcSDtzF2vULtMI5mWBl+vWI3cUhiHpxtZ+c
-hCBL2M/mHI7D0eH63zp/aINcIXCkbw==
-=7dV8
+iQEzBAEBCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAlpo0QQACgkQrYe8en1z
+CB2qJQf+Lj5HfPxwXx6kJesJvBa4+rNw5jPm2wHpdbNLcH+rMat+BkTmY5KHax+r
+qOB22q7/Du+/bnukdwozj7Rxas7+2WajboJoV3t6aZsGr2uU+q9NUwtKZHQ6fZNM
+vxf5LvdkwPz0wC8xgmx6mOQw0kiw1Siq251PfxkoDMqAtHvLOALTDDlR+5MRAUp8
+zBfv9oQmK0KJ8labjQr3BL8Uhl2auvvBlAqEldbituHBpKHZDRtsj0EzrOHnUQYY
+yQf1FY+UxdMQ7x1W8b/lpd8d4cBlMrPiP8s/cHbSt0rA3/o+oj3rrvN98G2v7qkr
+iizbsx/lKcofm0Y1EDR0vI5grJTmqA==
+=STf4
 -----END PGP SIGNATURE-----

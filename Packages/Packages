@@ -1456,6 +1456,22 @@ Description: gethosts script from SteveRiley: https://www.kubuntuforums.net/show
   Thanks to jockjunior: http://www.murga-linux.com/puppy/viewtopic.php?p=899122#899122
  .
 
+Package: upgrade-kernel
+Architecture: all
+Version: 1.0.2
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 20
+Depends: libc6, dpkg, xterm, findutils, cpio, xz-utils, gzip, gsu | gksu
+Filename: ./Extra/upgrade-kernel_1.0.2_all.deb
+Size: 10200
+MD5sum: c11f1d6eb7659eaf94fa51a92e146f3c
+SHA1: b8f36e0e81e6f80e988cd1de2a5aa8d9cbee3f8a
+SHA256: 1ea80bf7b05fb899a56f82a25ffc458423ceacc1d0611a3d296e76a2c71fc4b5
+SHA512: 18b487d14f18103f79730c75d256d17783a3683305a22eac80ff6f4f3b7fa5b755cbc3b0d50d90a6f7e43ba09a2d8eda66b7735aeacb60ebdc18cf9665e5b7fa
+Description: Warning - This package works only in XenialDog!
+ bugfix 2016-11-25: v1.0.1 make backup of /usr/sbin/update-initramfs (and restore later) instead previously create symlink to /usr/share/casper/casper-update-initramfs and improved checking for which kernel version just upgraded to
+ bugfix 2018-01-24: better check for mountpoint frugal install
+
 Package: tint2
 Architecture: i386
 Version: 0.11+svn20121014-3
