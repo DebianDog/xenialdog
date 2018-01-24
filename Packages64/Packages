@@ -1410,6 +1410,22 @@ SHA512: 7b7f72ba4982ec1575fb00fc480e5e8fd5fd2622e6849518f255fee1ba725fa5b3d68fe3
 Description: The smokey-get-gdrive-get program downloads files from github.com or smokey01.com or kazzascorner.com 0r google drive
  sfs-get_smokey-get by MakeDEBPackage-GUI.
 
+Package: upgrade-kernel
+Architecture: all
+Version: 1.0.2
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 20
+Depends: libc6, dpkg, xterm, findutils, cpio, xz-utils, gzip, gsu | gksu
+Filename: ./Extra/upgrade-kernel_1.0.2_all.deb
+Size: 10200
+MD5sum: 77bd74408ac34e88d841728bc70d7866
+SHA1: 33344658db87bca18e26d1d66982a85772b27955
+SHA256: 17351417d2140fe82c1e9bbc24fb7d777946ff25f4acc2fec50816374dca988a
+SHA512: f5a5a45daabb1ef0de6bfc2feeb9bb38a7e49c2056c0981866fa099643736f0682bf433fcdf58bded333a2798fe2a48490f14c8878e1c0cfae6e31ac0156d3b2
+Description: Warning - This package works only in XenialDog!
+ bugfix 2016-11-25: v1.0.1 make backup of /usr/sbin/update-initramfs (and restore later) instead previously create symlink to /usr/share/casper/casper-update-initramfs and improved checking for which kernel version just upgraded to
+ bugfix 2018-01-24: better check for mountpoint frugal install
+
 Package: PeasyWiFi
 Architecture: amd64
 Version: 4.4-1
