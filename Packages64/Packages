@@ -1032,6 +1032,27 @@ Description: X server utilities
   - xstdcmap, a utility to selectively define standard colormap properties;
   - xvidtune, a tool for customizing X server modelines for your monitor.
 
+Package: mpv
+Architecture: amd64
+Version: 1:0.27.0-xd
+Priority: optional
+Section: misc
+Maintainer: fredx181
+Installed-Size: 21000
+Depends: libasound2, libbluray1, libc6, libcaca0, libdrm2, libegl1-mesa, libfontconfig1, libfreetype6, libfribidi0, libgbm1, libgl1-mesa-glx, libgnutls30, libharfbuzz0b, libjack0, libjpeg62, liblcms2-2, liblua5.2-0, libpulse0, librubberband2v5, libuchardet0, libva1, libva-drm1, libva-x11-1, libvdpau1, libx11-6, libxcb1, libxcb-shape0, libxcb-xfixes0, libxext6, libxinerama1, libxrandr2, libxss1, libxv1, zlib1g
+Filename: ./Included/mpv_0.27.0-xd_amd64.deb
+Size: 7124566
+MD5sum: 468f4ab9d99a7f2f72dd9b546310acb3
+SHA1: fdef828d77530794ca729804da4511f3f3fc24b1
+SHA256: 60accf3c8e8b04a0e44b170a5f9c00278ae2985fb3e2692ff753103b12c45cbd
+SHA512: 9ae54f6cf93e21f334585fe20a0a55d6917531f5de3494954e8c0c9605416571cbc4287e6764411cdbb46b1adb9606b0fe487e478386c87f086247c7b9200d7f
+Homepage: https://github.com/mpv-player/mpv-build
+Description: mplayer/mplayer2 based video player, minimal build
+ MPV is a versatile CLI movie player, based on mplayer and mplayer2.
+ .
+ This package is not part of Debian. It was created by mpv-build scripts with
+ statically linked ffmpeg (not libav) and libass from upstream.
+
 Package: frisbee
 Architecture: amd64
 Version: 1.2-20160920

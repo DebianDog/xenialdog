@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Desktop provided by pcmanfm, lxpanel bottom panel
+Comment=Desktop provided by pcmanfm, lxpanel bottom panel
+Exec=ob-desktop pcmand
+Icon=/usr/local/obdesktop/icons/pcmand.png
+Terminal=false
+StartupNotify=false
+
