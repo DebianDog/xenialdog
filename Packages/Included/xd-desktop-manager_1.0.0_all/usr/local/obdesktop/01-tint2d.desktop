@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Tint2 bottom and top panel
-Comment=Tint2 bottom and top panel
-Exec=ob-desktop tintd
-Icon=/usr/local/obdesktop/icons/tint2d.png
-Terminal=false
-Type=Application
-

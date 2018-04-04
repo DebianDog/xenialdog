@@ -483,11 +483,14 @@ usr/lib/jwm/jwm-poweroff.sh				    jwm
 usr/lib/libgeany.so					    geany
 usr/lib/libgeany.so.0					    geany
 usr/lib/libgeany.so.0.0.0				    geany
+usr/lib/libiup.so					    iuplua-core-xenialdog64-gtk2
+usr/lib/libiuplua53.so					    iuplua-core-xenialdog64-gtk2
 usr/lib/libpupvm.a					    pup-volume-monitor
 usr/lib/libpupvm.la					    pup-volume-monitor
 usr/lib/libpupvm.so					    pup-volume-monitor
 usr/lib/libpupvm.so.0					    pup-volume-monitor
 usr/lib/libpupvm.so.0.0.0				    pup-volume-monitor
+usr/lib/lua/5.3/iuplua.so				    iuplua-core-xenialdog64-gtk2
 usr/lib/mime/packages/epdfview				    epdfview
 usr/lib/mime/packages/mpv				    mpv
 usr/lib/pkgconfig/pupvm.pc				    pup-volume-monitor

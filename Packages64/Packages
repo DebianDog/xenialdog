@@ -1574,6 +1574,23 @@ Description: Curses interface to /etc/network/interfaces
  Ceni can manage basic network interface ifupdown configuration stanzas for
  ethernet and wireless devices.
 
+Package: iuplua-core-xenialdog64-gtk2
+Architecture: amd64
+Version: 3.24
+Maintainer: wiak <https://github.com/wiake>
+Installed-Size: 1279
+Depends:
+Filename: ./Extra/iuplua-core-xenialdog64-gtk2_3.24_amd64.deb
+Size: 377962
+MD5sum: d3db0478c33e6b841e1ef80991e87e47
+SHA1: 55db9ebfed4415c4879d5106e87eb1358b0e0c18
+SHA256: eef28d94048a0faaf682242129842b38c1322be542095bdc3a2ffd6018ef6878
+SHA512: c4a4905f9735aee07d5a4e42fd7cfe1abf3acce8d6adeeff7753e62b6a970d976204062078d6e7abcc137f0cf0d3fe6e9e123aff1167b865449cdd606845d861
+Description: The iuplua-core-xenialdog64-gtk2:
+ The GNU iuplua-core-xenialdog64-gtk2 program provides
+ core iuplua control widgets for basic GUI builds only.
+ iuplua-core-xenialdog64-gtk2 by tecgraf-pkg-wiak.
+
 Package: weav
 Architecture: all
 Version: 9.1.0
