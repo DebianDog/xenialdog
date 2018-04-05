@@ -1415,6 +1415,24 @@ Description:  findnrun 1.10.6 (utility)
   icons, smaller English help (markdown), NLS .pot.
   https://github.com/step-/find-n-run/
 
+Package: iupluacontrols-xenialdog64-gtk2
+Architecture: amd64
+Version: 3.24
+Maintainer: wiak <https://github.com/wiake>
+Installed-Size: 1357
+Depends: iuplua-core-xenialdog64-gtk2
+Filename: ./Extra/iupluacontrols-xenialdog64-gtk2_3.24_amd64.deb
+Size: 416250
+MD5sum: 79e14ed61bcb5409ba134862c40ca444
+SHA1: d10fbefd3c9700d3fe920289b13cc2ce89f7d1dc
+SHA256: 0e33367f9a677d02c0ae35208f5386751f3df09083550fc9106dfc8c22fc7760
+SHA512: c5ce8ae687db5cfb5da9dcc8d9fe06717be53f6c42b3d19fe505f0d84f1ca8342f0605a84bd51d6716fe33bf81c503737666ead0644caae084f655dbfaaaecf6
+Description: The iupluacontrols-xenialdog64-gtk2:
+ The tecgraf-MIT licensed iupluacontrols-xenialdog64-gtk2 program
+ provides additional graphical toolkit widgets for additional
+ functionality such as matrix drawing.
+ iupluacontrols-xenialdog64-gtk2 by tecgraf-pkg-wiak.
+
 Package: smokey-get-gdrive-get
 Architecture: all
 Version: 1.0.3-xendog
@@ -1578,17 +1596,17 @@ Package: iuplua-core-xenialdog64-gtk2
 Architecture: amd64
 Version: 3.24
 Maintainer: wiak <https://github.com/wiake>
-Installed-Size: 1279
+Installed-Size: 1103
 Depends:
 Filename: ./Extra/iuplua-core-xenialdog64-gtk2_3.24_amd64.deb
-Size: 377962
-MD5sum: d3db0478c33e6b841e1ef80991e87e47
-SHA1: 55db9ebfed4415c4879d5106e87eb1358b0e0c18
-SHA256: eef28d94048a0faaf682242129842b38c1322be542095bdc3a2ffd6018ef6878
-SHA512: c4a4905f9735aee07d5a4e42fd7cfe1abf3acce8d6adeeff7753e62b6a970d976204062078d6e7abcc137f0cf0d3fe6e9e123aff1167b865449cdd606845d861
+Size: 344854
+MD5sum: a65486eb8d4dfb94b5948abbb0edbc2c
+SHA1: e4071494696db8c126a340a69ef6b062c10c00a8
+SHA256: ed3a289997f5e41b14a4daae08ee54fbb2958501bd3bb79c738348132d9d52eb
+SHA512: d9420c0c5ecfc8bc9ce1fb588a482343459c63ad7c10577f420ec1de87624e528373a9d037738acbd1cc42ea5b5d7ccbf21f61f26d707aaa64f27982eec3cda1
 Description: The iuplua-core-xenialdog64-gtk2:
- The GNU iuplua-core-xenialdog64-gtk2 program provides
- core iuplua control widgets for basic GUI builds only.
+ The tecgraf-MIT licensed iuplua-core-xenialdog64-gtk2 program provides
+ core graphical toolkit widgets for building Lua GUIs.
  iuplua-core-xenialdog64-gtk2 by tecgraf-pkg-wiak.
 
 Package: weav

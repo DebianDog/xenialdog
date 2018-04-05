@@ -1,47 +1,11 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA256
-
-Origin: Ubuntu
-Label: XenialDog
-Suite: stable
-Version: 1.0
-Codename: xenial
-Architectures: amd64
-Components: main
-Description: XenialDog repository
-Date: Wed, 04 Apr 2018 10:46:19 +0000
-MD5Sum:
- 8e032a3a806d1c46ba7258593d3f42fc            86706 Packages
- f626ef6307ac76e6db4f778765e96075            33870 Packages.gz
- c4551e47c978c30680157728232b302a              186 Release
- 2945f89ace9b1cfd658dc93aa5bea53f            64818 Translation-en
- f626ef6307ac76e6db4f778765e96075            33870 Translation-en.gz
-SHA1:
- 62853a4c2680c2f2a02d02f18c5236c243846dc3            86706 Packages
- 9c6ded53d25c1a352ebba26fff709f978a2343ba            33870 Packages.gz
- fded492b45c3fb46bccaf2d5cb03a1d12d357f9b              186 Release
- 84980b31beec81c1314aade96d32c62c58c6a946            64818 Translation-en
- 9c6ded53d25c1a352ebba26fff709f978a2343ba            33870 Translation-en.gz
-SHA256:
- 7bd614aba4af2cbb7fd2b39d2eb03d1f4790e7e0de581db7bf44fe1fffc4f29c            86706 Packages
- 35629382d739ff067e7b10cb6eb76b109f5d10fb6f03e09ea4f94cbce2af6919            33870 Packages.gz
- e5bb3a6c2edc113832859b8b03a2ce01f1110756e02e41a739afc2564af9e078              186 Release
- 45c7b2eb3186c23e08b516476f6610afed7e2a0eb0e9e1d1dc803a662f13a68d            64818 Translation-en
- 35629382d739ff067e7b10cb6eb76b109f5d10fb6f03e09ea4f94cbce2af6919            33870 Translation-en.gz
-SHA512:
- d35a1a7cbda16e37a9db5646686c1ddf96263a55284d38a1613e9797a0620ab43514ce698fc87ce2e012dc8e083857ca22b002f88f9a3c8a061a4761dc5ace3b            86706 Packages
- cd8eac65f590eea47016a7e0b00df0ad65acebfa1737a480d826c9041f8c69aaf5b2f3cc3e243972ca6fc5bbb3c54d7e8a331eb8fa09be598c924e952d6924e9            33870 Packages.gz
- 46294954f3203bd0a7026a712758cb560c848b44af75a6363e35843e76975f586e5f0fb48c1a77526bb37d3973e345c2457ee6285906e024785f4ee172056c35              186 Release
- b64d9562b00b1b8db5405b96c28aeb20189a7faac2716f5bf36497a1c578dca1927ce7323d02638fbb81d5889d161ce78e2cbf4af05134a512654875fd42aa9c            64818 Translation-en
- cd8eac65f590eea47016a7e0b00df0ad65acebfa1737a480d826c9041f8c69aaf5b2f3cc3e243972ca6fc5bbb3c54d7e8a331eb8fa09be598c924e952d6924e9            33870 Translation-en.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAlrErREACgkQrYe8en1z
-CB34PAf/XRrJ2IftBGSx6uREuQye9rGryg0lMKJfZhxFC2G4sTtDeCJfnJJZV+1S
-eI6kTj8nUmAy+vcHjSh9A2pqXemDyalYGFZOSv99Ml55qo0zdezCngGBb7JE5kNl
-0FeGi/AbL9YgfF9fOB6DnGcPvTcgPrZnF8G272eIPsO5dnXNSQ4UtHI5Ucegxkhq
-Mpk3m/JNdXZu+oTrfixvshbvttlqEYleYV+5TAKACfMWQ9BSjNhkqebTF8GVHdYx
-laIpJ7HfJB5kJzLI4fYrZJ9jDvTJEI//NniUNuQURjSLt3X7qpgwuNdRKP80YMae
-hKriIL+cXBXKxHCF1ybAftJeSU1q7Q==
-=qgcp
+iQEzBAABCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAlrGZJMACgkQrYe8en1z
+CB3Mqgf/e6a3I41lzdpIWNh3a86pOglUZlybYQlCy4cjwD2Fzyj8nv25i2OoupwJ
+YxKbhqiiQjBeraQet0VWTBi7nhTMn/+Sa5innwPFma5NRse3GHgqzGxcZ6OTfxHL
+xsad9eRz2ZyibKIc0fPfZUgt9mJ5RBbrG2ga//ob3VWHBfNxYEzZC66SuPOZ1SW7
+RWow+CtTovTGa9ACLK/d0XH2t1O/Q5jbDL4+Ld/PcUFutqC5UxgOOf5xTjtbMpgM
+rY4PJ8/HpyYEKkLd34kha07fg6Ea48cI7R8tIi4TTvPUlbMfcRHVtmeYqNL1jADW
+aO+DHiIXVLAHs9lkmEmseWLZAR8WBg==
+=ceAp
 -----END PGP SIGNATURE-----
