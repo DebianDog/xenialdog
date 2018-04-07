@@ -6,9 +6,9 @@ echo "This script assumes that a directory (or subdirectories) containing .deb f
 echo "The directory or subdirectories may also contain other files besides .deb"
 echo "Run this script from terminal opened in the directory containing .deb files (can also include subdirectories with .deb files)"
 echo "Type 'y' if you want to create a signed key (if .gnupg folder does not exist yet)"
-echo "Type 'n' if you have already created a signed key and continue"
+echo "Type 'n' (or ENTER) if you have already created a signed key and continue"
 
-read -p "Create signed key (y/n)?" choice
+read -p "Create signed key (ENTER=no) (y/N)?" choice
 case "$choice" in 
   y|Y ) gpg --gen-key --homedir $PWD/.gnupg
 cp -a $PWD/.gnupg/pubring.gpg $PWD/xendog.gpg
@@ -34,7 +34,7 @@ apt-ftparchive release . >> Release
 echo "When updating choose 'y' to overwrite Release.gpg"
 gpg -abs --homedir .gnupg -o Release.gpg Release
 ;;
-  n|N ) cd "$PWD"
+  n|N|"") cd "$PWD"
 echo "Creating the required files e.g. Packages.gz by apt-ftparchive..."
 # Insert needed info first in Release file
 echo 'Origin: Ubuntu
@@ -57,15 +57,15 @@ echo
 echo -e "\e[0;31mWarning\033[0m: In case of updating the repository:"
 echo "Release.gpg and InRelease will be overwritten"
 echo
-echo "You need a passphrase to unlock the secret key for:" 
+echo "Unlocking the secret key for:" 
 gpg --no-permission-warning --homedir .gnupg --list-keys 
-read -sp "Enter passphrase: " pass
+#read -sp "Enter passphrase: " pass
 echo
-gpg --pinentry-mode loopback --no-permission-warning --batch --no-tty -abs --homedir .gnupg --passphrase $pass --yes -o Release.gpg Release
+gpg --pinentry-mode loopback --no-permission-warning --batch --no-tty -abs --homedir .gnupg --passphrase blommen1 --yes -o Release.gpg Release
 if [ $? -ne 0 ]; then
-read -sp "Try again, enter passphrase: " pass
+#read -sp "Try again, enter passphrase: " pass
 echo
-gpg --pinentry-mode loopback --no-permission-warning --batch --no-tty -abs --homedir .gnupg --passphrase $pass --yes -o Release.gpg Release
+gpg --pinentry-mode loopback --no-permission-warning --batch --no-tty -abs --homedir .gnupg --passphrase blommen1 --yes -o Release.gpg Release
 fi
 if [ $? -ne 0 ]; then
 echo "Wrong passphrase, exiting..."
@@ -73,7 +73,7 @@ sleep 3
 exit
 fi
 [ $? -eq 0 ] && echo -e "\e[0;32mRelease.gpg created!\033[0m"
-gpg --pinentry-mode loopback --no-permission-warning --batch --no-tty -abs --homedir .gnupg --passphrase $pass --yes -o InRelease Release
+gpg --pinentry-mode loopback --no-permission-warning --batch --no-tty -abs --homedir .gnupg --clearsign --passphrase blommen1 --yes -o InRelease Release
 [ $? -eq 0 ] && echo -e "\e[0;32mInRelease created!\033[0m"
 ;;
   * ) echo "invalid"
