@@ -1746,6 +1746,20 @@ Description: YouTube Downloader, frontend for youtube-dl
  - Gives choice which quality to download, e.g. 360p or 720p, Audio streams, etc...
  - Extra addition: m-play script + menu entry for playing YouTube url with mplayer or mpv
 
+Package: apulse
+Architecture: i386
+Version: 20171016-1
+Priority: extra
+Maintainer: rcrsn51
+Depends: libc6, alsa-utils
+Filename: ./Extra/apulse_20171016-1_i386.deb
+Size: 38336
+MD5sum: b2ee9f3619412a610d1663b8912ca921
+SHA1: 4302e91f6eeadc0eeb39a6816e8e37fa66d41490
+SHA256: 93447dc19e935e637471a4b53e105956026d2f71df5dedbd572be55ad76904bc
+SHA512: 70301c1c493fbed46336165088b556f351af2fdd39c7771107e7da448512aa10d7f0328e3718656ed07f5ae8768b7be474d156df914a3551c64b88f483a82f11
+Description: Pulseaudio emulator using alsa
+
 Package: quick-remaster
 Architecture: all
 Version: 1.0.7
