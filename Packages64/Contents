@@ -405,6 +405,8 @@ usr/lib/X11/mini-icons/network_tray-xpm/wifieth-both.xpm    frisbee
 usr/lib/X11/mini-icons/network_tray-xpm/wifieth-in.xpm	    frisbee
 usr/lib/X11/mini-icons/network_tray-xpm/wifieth-none.xpm    frisbee
 usr/lib/X11/mini-icons/network_tray-xpm/wifieth-out.xpm	    frisbee
+usr/lib/apulse/libpulse-mainloop-glib.so		    apulse
+usr/lib/apulse/libpulse-mainloop-glib.so.0		    apulse
 usr/lib/apulse/libpulse-simple.so			    apulse
 usr/lib/apulse/libpulse-simple.so.0			    apulse
 usr/lib/apulse/libpulse.so				    apulse
@@ -2916,6 +2918,7 @@ usr/share/applications/edit-sfs.desktop			    edit-sfs-pcmanfm,edit-sfs-rox
 usr/share/applications/epdfview.desktop			    epdfview
 usr/share/applications/ffconvert.desktop		    ffconvert
 usr/share/applications/findnrun.desktop			    findnrun
+usr/share/applications/firefox-apulse.desktop		    apulse
 usr/share/applications/firefox.desktop			    firefox-portable
 usr/share/applications/firewall-puppy.desktop		    Firewall-Puppy
 usr/share/applications/firewall-setup.desktop		    firewall-ng
@@ -5267,6 +5270,7 @@ usr/share/pixmaps/shutdown.png				    jwm-setup
 usr/share/pixmaps/suspend.png				    jwm-setup
 usr/share/pixmaps/switch.png				    jwm-setup
 usr/share/pixmaps/transmission.png			    transmission-2.60
+usr/share/pixmaps/updater.png				    apulse
 usr/share/pixmaps/upgrade-kernel.png			    upgrade-kernel
 usr/share/pixmaps/xvidcap.png				    xvidcap
 usr/share/pixmaps/yt.png				    youtube-get2
