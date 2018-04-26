@@ -867,6 +867,7 @@ usr/local/bin/ddesessd-limitmem				    dde-daemon
 usr/local/bin/debdog-advert-blocker			    debdog-advert-blocker
 usr/local/bin/debmenustat				    jwm-setup
 usr/local/bin/defaultconnect				    sns
+usr/local/bin/defaulttexteditor				    mm-view
 usr/local/bin/desktop-editor				    desktop-editor
 usr/local/bin/desktop_drive_icons			    desktop-drive-icons
 usr/local/bin/dogradio					    dogradio
@@ -912,6 +913,7 @@ usr/local/bin/menu-openbox				    jwm-setup
 usr/local/bin/menu1					    jwm-setup
 usr/local/bin/menumaker					    desktop-editor
 usr/local/bin/mkiso					    quick-remaster
+usr/local/bin/mm_view					    mm-view
 usr/local/bin/mnt-all					    xendogmountscripts
 usr/local/bin/mnt-backing				    xendogmountscripts
 usr/local/bin/mount-wizard				    mount-wizard
@@ -2964,6 +2966,7 @@ usr/share/applications/jwm-theme-change.desktop		    jwm-setup
 usr/share/applications/jwm.desktop			    jwm-setup
 usr/share/applications/keybind.desktop			    openbox-keybinder
 usr/share/applications/menumaker.desktop		    desktop-editor
+usr/share/applications/mmview.desktop			    mm-view
 usr/share/applications/mount-wizard.desktop		    mount-wizard
 usr/share/applications/move-in-crypt.desktop		    move-in-crypt
 usr/share/applications/mpv.desktop			    mpv
@@ -5365,6 +5368,7 @@ usr/share/pixmaps/lock.png				    jwm-setup
 usr/share/pixmaps/logout.png				    jwm-setup
 usr/share/pixmaps/makedebpkg.png			    makedebpackage
 usr/share/pixmaps/mkiso.png				    quick-remaster
+usr/share/pixmaps/mmview.png				    mm-view
 usr/share/pixmaps/mplayer.png				    youtube-get2,youtube-get
 usr/share/pixmaps/mpv.png				    mpv
 usr/share/pixmaps/network-workgroup.png			    sns
