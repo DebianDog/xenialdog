@@ -86,6 +86,9 @@ etc/slitaz/wifibox_udhcpc				    wifibox
 etc/systemd/system/frisbee.service			    frisbee
 etc/systemd/system/multi-user.target.wants/frisbee.service  frisbee
 etc/udhcpc/default.script				    wifibox
+etc/weav/LICENSE					    weav
+etc/weav/cmd_lists/CMD1_combo				    weav
+etc/weav/weav_default.rc				    weav
 etc/wex/plugins/acodec_user1.plug			    wex
 etc/wex/plugins/audio_in.plug				    wex
 etc/wex/plugins/avformat_user1.plug			    wex
@@ -939,6 +942,7 @@ usr/local/bin/remastercow-start				    remaster-scripts
 usr/local/bin/remasterdog				    remaster-scripts
 usr/local/bin/remasterdog-start				    remaster-scripts
 usr/local/bin/resize-save				    resize-save-file
+usr/local/bin/scrox					    scrox
 usr/local/bin/setbackdrop				    xd-desktop-manager
 usr/local/bin/setwallpaper				    xd-desktop-manager
 usr/local/bin/sfs-get-xen				    sfs-get-xendog
@@ -950,6 +954,7 @@ usr/local/bin/transmission-gtk				    transmission-2.31
 usr/local/bin/update-menus				    jwm-setup
 usr/local/bin/upgrade-kernel				    upgrade-kernel
 usr/local/bin/upgrade-kernel-start			    upgrade-kernel
+usr/local/bin/weav					    weav
 usr/local/bin/wee.mbr					    xenialdoginstallscripts
 usr/local/bin/wex					    wex
 usr/local/bin/xenialdog-full-install			    xenialdoginstallscripts
@@ -2837,14 +2842,14 @@ usr/local/share/pixmaps/gtk-save.png			    dogradio
 usr/local/share/pixmaps/gtk-stop.png			    dogradio
 usr/local/share/pixmaps/star.png			    dogradio
 usr/local/share/pixmaps/wex/wex_config.png		    wex
-usr/local/share/pixmaps/wex/wex_directory.png		    wex
-usr/local/share/pixmaps/wex/wex_edit.png		    wex
-usr/local/share/pixmaps/wex/wex_help.png		    wex
-usr/local/share/pixmaps/wex/wex_home.png		    wex
+usr/local/share/pixmaps/wex/wex_directory.png		    wex,weav
+usr/local/share/pixmaps/wex/wex_edit.png		    wex,weav
+usr/local/share/pixmaps/wex/wex_help.png		    wex,weav
+usr/local/share/pixmaps/wex/wex_home.png		    wex,weav
 usr/local/share/pixmaps/wex/wex_mixer.png		    wex
 usr/local/share/pixmaps/wex/wex_pause.png		    wex
-usr/local/share/pixmaps/wex/wex_play.png		    wex
-usr/local/share/pixmaps/wex/wex_quit.png		    wex
+usr/local/share/pixmaps/wex/wex_play.png		    wex,weav
+usr/local/share/pixmaps/wex/wex_quit.png		    wex,weav
 usr/local/share/pixmaps/wex/wex_record.png		    wex
 usr/local/share/pixmaps/wex/wex_stop.png		    wex
 usr/local/share/pixmaps/wex/wex_utility00.png		    wex
@@ -2992,6 +2997,7 @@ usr/share/applications/sns.desktop			    sns
 usr/share/applications/tint2conf.desktop		    tint2
 usr/share/applications/transmission.desktop		    transmission-2.31
 usr/share/applications/upgrade-kernel.desktop		    upgrade-kernel
+usr/share/applications/weav.desktop			    weav
 usr/share/applications/wex.desktop			    wex
 usr/share/applications/wifi-box.desktop			    wifibox-dhcpcd,wifibox
 usr/share/applications/xenialdog-frugal-install.desktop	    xenialdoginstallscripts
@@ -3465,6 +3471,8 @@ usr/share/doc/linux-user-chroot/copyright		    linux-user-chroot
 usr/share/doc/nls/findnrun/findnrun.pot			    findnrun
 usr/share/doc/nls/grub4dosconfig/grub4dosconfig.pot	    grub4dosconfig
 usr/share/doc/pburn.html				    pburn
+usr/share/doc/scrox/scrot/README.scrox			    scrox
+usr/share/doc/scrox/scrot/copyright			    scrox
 usr/share/doc/tint2/AUTHORS				    tint2
 usr/share/doc/tint2/README				    tint2
 usr/share/doc/tint2/changelog.Debian.gz			    tint2
@@ -3686,6 +3694,7 @@ usr/share/icons/hicolor/48x48/apps/findnrun.png		    findnrun
 usr/share/icons/hicolor/48x48/apps/gnome-mplayer.png	    gnome-mplayer-1.0.7
 usr/share/icons/hicolor/48x48/apps/makedebpkg.png	    makedebpackage
 usr/share/icons/hicolor/48x48/apps/tazpanel.png		    wifibox-dhcpcd,wifibox
+usr/share/icons/hicolor/48x48/apps/weav48.png		    weav
 usr/share/icons/hicolor/48x48/apps/wex48.png		    wex
 usr/share/icons/hicolor/48x48/apps/yad.png		    yad
 usr/share/icons/hicolor/48x48/devices/drive-harddisk.png    desktop-drive-icons

@@ -1667,6 +1667,23 @@ Description: Curses interface to /etc/network/interfaces
  Ceni can manage basic network interface ifupdown configuration stanzas for
  ethernet and wireless devices.
 
+Package: weav
+Architecture: all
+Version: 9.1.0
+Priority: extra
+Section: audio
+Maintainer: William McEwan <mcewanw of murga-linux/puppy forum>
+Installed-Size: 148
+Depends: libc6, gtkdialog, scrox
+Replaces: wex
+Filename: ./Extra/weav_9.1.0_all.deb
+Size: 13642
+MD5sum: 8c0aa4b2c64aafbd466812c07ce687a0
+SHA1: 9158ad6943f061ab8d3767eb76c2f12dcbfcb63c
+SHA256: 7760d85632120dbecd4bd5a6146129ac602932c36328477fb9d64d3129734652
+SHA512: e12217a00929d9f0326169e1c6a65f38489c967a1460293ba272c4a609f4ac74e0dbe2157b3c246a9e49c560e0dfb9da54a54505e634895481737a73e1525188
+Description: weav commandline processor
+
 Package: conkyclock
 Architecture: all
 Version: 0.0.2
@@ -1699,6 +1716,24 @@ Description: Warning - This package works only in DebianDog booted with porteus 
  Bug fix: set the correct permissions for /tmp 
  Fix in v 1.0.6: skip symlinks while cleaning man and doc files
  Version 1.0.7, added option to quick-remaster GUI to make ISO
+
+Package: scrox
+Architecture: i386
+Version: 0.8-17
+Priority: optional
+Section: graphics
+Maintainer: William McEwan <mcewanw of murga-linux/puppy forum>
+Installed-Size: 84
+Depends: giblib1, libimlib2, libx11-6
+Filename: ./Extra/scrox_0.8-17_i386.deb
+Size: 13176
+MD5sum: 496179aa10f84b2140bdd0026283571c
+SHA1: fed25f0b8cfd6bc776c895da94ab595a04147ce1
+SHA256: 65fee421013909173b64fd11a5f7366f0c3e22ddf639ce0bd85f8fd6bda83648
+SHA512: 18add3856737d4e288ad470ea6cb5e7a34ee5c15b8299d9700401f4bdf9458fd53f72933b886b3b5d8871cd0023dbf4430a78d7f545fa9f2bf72380729d0a148
+Description: scrox is a fork of the scrot command line screen capture utility 
+ including identical functionality plus can output coordinate information for
+ full screen or the selected rectangular area.
 
 Package: xvidcap
 Architecture: i386
