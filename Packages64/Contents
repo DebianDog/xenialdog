@@ -160,6 +160,12 @@ opt/docs/pictures/desktop.jpg				    jwm-setup
 opt/docs/pictures/xerus_wallpaper_secret_squirrel_color4_by_werewolf_cat-da6r0c7.png jwm-setup
 opt/docs/portablesfs-chroot.template			    portablesfs-loadsfs-fuse
 opt/docs/portablesfs.template				    portablesfs-loadsfs-fuse
+opt/stream2chromecast/LICENSE				    stream2chromecast
+opt/stream2chromecast/README.md				    stream2chromecast
+opt/stream2chromecast/cc_device_finder.py		    stream2chromecast
+opt/stream2chromecast/cc_media_controller.py		    stream2chromecast
+opt/stream2chromecast/cc_message.py			    stream2chromecast
+opt/stream2chromecast/stream2chromecast.py		    stream2chromecast
 opt/tmp/Create Savefile.desktop				    porteusbootscripts
 opt/tmp/initchanges.sh					    porteusbootscripts
 opt/tmp/jwm						    jwm-setup
@@ -333,6 +339,7 @@ usr/bin/redshiftgui					    redshiftgui
 usr/bin/sessreg						    x11-xserver-utils
 usr/bin/showrgb						    x11-xserver-utils
 usr/bin/squashfuse					    squashfuse
+usr/bin/stream2chromecast				    stream2chromecast
 usr/bin/usleep						    pburn
 usr/bin/vercmp						    filemnt-pcmanfm
 usr/bin/wifi-box					    wifibox
@@ -737,6 +744,7 @@ usr/local/bin/Firefox/profile/prefs.js			    firefox-portable
 usr/local/bin/Readme_loadsfs-fuse-writesfs		    portablesfs-loadsfs-fuse
 usr/local/bin/apt2sfs					    apt2sfs
 usr/local/bin/apt2sfs-fullinst				    apt2sfs
+usr/local/bin/cast2chrome				    cast2chrome
 usr/local/bin/clear-changes				    quick-remaster
 usr/local/bin/clear-changes-start			    quick-remaster
 usr/local/bin/conkyclock				    conkyclock
@@ -2941,6 +2949,7 @@ usr/share/applications/apt2sfs-fullinst.desktop		    apt2sfs
 usr/share/applications/apt2sfs.desktop			    apt2sfs
 usr/share/applications/cairo-dock-cairo.desktop		    cairo-dock-minimal
 usr/share/applications/cairo-dock.desktop		    cairo-dock-minimal
+usr/share/applications/cast2chrome.desktop		    cast2chrome
 usr/share/applications/ceni.desktop			    ceni
 usr/share/applications/clear-changes.desktop		    quick-remaster
 usr/share/applications/conv-sfs.desktop			    edit-sfs-pcmanfm,edit-sfs-rox
@@ -3450,6 +3459,8 @@ usr/share/doc/mount/examples/fstab			    mount
 usr/share/doc/nls/findnrun/findnrun.pot			    findnrun
 usr/share/doc/nls/grub4dosconfig/grub4dosconfig.pot	    grub4dosconfig
 usr/share/doc/pburn.html				    pburn
+usr/share/doc/stream2chromecast/changelog.Debian.gz	    stream2chromecast
+usr/share/doc/stream2chromecast/copyright		    stream2chromecast
 usr/share/doc/x11-xserver-utils/changelog.gz		    x11-xserver-utils
 usr/share/doc/x11-xserver-utils/copyright		    x11-xserver-utils
 usr/share/epdfview/pixmaps/icon_epdfview-24.png		    epdfview
