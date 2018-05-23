@@ -250,6 +250,12 @@ opt/docs/jwm-themes/jwm.tail-vista_green		    jwm-setup
 opt/docs/jwm-themes/jwm.tail-white_green		    jwm-setup
 opt/docs/portablesfs-chroot.template			    portablesfs-loadsfs-fuse
 opt/docs/portablesfs.template				    portablesfs-loadsfs-fuse
+opt/stream2chromecast/LICENSE				    stream2chromecast
+opt/stream2chromecast/README.md				    stream2chromecast
+opt/stream2chromecast/cc_device_finder.py		    stream2chromecast
+opt/stream2chromecast/cc_media_controller.py		    stream2chromecast
+opt/stream2chromecast/cc_message.py			    stream2chromecast
+opt/stream2chromecast/stream2chromecast.py		    stream2chromecast
 opt/tmp/Create Savefile.desktop				    porteusbootscripts
 opt/tmp/initchanges.sh					    porteusbootscripts
 opt/tmp/jwm						    jwm-setup
@@ -414,6 +420,7 @@ usr/bin/pup-volume-monitor-admin			    pup-volume-monitor
 usr/bin/pupdialog					    filemnt-pcmanfm,filemnt-rox
 usr/bin/pupmessage					    filemnt-pcmanfm,filemnt-rox
 usr/bin/squashfuse					    squashfuse
+usr/bin/stream2chromecast				    stream2chromecast
 usr/bin/tint2						    tint2
 usr/bin/tint2conf					    tint2
 usr/bin/usleep						    pburn
@@ -860,6 +867,7 @@ usr/local/bin/Firefox/profile/prefs.js			    firefox-portable
 usr/local/bin/Readme_loadsfs-fuse-writesfs		    portablesfs-loadsfs-fuse
 usr/local/bin/apt2sfs					    apt2sfs
 usr/local/bin/apt2sfs-fullinst				    apt2sfs
+usr/local/bin/cast2chrome				    cast2chrome
 usr/local/bin/cdrecord					    pburn
 usr/local/bin/clear-changes				    quick-remaster
 usr/local/bin/clear-changes-start			    quick-remaster
@@ -2945,6 +2953,7 @@ usr/share/applications/apt2sfs-fullinst.desktop		    apt2sfs
 usr/share/applications/apt2sfs.desktop			    apt2sfs
 usr/share/applications/cairo-dock-cairo.desktop		    cairo-dock-minimal
 usr/share/applications/cairo-dock.desktop		    cairo-dock-minimal
+usr/share/applications/cast2chrome.desktop		    cast2chrome
 usr/share/applications/ceni.desktop			    ceni
 usr/share/applications/clear-changes.desktop		    quick-remaster
 usr/share/applications/conv-sfs.desktop			    edit-sfs-pcmanfm,edit-sfs-rox
@@ -3473,6 +3482,8 @@ usr/share/doc/nls/grub4dosconfig/grub4dosconfig.pot	    grub4dosconfig
 usr/share/doc/pburn.html				    pburn
 usr/share/doc/scrox/scrot/README.scrox			    scrox
 usr/share/doc/scrox/scrot/copyright			    scrox
+usr/share/doc/stream2chromecast/changelog.Debian.gz	    stream2chromecast
+usr/share/doc/stream2chromecast/copyright		    stream2chromecast
 usr/share/doc/tint2/AUTHORS				    tint2
 usr/share/doc/tint2/README				    tint2
 usr/share/doc/tint2/changelog.Debian.gz			    tint2
