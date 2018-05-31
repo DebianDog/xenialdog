@@ -395,6 +395,7 @@ usr/bin/gtkdialog					    gtkdialog
 usr/bin/gtkdialog-splash				    gtkdialog
 usr/bin/gtkdialog3					    gtkdialog
 usr/bin/gtkdialog4					    gtkdialog
+usr/bin/gtkwialog					    gtkwialog
 usr/bin/hotplug2stdout					    pburn
 usr/bin/ipinfo						    frisbee,wifibox,ceni,wifibox-dhcpcd
 usr/bin/linux-user-chroot				    linux-user-chroot
