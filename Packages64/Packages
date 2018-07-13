@@ -1179,6 +1179,22 @@ Description: Warning - This package works only in XenialDog!
  .
  For creating a *.squashfs module from changes (from /live/cow directory) or full system remaster (from / directory).
 
+Package: remaster-scripts
+Architecture: amd64
+Version: 1.0.3
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 57
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu
+Filename: ./Included/remaster-scripts_1.0.3_amd64.deb
+Size: 9218
+MD5sum: 026f847127086bed6e61d239a04a3946
+SHA1: edaee2b0c5095c7c16bed4f09f0e92567d41b0af
+SHA256: e43827bb251fde2dcd95fc6070745a4691e4e7f2040f140db50ca7dc8cc9304e
+SHA512: e214b7023ec1cf8666c76a8cf1fad29ba021fef34f6fa5807a680589ec394ee9a3c0a0777169ac9efaf16d058902cf5ad06f5abe518f98c0ae5f39323ce2712a
+Description: Warning - This package works only in XenialDog!
+ .
+ For creating a *.squashfs module from changes (from /live/cow directory) or full system remaster (from / directory).
+
 Package: libx264-122
 Architecture: amd64
 Version: 3:0.122.2184+git5c85e0a-0.1
@@ -1980,6 +1996,25 @@ SHA1: 453f7a2e5da40ebe9bb64b4abb086c3699cbc72c
 SHA256: 9a30e9bf2184e574d4f8fecc9a7ab1304c8dde92017034e7bea90673be406b2c
 SHA512: a9ef6d8374de0d80cc1cabec7310628c2c10b5fd5d91fd3fb70811a8bc510491eaa635a8ebd0fdb35d61b321f7867a9d0f7b3888cb7a3db5312daf84e42cf105
 Description: Peasy Firewall Monitor
+
+Package: quick-remaster
+Architecture: all
+Version: 1.0.9
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 343
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso, isotools
+Filename: ./Extra/quick-remaster_1.0.9_all.deb
+Size: 157626
+MD5sum: 1f460822be68636bd34b409029f6b431
+SHA1: dde21259e904e321b1e7a39c256ee3cde9d64361
+SHA256: b7b4f4182c9498ad36796c258244e63c4970a5a2592f317a5b4e1e3e7dfefadb
+SHA512: 45f27cd23b51ab1bb20a2f862e21f901ed8e282e13f081bb520af6a6a18ad3fbbe18baead6a95d36df3358711471dce47eeb0ddbf5acee2a716ac286db7c349c
+Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
+ Included GUI version using yad: quick-remastergui
+ Bug fix: gz compression option not working in previous version 1.0.3
+ Bug fix: set the correct permissions for /tmp 
+ Fix in v 1.0.6: skip symlinks while cleaning man and doc files
+ Version 1.0.7, added option to quick-remaster GUI to make ISO
 
 Package: findnrun-nls
 Architecture: all
