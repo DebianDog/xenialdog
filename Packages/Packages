@@ -1247,6 +1247,22 @@ Description: X display manager
  process which presents the user with a menu of possible hosts that offer
  XDMCP display management.
 
+Package: remaster-scripts
+Architecture: i386
+Version: 1.0.3
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 57
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu
+Filename: ./Included/remaster-scripts_1.0.3_i386.deb
+Size: 9198
+MD5sum: 0f34f39c01c0a2ffff77a5f8d2299c98
+SHA1: fc4c706a75cde205bf373d632d0080fe3b6148a0
+SHA256: 3758fdba719fa6d8966a228a72727d3078029aca4d3c5610d15aaf38187c7656
+SHA512: fe06bce0718d0d55d283ab9d83eb0e34141df786e6449f6619907ab29f482b58ee3bdee28bf0c2b717fd034effff36dd677cc68bcf9a2f22a157e2d9833851e0
+Description: Warning - This package works only in XenialDog!
+ .
+ For creating a *.squashfs module from changes (from /live/cow directory) or full system remaster (from / directory).
+
 Package: desktop-drive-icons
 Architecture: i386
 Version: 0.0.1-i486
@@ -1959,6 +1975,25 @@ MD5sum: a68b024473d7d11b7e5da6ac7ca2aa06
 SHA1: 66d7bbf239f27b5887dd86ce91f3ac9e2f1f7072
 SHA256: 7504dd70f85bb251e644491b8ab26f0723f83f30469ff26d1eaa79b422913740
 SHA512: dfb0ff88f8b868f3e42ee6d0aad389e584d7a6f10f866d368336c3e67306e4419dd370cf5e37d0290a152766720b74cb901d56d984f83055a34c7d13861afa07
+Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
+ Included GUI version using yad: quick-remastergui
+ Bug fix: gz compression option not working in previous version 1.0.3
+ Bug fix: set the correct permissions for /tmp 
+ Fix in v 1.0.6: skip symlinks while cleaning man and doc files
+ Version 1.0.7, added option to quick-remaster GUI to make ISO
+
+Package: quick-remaster
+Architecture: all
+Version: 1.0.9
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 343
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso, isotools
+Filename: ./Extra/quick-remaster_1.0.9_all.deb
+Size: 157770
+MD5sum: cf2d1e9b415020ff257e7b3af116f61b
+SHA1: a209a8ae21fc83d854ec61feafb0d92fb3be170f
+SHA256: ad00d37f228ed93e04d2880e94039723bcaa60047df6fdfe77d45921ec0fbc26
+SHA512: 3b710a5939617ccdd3f2fc42ba59006c368684954bb93c8748bf9fa05c6731ab69dcbea7a34e0c46d885d805b7e3f01682d57fff4156587b9e88e68612f86900
 Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
  Included GUI version using yad: quick-remastergui
  Bug fix: gz compression option not working in previous version 1.0.3
