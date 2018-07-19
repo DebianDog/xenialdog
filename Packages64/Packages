@@ -1390,32 +1390,6 @@ SHA256: 30fc71ec2e564dc0bae04684d07af383a21ec45b573a49fcdb88887b85536427
 SHA512: 1e4aaa13bd1981fbd0ecc64e59a66f8c8880bd00cbcf3c1dab6f653ca8ddaa385d84ed42054a74d1f80a8da6a4d140b359ee95dfc996182cd5c62d5736454061
 Description: Pulseaudio emulator using alsa
 
-Package: stream2chromecast
-Architecture: all
-Version: 0+git20180507-0~webupd8~0
-Priority: extra
-Section: net
-Maintainer: Alin Andrei <andrew@webupd8.org>
-Installed-Size: 110
-Depends: python, ffmpeg | libav-tools
-Filename: ./Extra/stream2chromecast_0%252Bgit20180507-0_webupd8_0_all.deb
-Size: 26676
-MD5sum: 15157ab1030f642c551f0d96f4dd39a9
-SHA1: c3523de66ea3e7d6a1858950ae0e66c329152eeb
-SHA256: cbbe3b88881b6bc45d1a5e627161b6fbd87357cc65a19bf837dc5415d6a111ea
-SHA512: 6a1dc3b6713bb5d81ff61dd7323a0646d327b11b289be9497f1161304b0706a66b9c408c95d3db7de49fa7c1d6588c224c90c89d7d47995f30e0bb36f0c83c89
-Homepage: https://github.com/Pat-Carter/stream2chromecast
-Description: Python Chromecast media streamer for Linux
- Stream2Chromecast casts audio and video files to a
- Chromecast device from Linux. It can also transcode any
- unsupported files in real time and play them on the
- Chromecast.
- .
- It is written in Python 2.7 and uses either ffmpeg or
- avconv for transcoding.
- This copy modded by wiak (of murga-linux.com/puppy forum) 
- to allow piping from stdin via transcoder ffmpeg or avconv.
-
 Package: libssl0.9.8
 Architecture: amd64
 Version: 0.9.8o-7ubuntu3.2.14.04.1
@@ -1715,6 +1689,32 @@ Description:
  Gtkwialog uses various, more secure and flexible, glib calls than
  legacy Gtkdialog to effect its action tag command spawning.
  Gtkwialog fork by wiak.
+
+Package: stream2chromecast
+Architecture: all
+Version: 0+git20180507-0~webupd8~0
+Priority: extra
+Section: net
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Installed-Size: 110
+Depends: python, ffmpeg | libav-tools
+Filename: ./Extra/stream2chromecast_0+git20180507-0~webupd8~0_all.deb
+Size: 26734
+MD5sum: 53bda6fed8c2b7d455c7f462d9b9b94e
+SHA1: e35456510ad342ff54402b8e1793f442b43c985f
+SHA256: c6ac18f8929298e042fad10ae6ea6b87519a2be50de05f7123004391bc57a539
+SHA512: c2eda0a9c730b684c48506eb23bba369fec359d172df83cf7d3e7e485b831ecb718db9e2bd77ad9eeb74703a6b19f9e8b842d59bf1ee048f3af643215631cb8d
+Homepage: https://github.com/Pat-Carter/stream2chromecast
+Description: Python Chromecast media streamer for Linux
+ Stream2Chromecast casts audio and video files to a
+ Chromecast device from Linux. It can also transcode any
+ unsupported files in real time and play them on the
+ Chromecast.
+ .
+ It is written in Python 2.7 and uses either ffmpeg or
+ avconv for transcoding.
+ This copy modded by wiak (of murga-linux.com/puppy forum) 
+ to allow piping from stdin via transcoder ffmpeg or avconv.
 
 Package: oxygen-icon-theme-light
 Architecture: all
