@@ -1,8 +1,0 @@
-7702f203b58979ebbc31bfaeb44f219c  opt/stream2chromecast/LICENSE
-1311fd8a00f14ab47d0c48757d969750  opt/stream2chromecast/README.md
-d5fbdf8d49e2e083c5f64ee79e31d4d1  opt/stream2chromecast/cc_device_finder.py
-20faf30d400cf3ea6c12f84dcb9ca21c  opt/stream2chromecast/cc_media_controller.py
-a0424e797e1b4c4f6cf9ad937e461f37  opt/stream2chromecast/cc_message.py
-e6dd21b5bfe1f1c0b7d9ec421babb993  opt/stream2chromecast/stream2chromecast.py
-b0f717b407f22cbdf88aecb9ef22b245  usr/share/doc/stream2chromecast/changelog.Debian.gz
-5e0d95ff37a7d9492a908d077e5feb4a  usr/share/doc/stream2chromecast/copyright
