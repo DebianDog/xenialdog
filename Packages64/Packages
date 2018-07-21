@@ -1,3 +1,19 @@
+Package: lxinputsave
+Architecture: all
+Version: 1.0.2
+Priority: optional
+Section: x11
+Maintainer: root
+Installed-Size: 60
+Depends: libc6, lxinput, sed, menu
+Filename: ./Included/lxinputsave_1.0.2_all.deb
+Size: 5194
+MD5sum: 214ed57dc26b79ba2bb5b3dfd146dba5
+SHA1: f58154c7cc8681012f79a1fcd7046d51c6b3be7e
+SHA256: b120578b26f6d9d11a8ce37d9f70e0fb229a5b44291689428dead8a47ed84a18
+SHA512: 52db0d96c184595c76624e67ebebbedaa6188a4f57dc394bfd3b221e01e7572a7fab246e203bb484e146e60ac3586755d3b4315b324591856dad2bf3783d4e28
+Description: Preserve settings made with lxinput.
+
 Package: flashplayerchoice
 Architecture: all
 Version: 1.0.1
@@ -129,39 +145,6 @@ Description: YouTube Downloader, frontend for youtube-dl
  - Extra addition: m-play script + menu entry for playing YouTube url with mplayer or mpv
  - Download from Playlist supports channel download also now (version 0.1.8)
 
-Package: edit-sfs-pcmanfm
-Architecture: all
-Version: 2.1
-Priority: extra
-Section: x11
-Maintainer: root
-Installed-Size: 134
-Depends: libc6 (>= 2.7-1), squashfs-tools (>= 4.2-1), bash, x11-utils, pcmanfm, disktype, coreutils, xterm
-Replaces: edit-sfs-rox
-Filename: ./Included/edit-sfs-pcmanfm_2.1_all.deb
-Size: 6392
-MD5sum: af3180ba64869bfe3363e19e754dd270
-SHA1: b30e7974343f9baf740b94bce222bfde9f014cb5
-SHA256: 1b0e213f86d4f73f5761b5642e7f34a63d51e01bd1e9881d41d20cf031df2874
-SHA512: de1fc5c4addd5a7b1bf15d62a413d485070bb572e491f81b06762986fe4abbf9beb29b22b250d7c10e612c319c8ed9a3347b119fdf1c39bbda26682501b8e43b
-Description: squashfs editor, converter
-
-Package: lxinputsave
-Architecture: all
-Version: 1.0.1
-Priority: optional
-Section: x11
-Maintainer: root
-Installed-Size: 60
-Depends: libc6, lxinput, sed, menu
-Filename: ./Included/lxinputsave_1.0.1_all.deb
-Size: 5264
-MD5sum: 3cc9eb0f818922d4eb5a74b085f7079f
-SHA1: 3c6947781cfb2c1392f023ffd9b11686cb7e433c
-SHA256: ad36c311ac2879a9f7335862291151dc8926bf344f3750503f36525e4bf2a902
-SHA512: 2af7912228cde936cea291e3b729b179f1b71683bef4f05bb737f38cd4345aae708b6ca500604b38ef022b31dba86bad9c31f17b44d706a67aa170663534a39d
-Description: Preserve settings made with lxinput.
-
 Package: apt2sfs
 Architecture: all
 Version: 1.1.1
@@ -185,23 +168,6 @@ Description: Warning - This package works only in XenialDog! Fix: Force being us
  - Choice dialog now for compression algorthim: xz, gz or lz4
  - Output from apt-get through xterm (instead using yad in previous versions)
  Fix in v 1.1.0: skip symlinks while cleaning man and doc files
-
-Package: gtkdialog
-Architecture: amd64
-Version: 0.8.3-1
-Priority: extra
-Section: system
-Maintainer: root@jessie
-Installed-Size: 363
-Provides: gtkdialog
-Depends: libc6, libgtk2.0-0, libglade2-0, procps, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango1.0-0, libcairo2, libfreetype6, libfontconfig1, libxml2, libvte9
-Filename: ./Included/gtkdialog_0.8.3-1_amd64.deb
-Size: 111558
-MD5sum: 24c652214fe021bd45db915429f5e56d
-SHA1: ebab77c0e4c5005daedbc0f0d22378a4272bf3b1
-SHA256: decf64c8b4552162c920eb8b93f0460d2845a80d89d17b0f6fbceadc1ba0f42b
-SHA512: bc8b810211dc1f75f68801d0031201f1aac380b81cbf883ed77d600ca1aa57cefcbc5bcbf39c6180838af4780f5062a2b8fe2c57bc94ff015f6f65a46277d6af
-Description: gtkdialog
 
 Package: xenialdoginstallscripts
 Architecture: amd64
@@ -236,22 +202,6 @@ Description: Dogradio is a GUI displaying icons for playing radio streams.
  - Easy add/remove radio stream items
  - Using conky for 'conky ticker', showing metadata
  (can be enabled/disabled from tray icon menu + other settings)
-
-Package: pburn
-Architecture: amd64
-Version: 4.3.3-0
-Priority: extra
-Section: system
-Maintainer: root@wheezy
-Installed-Size: 754
-Depends: libc6, libgtk2.0-0, gtkdialog, dvd+rw-tools, pfind, vamps
-Filename: ./Included/pburn_4.3.3-0_amd64.deb
-Size: 247730
-MD5sum: 07e5a200510c968bfbe406a5a3fbb0e3
-SHA1: f96891dc27faed74454f6e9c5fa99cc7cf121dde
-SHA256: a49580fda8a497b1655d5ac6d0df96e1cb66c997db574950f908eae520317989
-SHA512: 6063537f23076a5a13665fae0da17858c27bb384a007f6cb735a44c6bded5112991e789490041359c3f42f5b474c6410ed8a0c832480c4f64372b29876a987d9
-Description: pBurn - Burning gui
 
 Package: desktop-editor
 Architecture: all
@@ -325,6 +275,21 @@ SHA512: 6467fe97429bde505d21aab9113bcc83dd66abf060dc049bbff0b71c62014a1578fe8b59
 Description: The makedebpackage (re)builds a debian package 
  makedebpackage by MakeDEBPackage-GUI.
 
+Package: filemnt-pcmanfm
+Architecture: amd64
+Version: 1.0.1
+Maintainer: fredx181 root@dog
+Installed-Size: 39
+Depends: libc6, disktype
+Replaces: filemnt-rox, filemnt-xfe
+Filename: ./Included/filemnt-pcmanfm_1.0.1_amd64.deb
+Size: 42454
+MD5sum: 211078ef6f62c1554eebfdd5536c9913
+SHA1: 25f5f710df6149604a6074d89d2430dcfedf64d1
+SHA256: bdc2eb4e596641178b20b5500d48fa59ca5d52519c5aea55e6aebec6577b8557
+SHA512: 0266f0c859c1a808e500a83f182a0d1d446fdedfbfd37577d1ddd4dc26199cebed27c3755816612f8736ec3674f69db143828cd5f665ce0bf13952100920511d
+Description: Mount images, savefile, modules
+
 Package: yad
 Architecture: amd64
 Version: 0.31.2
@@ -370,6 +335,26 @@ SHA256: fde95f9295e15d08ded9258518fe685342158a0e1cc60503fe3fff0855a4ad95
 SHA512: 1d2425481fe9f60d8d3e0deff66a340d6d311f4c6570ef41b13552779e854b84b1379a2d41414097c36da3cc2376d88a81b3a064df2573112e88ac087850810c
 Description: Wireless Network manager
  Fixed refreshing network_tray icon, e.g. when plugging the cable in/out and when connecting to wireless
+
+Package: porteusbootscripts
+Architecture: all
+Version: 0.0.5
+Section: checkinstall
+Maintainer: root@jessie
+Installed-Size: 56
+Depends: libc6
+Filename: ./Included/porteusbootscripts_0.0.5_all.deb
+Size: 11494
+MD5sum: fd306b270e4079e03fe477735884945f
+SHA1: 40874ba5a72237d5d8f027cf9db46c256a03cdf4
+SHA256: ae6f968b6c8bb113313e2a36d92ab4f127acfbcf74192954d8ad3682bc7aac67
+SHA512: 61778eb7220cc3dc590124a937ca75fd4041693464bc5607b2e4db36363bee974ddab866c11147a5e5dfc3cd32d7ff97c5f7a403e58f8667a8ece46d1e26146b
+Description: Porteus-boot helper-scripts (Note: works only on BionicDog)
+ This version has included the scripts for the new-save-setup
+ Note: Removing this package does not make any change.
+ This is on purpose because the scrips are essential for porteus-boot to work
+ Bug fix: set the correct permissions for /tmp (save2flash script)
+ Fix: when copy2ram is used, the boot partition will be cleanly unmounted.
 
 Package: firefox-portable
 Architecture: amd64
@@ -454,6 +439,22 @@ Description: Warning - This package works only in XenialDog!
  .
  For creating a *.squashfs module from changes (from /live/cow directory) or full system remaster (from / directory).
 
+Package: pfind
+Architecture: all
+Version: 6.3
+Priority: optional
+Section: utilities
+Maintainer: zigbert
+Installed-Size: 100
+Depends:
+Filename: ./Included/pfind_6.3_all.deb
+Size: 29118
+MD5sum: 1ba4b2c5c839c554707dbf31f6863106
+SHA1: b058c58fc0a8505253132dca26436ec3aad82a85
+SHA256: e3e417eed56bda6d8b5e907a419f3fb051f7800a44b354c6a40fcb1abb4a270b
+SHA512: 2925448b534fdd1bcab8760cb81b5f58db379d3c42dfb0841594e8a39823b8f99820e6e10c76eb194fd6a728ae70fc5c0b164195ddd7624af015c349dcc20063
+Description: pfind-converted-pet-to-deb by zigbert
+
 Package: pup-volume-monitor
 Architecture: amd64
 Version: 0.1.15-2
@@ -470,6 +471,20 @@ SHA1: a53830e68d7587a260c94534897cd5afe624ebe5
 SHA256: 895913c8cc92bfe6b43535f22a1a43adaec408a05c16086bccc8e25a85d24523
 SHA512: 68ef5a92fa46574316e3528e2b0bce3c42ea47ca6f658f7823503e1c49eea936c3dcb772f7ead8a1a4f8e7d05abfc153698ae09a581c82be56a4a9e2eb6d7913
 Description: Disk volume monitor
+
+Package: xendogmountscripts
+Architecture: i386
+Version: 1.0.4
+Maintainer: root
+Installed-Size: 73
+Depends: libc6
+Filename: ./Included/xendogmountscripts_1.0.4_i386.deb
+Size: 3046
+MD5sum: e0172d795857a4ed79182cf96d8ad655
+SHA1: 0483e3f6c2f281a8fa6bd4968e3bfd93f5d88d04
+SHA256: c3fdc1f360591e8de5273598f8b8064eab0511d9a8d21a8f85fc53b556bf5e48
+SHA512: f7c8b3da920255df36c875bcf5f9c17960f2e9d77474ca0c739d78de72cad1c7a9978f163bf8b0030a82745a498610edd806470a720004101c950e927035e26e
+Description: Special XenialDog mount and drive information scripts taken from DebianDog.
 
 Package: youtube-get2
 Architecture: all
@@ -577,23 +592,6 @@ Description: YouTube Downloader, frontend for youtube-dl
  - Extra addition: m-play script + menu entry for playing YouTube url with mplayer or mpv
  - Download from Playlist supports channel download also now (version 0.1.8)
 
-Package: precord
-Architecture: all
-Version: 9.0.5
-Priority: extra
-Section: audio
-Maintainer: wiak <https://github.com/wiake>
-Installed-Size: 79
-Depends: libc6, gtkwialog, lame
-Filename: ./Included/precord_9.0.5_all.deb
-Size: 10318
-MD5sum: 6978817ac44a33d133a4c0dbeb268ba7
-SHA1: 7463b9cba0104c6b16f10a86eb8d47909e35c03c
-SHA256: 222720f4675e906827b49047dd509032cab7133ea3fe20978a75479a8d10b4b1
-SHA512: 665d65fb3d01fc1514a12713a9a5cbd176d32bfcc634da12503cacc139dd877a47f115faa1e7a993531faff110b7ebd6d6c8f3e76db3a6af12a397c5562f61cc
-Description: precord for DebianDog:
- precord by mcewanw
-
 Package: pfind
 Architecture: all
 Version: 1.0.0-1
@@ -610,20 +608,36 @@ SHA256: bb21134d1567b1178059d341dcc1935ded58280d3694ca139864201901654696
 SHA512: 8859bdd1014daeef60f67c0513327a8560219fd4383d8ed5ec98c667ddb6e9cc70677f6027e98667141218ac2179d32569142130b27d2972f59cf94c08c96652
 Description: Search
 
+Package: pburn
+Architecture: amd64
+Version: 4.3.3-1
+Priority: extra
+Section: system
+Maintainer: root@wheezy
+Installed-Size: 754
+Depends: libc6, libgtk2.0-0, gtkdialog, dvd+rw-tools, pfind, vamps
+Filename: ./Included/pburn_4.3.3-1_amd64.deb
+Size: 247036
+MD5sum: 4deae5170b75865e7824ea888223d147
+SHA1: 3bc567e4a9651c13242ab32d0b323ad4b54246ca
+SHA256: 11da756b0ca90b170dfe20fb30ebd8b4a9972e2b9b8ad9867840874445a86279
+SHA512: 0201c4b9eb6762a5e1a91dc4e2cc52fa281a194b2ab48fe10254d2e379e2090f5d56a75ccb7b8f3967179ef9b26e1e14d34c2fea8746a8ceb208db51cfe8351b
+Description: pBurn - Burning gui
+
 Package: ffconvert
 Architecture: all
-Version: 1.4.2.0
+Version: 1.4.2.1
 Priority: extra
 Section: video
 Maintainer: mcewanw MakeDEBPackage-GUI <no-mail-address@nomailaddress.nomail>
 Installed-Size: 350
 Depends: libc6, probepart, gtkdialog, oss-compat
-Filename: ./Included/ffconvert_1.4.2.0_all.deb
-Size: 58614
-MD5sum: 46fdd40ec8f28aa4323c6b44169d3d97
-SHA1: 988778a1448dbbb6d1f5b079bf16a0187d2c79e6
-SHA256: 6ccacf490ea943a0131e317ea7943514e2e5f8d4417bbb8b42f8708f588d150b
-SHA512: 17bd4025ecb98b91ab25d3ec40aefd4d35039d60c21769d029307c9da324d478cc7d205a5b6faa04cf546153ae89c8cc73f0e35251665b34aa689f8aa057c940
+Filename: ./Included/ffconvert_1.4.2.1_all.deb
+Size: 58416
+MD5sum: dd994bdb1cfa5f8f46ce2068a68003f5
+SHA1: bb3cfdf358bc1a7f9572703b3f2aaeae1b11886f
+SHA256: 480e7835ac442700497e0921d4c0f70c08580f27f8c1e15380014c4e172c156d
+SHA512: 0f18acff95ffe340ac36c1908f3889524001b3a16a0bf7ff4f8f4232056568475e35fe4d6895771fbbf52802a42d29e10f1739d1e22a88a0c57163db58b6a825
 Description: ffconvert for DebianDog.
  ffconvert by MakeDEBPackage-GUI.
  checks for Debian version and recommends libav-tools if it is 8 or higher.
@@ -703,23 +717,6 @@ SHA256: 62a5b347f3ad34314118390f26602c92618303f4ed6fd7c863afa7fe04367163
 SHA512: 1d90c498c4398069bf2346110f4ba3f9bf6dd5330d7b8360cc8403ac3d650c47b754e1b9dc50df6eeeb50817b0e8016b8233e43a434f48adbe14f2586dbf792c
 Description: Manage encrypted save file utility.
 
-Package: precord
-Architecture: all
-Version: 9.0.4
-Priority: extra
-Section: audio
-Maintainer: mcewanw <Murga Puppy Linux Forum>
-Installed-Size: 104
-Depends: libc6, gtkdialog, lame
-Filename: ./Included/precord_9.0.4_all.deb
-Size: 10410
-MD5sum: 7e79e6b02e36857c1a323bc0ecf6c038
-SHA1: 0eb92cebfebe80b1a18f81ca6ab3acaff3ce1255
-SHA256: eeaf23c0f46a8d1c1fd976aaa99c26ffc20e0498fd75b0c5c643e90e0602bd93
-SHA512: bc6747ccab416f7c285a40facb8327e41c344724d8abe0fd141685c99f2d1969e508099ccc38f589ba2e3a47b5af8650937bc5b4ed821e25ad1bee0d3a9398ae
-Description: precord for DebianDog:
- precord by mcewanw
-
 Package: sfsload
 Architecture: all
 Version: 1.0.3
@@ -796,20 +793,6 @@ SHA256: 66b30d51a0bc16f313627ba429c7cff0c660ae07680dc87d62e933dd698a3997
 SHA512: bbbe85638b426e4d4167b46c935fb0dc8e1770eb7effef5b34ee66c90139d231f5bcfd86fa60883457fed7a87f7df0aaa69fa9dd3eb19b9a25a1211b0810304a
 Description: partition information utilities probedisk and probepart
 
-Package: xendogmountscripts
-Architecture: all
-Version: 1.0.3
-Maintainer: root
-Installed-Size: 73
-Depends: libc6
-Filename: ./Included/xendogmountscripts_1.0.3_all.deb
-Size: 3046
-MD5sum: 7ff0d7847cc931a9bdae26f5bd8cbda2
-SHA1: cb42130770ab0d1ec76cc4929bb567130c8d2211
-SHA256: 6864060ffec562646f83b04b16745aed835f050daab11c8c25cf705c623921ff
-SHA512: 3e83ff456346e3b6a35c2daa9cddc47c33906d06044f329cf25e8b640dbb4ace587d324fb5bb5842a55ca26f85544733f41623eed78b75b899e70adb0d60961c
-Description: Special XenialDog mount and drive information scripts taken from DebianDog.
-
 Package: libmng1
 Architecture: amd64
 Version: 1.0.10-3build1
@@ -864,6 +847,23 @@ Description: Little CMS color management library
  LittleCMS implements a fast transformation between ICC profiles. The
  intention of it is to be portable across several platforms.
 
+Package: edit-sfs-rox
+Architecture: all
+Version: 2.2
+Priority: extra
+Section: x11
+Maintainer: root
+Installed-Size: 134
+Depends: libc6 (>= 2.7-1), squashfs-tools (>= 4.2-1), bash, x11-utils, rox-filer, disktype, coreutils, xterm
+Replaces: edit-sfs-pcmanfm
+Filename: ./Included/edit-sfs-rox_2.2_all.deb
+Size: 6356
+MD5sum: 89e4bb96758d5b0b3852e443a3e328dc
+SHA1: 75a7f60d81b2ef4fa84dea0173ac30a73ed592c1
+SHA256: 9647fd987a7f6dd714b327f4eb874988c69e41ee58c28bc6abc596b525599ccd
+SHA512: 2b4607ae0f758b0c522ce012d24829f4318c4261f44925e7063966e56b3f3230024cbea965da0d55810ad76057ab994c15c406ce82714d2997abdf2e69cde7ec
+Description: squashfs editor, converter
+
 Package: jwm
 Architecture: amd64
 Version: 2.1.0+svn579-2ubuntu1
@@ -895,20 +895,22 @@ Description: very small lightweight pure X11 window manager with tray and menus
  Compared to other light WM, like Fvwm95, the Jwm consumes considerably
  less memory while providing the same functionality.
 
-Package: filemnt-pcmanfm
-Architecture: amd64
-Version: 1.0.0
-Maintainer: fredx181 root@dog
-Installed-Size: 39
-Depends: libc6, disktype
-Replaces: filemnt-rox, filemnt-xfe
-Filename: ./Included/filemnt-pcmanfm_1.0.0_amd64.deb
-Size: 42492
-MD5sum: b0d668d4eb26a4011349e95b3c235c62
-SHA1: 27a60f37dc4f67dcb4affa604f46e6e231b5fd3f
-SHA256: 05e12ecfd6292af5166bcae796f8b81662deb3b6616fc302d6b5f164b7280e84
-SHA512: 460da72d1a75b4bd2a0b655821f765578f3894be5768504f881c87a98cbb29af60f157eec13b4be148bd8c5e289306d3662a230dc04d1a637de4935c1d8cb343
-Description: Mount images, savefile, modules
+Package: precord
+Architecture: all
+Version: 9.0.6
+Priority: extra
+Section: audio
+Maintainer: mcewanw <Murga Puppy Linux Forum>
+Installed-Size: 104
+Depends: libc6, gtkdialog, lame
+Filename: ./Included/precord_9.0.6_all.deb
+Size: 10430
+MD5sum: 7d6cdcea635a338d81d8ed60350e1e70
+SHA1: 26317d1a1084a7fd5c4dcbdd1f14e2acdbb2af24
+SHA256: 1a83f72c8acb126c42064ca9b46fefa5a483056160ba53fb8eb1cedfa884ce47
+SHA512: e869ba268a6f63f79657adf1ab800312e9ed0cdeb35b8a4689fb75b1be82b3c2dcec7aa9c01d5de0f409aead94879afdf43a622a7f94e9f57bdc116c3ab29355
+Description: precord for DebianDog:
+ precord by mcewanw
 
 Package: gnome-mplayer-1.0.6
 Architecture: amd64
@@ -941,74 +943,38 @@ Description: GTK+ interface for MPlayer
  used with Gecko Mediaplayer and is the modern replacement for
  mplayerplug-in (from the same author).
 
-Package: porteusbootscripts
-Architecture: all
-Version: 0.0.3
-Section: checkinstall
-Maintainer: root@jessie
-Installed-Size: 56
-Depends: libc6
-Filename: ./Included/porteusbootscripts_0.0.3_all.deb
-Size: 10888
-MD5sum: 41c07a18f725ae17417b38c70ff61026
-SHA1: 65f6880b49e8a36930bf1d55e6d607cff441be52
-SHA256: e75236e3c1153935ca2e63f2fc0447e5fe51d6f02274b4d7d8ac129a84f855cc
-SHA512: 62d66088477e2cae134746687e67bd4c0252449a53b1c5787332ca0af5006a9819ee66428f2968a94cf2926228d96339cc781103c68282176b170a5e752cf906
-Description: Porteus-boot helper-scripts (Note: works only on DebianDog)
- This version has included the scripts for the new-save-setup
- Note: Removing this package does not make any change.
- This is on purpose because the scrips are essential for porteus-boot to work
- Bug fix: set the correct permissions for /tmp (save2flash script)
-
-Package: edit-sfs-rox
-Architecture: all
-Version: 2.1
-Priority: extra
-Section: x11
-Maintainer: root
-Installed-Size: 134
-Depends: libc6 (>= 2.7-1), squashfs-tools (>= 4.2-1), bash, x11-utils, rox-filer, disktype, coreutils, xterm
-Replaces: edit-sfs-pcmanfm
-Filename: ./Included/edit-sfs-rox_2.1_all.deb
-Size: 6404
-MD5sum: 06bfb0b6c6ac50c4e9c033771f400fc7
-SHA1: 3f57122e859801234be7cd0d8e22de091f9adf71
-SHA256: 129e2ab13f676cdc54d274048ea5712209c8316e614ef6e9f95a27bbc3412802
-SHA512: c938b6838b90433de29c2d5d1718547f04c8f834c26c044ec9424abbf5eebd6546d0abed08042c392f61fda7df3049b5aaf7904669d34c6b31f7f1761f9148e1
-Description: squashfs editor, converter
-
-Package: resize-save-file
-Architecture: all
-Version: 1.0.0-1
-Priority: extra
-Section: system
-Maintainer: root@wheezy
-Installed-Size: 158
-Depends: libc6, gtkdialog, yad, e2fsprogs, gsu | gksu
-Filename: ./Included/resize-save-file_1.0.0-1_all.deb
-Size: 3584
-MD5sum: cdd2f6f77a63cd0292a679ed2ac96e87
-SHA1: c2afeae46cdeb3faea09bfa26ba114771ba3f86f
-SHA256: ced03ee68ce7706f54aa4a25d78bd11d35dd07379614cb063b74d56822523914
-SHA512: 7d033f6433f7a66272b1f67152599fe0449f8a8dcff90e27c2fd201697526dbedd7d517037cf46a6c60c0522f0e8c48903138e9494092c7416618fbe68d0058c
-Description: Utilty for save file resizing.
-
 Package: edit-sfs-pcmanfm
 Architecture: all
-Version: 2.0
+Version: 2.2
 Priority: extra
 Section: x11
 Maintainer: root
 Installed-Size: 134
 Depends: libc6 (>= 2.7-1), squashfs-tools (>= 4.2-1), bash, x11-utils, pcmanfm, disktype, coreutils, xterm
 Replaces: edit-sfs-rox
-Filename: ./Included/edit-sfs-pcmanfm_2.0_all.deb
-Size: 5428
-MD5sum: 75655f037cc52b32ccbd7dca02891e39
-SHA1: 67bd4b4b054be787b815e98ac99c61e22b3032a9
-SHA256: 0c64f6c3ebaca8a1ec56f42c29c373010873fe873c586b2653c6549abf475cfa
-SHA512: a5b6d25c53f454359575c42307d063320925ccfd0de7fd273aaff1604728656d720c1ee55f40875efd2e77846423ffb38a20efd77881d19844f6eb0278d12284
-Description: squashfs editor
+Filename: ./Included/edit-sfs-pcmanfm_2.2_all.deb
+Size: 6354
+MD5sum: 10aeda804a1d1e44cb7dc261f447dfe9
+SHA1: 1ba95ce5c2d60a2171df0acde2198c7d3d509799
+SHA256: 62b2c75cb04a288ec6bb2fb569ca02630abf642111b94e9cfcc4aecdafd79396
+SHA512: c5055bb7e165cb8b015ef2a00423eca92e2ec2d6cf335599f7ff13fd4adde80bcf49e9a562482695f6fe49f99fd21a046facdcea77e2bdc813e499a18d4ac3c4
+Description: squashfs editor, converter
+
+Package: resize-save-file
+Architecture: all
+Version: 1.0.0-2
+Priority: extra
+Section: system
+Maintainer: root@wheezy
+Installed-Size: 158
+Depends: libc6, gtkdialog, yad, e2fsprogs, gsu | gksu
+Filename: ./Included/resize-save-file_1.0.0-2_all.deb
+Size: 3570
+MD5sum: 42449779b1ad40b4e7d6e3b3519ecb6d
+SHA1: 1e8b4898bf4675eeee53e501bbc107876e855d46
+SHA256: 6791ba04f4dcd934c9c6504f635a6afd7109af797e2a1782d4b6091894d998ac
+SHA512: db8dad68b0ce0952925d795e54d4f6994238995a53580564bf40f29e1227d4f7f5278637df46bd172ef2f9a08adc10cb74faa53e42061e5d08a80ffdbac1e8db
+Description: Utilty for save file resizing.
 
 Package: gsu
 Architecture: all
@@ -1448,6 +1414,23 @@ Description:
  weX is a media recorder for audio, screencast, or webcam
  weX is by mcewanw.
 
+Package: gtkdialog
+Architecture: amd64
+Version: 0.8.3-1
+Priority: extra
+Section: system
+Maintainer: root@jessie
+Installed-Size: 363
+Provides: gtkdialog
+Depends: libc6, libgtk2.0-0, libglade2-0, procps, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango1.0-0, libcairo2, libfreetype6, libfontconfig1, libxml2, libvte9
+Filename: ./Extra/gtkdialog_0.8.3-1_amd64.deb
+Size: 111558
+MD5sum: 24c652214fe021bd45db915429f5e56d
+SHA1: ebab77c0e4c5005daedbc0f0d22378a4272bf3b1
+SHA256: decf64c8b4552162c920eb8b93f0460d2845a80d89d17b0f6fbceadc1ba0f42b
+SHA512: bc8b810211dc1f75f68801d0031201f1aac380b81cbf883ed77d600ca1aa57cefcbc5bcbf39c6180838af4780f5062a2b8fe2c57bc94ff015f6f65a46277d6af
+Description: gtkdialog
+
 Package: cairo-dock-minimal
 Architecture: amd64
 Version: 3.4.1
@@ -1479,6 +1462,25 @@ Description: Light and eye-candy dock to launch your programs (minimal package)
  Some screenshots are available : http://pics.glx-dock.org
  Development site: https://launchpad.net/cairo-dock
  .
+
+Package: casper
+Architecture: amd64
+Version: 1:1.340-1
+Priority: extra
+Section: misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 258
+Depends: libc6 (>= 2.14), libplymouth2 (>= 0.8.0~-13~ppa1), initramfs-tools (>= 0.92bubuntu55), busybox-initramfs (>= 1:1.1.3-4ubuntu3), dmsetup, user-setup, sudo, eject, uuid-runtime, util-linux (>= 2.15-1), file, lzma, udev (>= 174), cifs-utils
+Conflicts: live-initramfs, usplash (<< 0.4-43)
+Breaks: genext2fs (<< 1.4.1)
+Filename: ./Extra/casper_1.340-1_amd64.deb
+Size: 42496
+MD5sum: 36b73cd447327aa3b2bc22325fb84895
+SHA1: 6a07cd911c481c98234bc7a8cda08fe64d05cd03
+SHA256: b7e2a3896684eee131e597ef401fbf77afb97c8d96cfa24f06ea81cb2ba65644
+SHA512: 1403cf7fb5f5f1594f6510472708ae78c28a07d0b6994ae04baaebf1a6ff32b53838706e3a5525cada0f472e801df225449739a1ff77090430009bb0d56afc69
+Description: Run a live preinstalled system from read-only media
+Tag: admin::boot, admin::filesystem, implemented-in::shell, protocol::smb, role::plugin, scope::utility, special::completely-tagged, works-with-format::iso9660
 
 Package: findnrun
 Architecture: all
@@ -1535,28 +1537,6 @@ SHA512: 7b7f72ba4982ec1575fb00fc480e5e8fd5fd2622e6849518f255fee1ba725fa5b3d68fe3
 Description: The smokey-get-gdrive-get program downloads files from github.com or smokey01.com or kazzascorner.com 0r google drive
  sfs-get_smokey-get by MakeDEBPackage-GUI.
 
-Package: cast2chrome
-Architecture: all
-Version: 0.0.3
-Maintainer: wiak <https://github.com/wiake>
-Installed-Size: 56
-Depends: bash, gtkwialog, stream2chromecast
-Filename: ./Extra/cast2chrome_0.0.3_all.deb
-Size: 7876
-MD5sum: 63fd7ca295811b53d5b9fe0db3b69b34
-SHA1: f36928f01caf235a02de01d7a4bc00dc6b85ef3d
-SHA256: 70c27c9eb877929052eed5d75b679ffa141888d80dfef515a0e7656115da36d4
-SHA512: a35d649281181d1f5b4b8fccaad3cddd79e6d328e0213755ad08e0f6add656348fe2993a6912024b64d62d56b757156cb09f6c85604402bd534f1dd1bf2cfb62
-Homepage: https://github.com/wiake
-Description:
- cast2chrome is a GUI frontend for stream2chromecast
- Stream2Chromecast casts audio and video files to a
- Chromecast device from Linux. It can also transcode any
- unsupported files in real time and play them on the
- Chromecast.
- cast2chrome supports youtube urls and can save media.
- It is written in bash/gtkdialog.
-
 Package: upgrade-kernel
 Architecture: all
 Version: 1.0.2
@@ -1573,25 +1553,23 @@ Description: Warning - This package works only in XenialDog!
  bugfix 2016-11-25: v1.0.1 make backup of /usr/sbin/update-initramfs (and restore later) instead previously create symlink to /usr/share/casper/casper-update-initramfs and improved checking for which kernel version just upgraded to
  bugfix 2018-01-24: better check for mountpoint frugal install
 
-Package: PeasyWiFi
+Package: peasyfwmon
 Architecture: amd64
-Version: 4.4-1
+Version: 1.0.2
 Priority: optional
-Section: base
-Maintainer: rcrsn51
-Depends: libc6, gtkdialog, gettext-base, net-tools, wpasupplicant, wireless-tools, x11-utils
-Filename: ./Extra/peasywifi_4.4-1_amd64.deb
-Size: 16376
-MD5sum: f753d3af73222044588463e24d2ebf53
-SHA1: 5d91f63ddf8a98d0d63d87709a28239e6fcfe08e
-SHA256: 6f400345062120c3c0067eab6d9bcfdf42451c6a87b9074d9b524fd1328db849
-SHA512: 7f1c3dca37de94a919db9ed2113aeaf30d98dfa5b024af898fef499fd6211ebc93fa83bf4efd223cf9f162ddc03fcd6012e63fc931c340fcbc82329a9695940a
-Description: Reliable network manager
- -changes in v4.4-0 in peasywifi script by rcrsn51:
- - added option (Ethernet tab) to bring the interface down
- - added Names button (to select interface names)
- - A modification to Names. It resets the Ethernet profiles in /etc/pwf/ethernet
- - Updated Help screen
+Section: utilities
+Maintainer: root
+Installed-Size: 163
+Depends: libc6, gtkdialog, iptables
+Conflicts: firewall-puppy
+Replaces: firewall-puppy
+Filename: ./Extra/peasyfwmon_1.0.2_amd64.deb
+Size: 22750
+MD5sum: 4a04383501510f12643669132b02fb76
+SHA1: 60acf145dd705b5f3544a27db4e9740d1c5682f1
+SHA256: 5ef849dc0964d611c16b45dc53d7c63c04929eaacbff5e0bd0553b4aadd9520b
+SHA512: 2a5b953f9ebe8c7749a898975131689b3417af17ca8cac6534d7cb1e0aa0f1730f4d1e9b0bc5571a9caa03006d84a6cb7e3c3ae31c5a9873774ec9f4b7562ab0
+Description: Peasy Firewall Monitor
 
 Package: yradio
 Architecture: amd64
@@ -1670,26 +1648,6 @@ SHA256: 43cc9f5c1eede3b1589b58c1d5eb09948e4be9ad1defe203a25e31fdd455a0f1
 SHA512: 51c1d521dc4a7d97dd2340db775fe9fe7a39625521076a0ca53a8e56bcb8d731f3dbc9839686469ccbd1a8d04e99f16b2ca873e5248df4eec4b7dbd49c1e498d
 Description: Universal File Viewer by Mochimoppel
 
-Package: gtkwialog
-Architecture: amd64
-Version: 0.8.4
-Priority: extra
-Maintainer: William McEwan (wiak) <https://github.com/wiake>
-Installed-Size: 279
-Depends: libc6, libgtk2.0-0, libglade2-0, procps, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango1.0-0, libcairo2, libfreetype6, libfontconfig1, libxml2, libvte9
-Filename: ./Extra/gtkwialog_0.8.4_amd64.deb
-Size: 78974
-MD5sum: 655b6980c98b718865810f089effd849
-SHA1: 339a2bd6df3644b379756e52d2de75c7064b6b16
-SHA256: 78738bec95d894fcf285c4dd92415658f63e63df7c71e94b97bbcc41edbfdf83
-SHA512: 1ae460677916a524bf381b4ff369d9c642513e8886f5cdfd0f6ff1ff4d73c3e44623cbdd88eb64792a7df1779cc7118fece89ee85aeea5ac4241473fc46e37f5
-Description: 
- Gtkwialog is a fork of Pere László's Gtkdialog, a small utility for
- fast and easy GUI building
- Gtkwialog uses various, more secure and flexible, glib calls than
- legacy Gtkdialog to effect its action tag command spawning.
- Gtkwialog fork by wiak.
-
 Package: stream2chromecast
 Architecture: all
 Version: 0+git20180507-0~webupd8~0
@@ -1738,25 +1696,6 @@ Description: Oxygen icon theme
  Oxygen is the standard icon theme for KDE 4, but follows the freedesktop.org
  icon schemes, so it can be used in other desktop environments using this
  specification.
-
-Package: casper
-Architecture: amd64
-Version: 1:1.340
-Priority: extra
-Section: misc
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 258
-Depends: libc6 (>= 2.14), libplymouth2 (>= 0.8.0~-13~ppa1), initramfs-tools (>= 0.92bubuntu55), busybox-initramfs (>= 1:1.1.3-4ubuntu3), dmsetup, user-setup, sudo, eject, uuid-runtime, util-linux (>= 2.15-1), file, lzma, udev (>= 174), cifs-utils
-Conflicts: live-initramfs, usplash (<< 0.4-43)
-Breaks: genext2fs (<< 1.4.1)
-Filename: ./Extra/casper_1.340_amd64.deb
-Size: 42554
-MD5sum: a9972ed7220bcd9d37d1dff349354e7d
-SHA1: 7212a865f674fb9a8557df8e3e73a1efe6418242
-SHA256: ac5e81e70e335e637363b3ee6ed7d3a9f64a7eb299bfef4cd6c1beb6b5c3fc95
-SHA512: d7a91786bb4c672705590a4240e872263d42e76d422cf624286a8627b24494f5c38e3c848f751448f2f057c71512b628164637eb789da1b592b3534c066626f7
-Description: Run a live preinstalled system from read-only media
-Tag: admin::boot, admin::filesystem, implemented-in::shell, protocol::smb, role::plugin, scope::utility, special::completely-tagged, works-with-format::iso9660
 
 Package: ceni
 Architecture: all
@@ -1856,6 +1795,26 @@ SHA256: 8298a9d4151ddf46cc23406aa03ff3ad6353c31b8f4309719b59e3870246f58f
 SHA512: 1697cd482081dc47fc149aaa045a220b632597c100033d3eb2fb46a79b8927beef23ebbc6dfb829415978c05b5fc45a5800bca81c90d5ca78a7ad456c14c38ac
 Description: File system type CLI tool from Puppy linux.
 
+Package: PeasyWiFi
+Architecture: amd64
+Version: 4.4-2
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: libc6, gtkdialog, gettext-base, net-tools, wpasupplicant, wireless-tools, x11-utils
+Filename: ./Extra/peasywifi_4.4-2_amd64.deb
+Size: 16290
+MD5sum: 1bdc2fca33563505a9dd6baa2ed5fe00
+SHA1: 5241428824a76dfa91dc0c198c409ec57880312f
+SHA256: 7f75e2edb482a1186c13f46e25f42b1593d61b83c0c44aac2f5af919f718a54a
+SHA512: f0a376483dd02aee6c2fbe36ac1be30cca8e01a3e83d0b015ea0499c43862d6971458cd554caf8030394b16294dcaa0b126ebe9e7471e0a580b3583bce7d994d
+Description: Reliable network manager
+ -changes in v4.4-0 in peasywifi script by rcrsn51:
+ - added option (Ethernet tab) to bring the interface down
+ - added Names button (to select interface names)
+ - A modification to Names. It resets the Ethernet profiles in /etc/pwf/ethernet
+ - Updated Help screen
+
 Package: quick-remaster
 Architecture: all
 Version: 1.0.8
@@ -1875,6 +1834,48 @@ Description: Warning - This package works only in DebianDog booted with porteus 
  Fix in v 1.0.6: skip symlinks while cleaning man and doc files
  Version 1.0.7, added option to quick-remaster GUI to make ISO
 
+Package: cast2chrome
+Architecture: all
+Version: 0.0.4
+Maintainer: wiak <https://github.com/wiake>
+Installed-Size: 55
+Depends: bash, gtkdialog, stream2chromecast
+Filename: ./Extra/cast2chrome_0.0.4_all.deb
+Size: 7878
+MD5sum: 68367128ca6f2d13ab56a9d4849dadfe
+SHA1: 9f4468f1d9185fd60403b3874f1f5cd6a16d9390
+SHA256: 6e00744370dd37087bcda67ae170b3791364708bc64055b0e0484a429991771b
+SHA512: 61741f83225cbcb96e18d7b307db998b9bbc949d50c1a47e323ad44f23bf7f4f9979d0434bc31860e6684780f4d199fe4d0d8a36b4eaad7f9f63847376e07361
+Homepage: https://github.com/wiake
+Description:
+ cast2chrome is a GUI frontend for stream2chromecast
+ Stream2Chromecast casts audio and video files to a
+ Chromecast device from Linux. It can also transcode any
+ unsupported files in real time and play them on the
+ Chromecast.
+ cast2chrome supports youtube urls and can save media.
+ It is written in bash/gtkwialog v 0.8.5 and above.
+
+Package: gtkdialog
+Architecture: amd64
+Version:  0.8.5-wiak-B
+Priority: extra
+Maintainer: William McEwan (wiak) <https://github.com/mcewanw>
+Installed-Size: 295
+Depends: libc6, libgtk2.0-0, libglade2-0, procps, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango1.0-0, libcairo2, libfreetype6, libfontconfig1, libxml2, libvte9
+Filename: ./Extra/gtkdialog_0.8.5-wiak-B_amd64.deb
+Size: 115068
+MD5sum: 13398e24f58cf05f1b03054259e0bfda
+SHA1: 2c4180b6de9fddff00c4209073df937da1737414
+SHA256: 2aed3b86600dca80ccc6137bfb6d4e7e210af72478b63aa905c0cfc93b8c01c3
+SHA512: 8de4e2fff9bf6a00759420a54f84517a8a25de9b214bc764064edc391c781a5bf316b09dd0b7299fa01221ea31e7021b7316345acdcbfa893bf0a365bc311d3c
+Description: 
+ Gtkwialog is a fork of Pere László's Gtkdialog, a small utility for
+ fast and easy GUI building
+ Gtkwialog uses various, more secure and flexible, glib calls than
+ legacy Gtkdialog to effect its action and input tag command spawning.
+ Gtkwialog fork by wiak. (package made as replacement for gtkdialog by fredx181)
+
 Package: wifibox
 Architecture: amd64
 Version: 1.0.5
@@ -1892,20 +1893,6 @@ SHA1: 02c24a456c505fc1aa591b2045c0e3e9c35441f6
 SHA256: 7a6203b8172b058c4ea2f33f3899834b005ffb1857bab350738e00755e262fa1
 SHA512: 324db08be806b3377af3ec2f9f792a313281bb1264e24cdb8a523282d1148726300ccbacb19d924a7490683f5837c8cc81e940612a1e387c4f06cee7a27296ec
 Description: Wireless Network manager
-
-Package: grub4dosconfig
-Architecture: amd64
-Version: 1.8.9
-Maintainer: root
-Installed-Size: 420
-Depends: libc6, probepart, guessfstype, coreutils, procps, gtkdialog, mount, menu, sed, x11-xserver-utils, gsu | gksu
-Filename: ./Extra/grub4dosconfig_1.8.9_amd64.deb
-Size: 154578
-MD5sum: 85b29d0307d749562983dcce81d163f0
-SHA1: 1c4edc2d89c2374aad093adb684b8637e6318b37
-SHA256: 7529c1b1bd8c8fdefa579421e28733485ccfaf2862131a63f6581fdfb4b47330
-SHA512: f042144e6a5db3b4dab4ad27ecd238a4150575e5f3a281f80be1416e264d732f2075fd2149cb609b4ce09da57acc45f614a8118c1e718b296252da01c0e77f19
-Description: Grub4DosConfig GUI script from Shinobar written for Puppy linux.
 
 Package: quick-remaster
 Architecture: all
@@ -1979,24 +1966,6 @@ Description: Warning - This package works only in DebianDog booted with porteus 
  Fix in v 1.0.6: skip symlinks while cleaning man and doc files
  Version 1.0.7, added option to quick-remaster GUI to make ISO
 
-Package: peasyfwmon
-Architecture: amd64
-Version: 1.0.1
-Priority: optional
-Section: utilities
-Maintainer: root
-Installed-Size: 163
-Depends: libc6, gtkdialog, iptables
-Conflicts: firewall-puppy
-Replaces: firewall-puppy
-Filename: ./Extra/peasyfwmon_1.0.1_amd64.deb
-Size: 22766
-MD5sum: 3e64b5c07418e416307d2a6baeb418a8
-SHA1: 453f7a2e5da40ebe9bb64b4abb086c3699cbc72c
-SHA256: 9a30e9bf2184e574d4f8fecc9a7ab1304c8dde92017034e7bea90673be406b2c
-SHA512: a9ef6d8374de0d80cc1cabec7310628c2c10b5fd5d91fd3fb70811a8bc510491eaa635a8ebd0fdb35d61b321f7867a9d0f7b3888cb7a3db5312daf84e42cf105
-Description: Peasy Firewall Monitor
-
 Package: quick-remaster
 Architecture: all
 Version: 1.0.9
@@ -2052,6 +2021,20 @@ SHA512: cf3a830be324f2c30a9d084053698944a8e3195f93ea78ed89159712abf7b84a6f384dfa
 Description: gethosts script from SteveRiley: https://www.kubuntuforums.net/showthread.php?56419-Script-to-automate-building-an-adblocking-hosts-file
   Thanks to jockjunior: http://www.murga-linux.com/puppy/viewtopic.php?p=899122#899122
  .
+
+Package: grub4dosconfig
+Architecture: amd64
+Version: 1.8.9-1
+Maintainer: root
+Installed-Size: 420
+Depends: libc6, probepart, guessfstype, coreutils, procps, gtkdialog, mount, menu, sed, x11-xserver-utils, gsu | gksu
+Filename: ./Extra/grub4dosconfig_1.8.9-1_amd64.deb
+Size: 154296
+MD5sum: f86633b860ef21a2472329b816fe2a9b
+SHA1: fd8e4db80ca959ae2438a59c6efcbe3cd65958aa
+SHA256: 8a040dc8fb7fe8c88a1a9299c478865021417f868501b546a3dbf1ee310e981b
+SHA512: f5709c83ce878446c7fb75232c5486d2a63162e9b17ebe47a10ab97af9a5442ae806b1b416214c4add5d4f948ded5c6ff1c6c28af958dea35b26eccbfccdf4fb
+Description: Grub4DosConfig GUI script from Shinobar written for Puppy linux.
 
 Package: apulse
 Architecture: i386
