@@ -14,6 +14,20 @@ SHA256: b120578b26f6d9d11a8ce37d9f70e0fb229a5b44291689428dead8a47ed84a18
 SHA512: 52db0d96c184595c76624e67ebebbedaa6188a4f57dc394bfd3b221e01e7572a7fab246e203bb484e146e60ac3586755d3b4315b324591856dad2bf3783d4e28
 Description: Preserve settings made with lxinput.
 
+Package: xendogmountscripts
+Architecture: all
+Version: 1.0.5
+Maintainer: root
+Installed-Size: 73
+Depends: libc6
+Filename: ./Included/xendogmountscripts_1.0.5_all.deb
+Size: 3050
+MD5sum: 6dc61804ef2e76db491f0d03f88a2240
+SHA1: 8aca01fdc106946c83d7c406960381f3782ff201
+SHA256: 88eee4a9804c6da2014bf32ce8f4cdb2419bae6151c404956ae7a9ccb72ee5bd
+SHA512: cd22dbde4c774afd8c8deddf50034cf39140040310b869c4f3d4928d07cc9d2cef999edd0b72693c2b22b37ea35eff38b3711677d9a0d70d12854b04bb735620
+Description: Special XenialDog mount and drive information scripts taken from DebianDog.
+
 Package: flashplayerchoice
 Architecture: all
 Version: 1.0.1
