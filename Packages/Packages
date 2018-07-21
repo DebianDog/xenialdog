@@ -14,6 +14,20 @@ SHA512: cbb993d1f4b9132ee0565d1df275438078f19cf59463d1fbd997a5072f7c5150ac5ea549
 Description: The sfs-get-xendog program downloads files from github.com or smokey01.com or kazzascorner.com
  sfs-get_smokey-get by MakeDEBPackage-GUI.
 
+Package: xendogmountscripts
+Architecture: all
+Version: 1.0.5
+Maintainer: root
+Installed-Size: 73
+Depends: libc6
+Filename: ./Included/xendogmountscripts_1.0.5_all.deb
+Size: 3050
+MD5sum: 6dc61804ef2e76db491f0d03f88a2240
+SHA1: 8aca01fdc106946c83d7c406960381f3782ff201
+SHA256: 88eee4a9804c6da2014bf32ce8f4cdb2419bae6151c404956ae7a9ccb72ee5bd
+SHA512: cd22dbde4c774afd8c8deddf50034cf39140040310b869c4f3d4928d07cc9d2cef999edd0b72693c2b22b37ea35eff38b3711677d9a0d70d12854b04bb735620
+Description: Special XenialDog mount and drive information scripts taken from DebianDog.
+
 Package: youtube-viewer
 Architecture: all
 Version: 3.1.5.1-xendog
