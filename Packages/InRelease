@@ -9,35 +9,35 @@ Codename: xenial
 Architectures: i386
 Components: main
 Description: XenialDog repository
-Date: Sat, 21 Jul 2018 11:11:02 +0000
+Date: Sat, 21 Jul 2018 22:12:23 +0000
 MD5Sum:
- 62cdbe63bcda19df0776d863cc8828e4            97480 Packages
- f4cc2459e91c9b76bc37e7b865c28852            36639 Packages.gz
- 231817d90e74cb4db51cb2f966cb47d0              185 Release
- f4cc2459e91c9b76bc37e7b865c28852            36639 Translation-en.gz
+ f106a877e2399be6d4a3e7c441f12263            98515 Packages
+ d81643b14c85bdc5c4852ae755071537            37027 Packages.gz
+ 5a0a9df64d4f0540225909985aba4838              185 Release
+ d81643b14c85bdc5c4852ae755071537            37027 Translation-en.gz
 SHA1:
- e24102c88fcfcfcbe06087dad437d761d367268e            97480 Packages
- 4cfd28195ec46521b513dbf9ee9440453d14a782            36639 Packages.gz
- 1f8f0062911d06bfe65b7d0afa749f786f2dac28              185 Release
- 4cfd28195ec46521b513dbf9ee9440453d14a782            36639 Translation-en.gz
+ ae022a146bbb3c28ec23e2b31c274d5f98db3881            98515 Packages
+ fdbf0c0d7c7250e31defcb9b6930a0b937243498            37027 Packages.gz
+ 7e73b2656ba5e6959b069d6e7a60b603cd15e6f9              185 Release
+ fdbf0c0d7c7250e31defcb9b6930a0b937243498            37027 Translation-en.gz
 SHA256:
- 95d6d6a0eac4c84db01b68b56226fe69ac00fc2e9dc1ffaf2875c7cefa1ef3fb            97480 Packages
- 6a3f48155c125d7e87e84cb1d8172de73cd17f6832e01f218b1c7e0e32ab5f1a            36639 Packages.gz
- 0ddacfd858a9ef63d4019689e1118c53de60562802b48812bb5b0bda183b1255              185 Release
- 6a3f48155c125d7e87e84cb1d8172de73cd17f6832e01f218b1c7e0e32ab5f1a            36639 Translation-en.gz
+ 4c1736cad53869322db9ad89ad7c6861e69d58071c8aa80ef65646832656a946            98515 Packages
+ 046b9b6c7bfb9dde330bd6bc71ca7ff508349ee9f46345d6af9f3fb973d6d361            37027 Packages.gz
+ f4bd41ddd7c7caa5e00025664071de8c21ef9a14f5d5269156c40e9a9afa4fd3              185 Release
+ 046b9b6c7bfb9dde330bd6bc71ca7ff508349ee9f46345d6af9f3fb973d6d361            37027 Translation-en.gz
 SHA512:
- 39e3f7d7880149b96883175724d6a9985d88779326bacb47c0826807d60cc064b9e6e73eccecd2816c61588e184e4b5ddd7492f7cdcbc7f833bd4aacd94f0fc0            97480 Packages
- 378545da9f84d1698da8da93ddf313336846401a1d269ac0bc53d578dad0d736580abb7cbd8c947dc2a71e2cb43e8ac33c2383fabda0f5345b36e1de24afbf92            36639 Packages.gz
- fa0860d298ed2a1faf836bf81efcbbfe08a0d3b84960d9e624fef8561837b4e1f032c24ed5321eb8d7bfac357b4db594d39015d2428984daa70315e1101a2b1d              185 Release
- 378545da9f84d1698da8da93ddf313336846401a1d269ac0bc53d578dad0d736580abb7cbd8c947dc2a71e2cb43e8ac33c2383fabda0f5345b36e1de24afbf92            36639 Translation-en.gz
+ 21d6690584bddf74c32d95fa28a6c8c5d7cbd226310c1020f78e0f85d96ba5c8180098e9bd4405c07f5d48a803b83c7e1e3152979b418359bca3f7a08e7602c7            98515 Packages
+ 81ba1c1e17e896221e288c947ba9a06dd519098a014e18766d4c2d0bc66433ce1873f64a0375dcabdd78ce70203267b3b7e6e52b3623531eae220d9e3a3f68cf            37027 Packages.gz
+ 5d81c9464596eeb3d033921a4a379e462a4b1dc670ebfdb82d754e3bdde03689f496bc70a6d1d6e20838c7b296132e43985fd2857e2bd07b007a6cd5cebdd3a6              185 Release
+ 81ba1c1e17e896221e288c947ba9a06dd519098a014e18766d4c2d0bc66433ce1873f64a0375dcabdd78ce70203267b3b7e6e52b3623531eae220d9e3a3f68cf            37027 Translation-en.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAltTFMcACgkQrYe8en1z
-CB0+Qgf+PNEoZaQRgZ2HWGXVLR3OwHymkFBOyysJ6Peo483hdJHMVJP1PfYmh/au
-D8Gjayzh7yyEs/CYkXtq7PxJftFx4nRV/iJ0M+RAesS/VRouA2BH4VKFgPRWgKgP
-jdJQdjYYXB1qC/UrvoFsRVz3Z0wtQ4zp0b1g2nBOxEVlS/cOVcY2aasScLf1k0oG
-RSGZdPArXSFpg5bQxA2QMg505uTNRc4Gi5zMR7WudH6zxDfOoO9dPvPfxV10Kkqu
-HRNWfKbMS3wUAOVYFM0MNHAcTiz4JWF6cEY1Pn4FXKaWTmtdjikZJjBK5RILn712
-RMPOx28szn0xL/r9fDal0AJjOe1gTg==
-=Potn
+iQEzBAEBCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAltTr8gACgkQrYe8en1z
+CB265ggAhNBccEtMepAmXjqrTv+z+qwn0dRq59LioJEAMGb19MHLn13JWi0GtlCu
+rFnqoSy/A4LI94jOmeVzweoj0FekhkFKO9Zj9RcdoyNT9ifziV9CF0GAmBlfSJL8
+d2hkhUmWieVoeAl+jVKKu81+rQqbqtsgRZNYlGAVQniyeE1OUfCvAWvRZYPNIbTw
+eUzIP3I/JZ+vOxCSUP+CKoFOwJa+3ba3Sb0b6v243BkDgmZsF3kQsj0/H5Hm+EKf
+GsAL8XhuEMekbSU4cTAz8DmaWSX3EWi2yUqXi0Bqx+0MsfyuEgejaeaxZFxaQC0I
+ouPuVNiH6qml7mkwtU1ai8gYuAt0fg==
+=Wnz7
 -----END PGP SIGNATURE-----
