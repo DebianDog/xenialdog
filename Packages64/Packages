@@ -1848,6 +1848,27 @@ Description: Warning - This package works only in DebianDog booted with porteus 
  Fix in v 1.0.6: skip symlinks while cleaning man and doc files
  Version 1.0.7, added option to quick-remaster GUI to make ISO
 
+Package: gtkdialog
+Architecture: amd64
+Version:  0.8.5-wiak-B-1
+Priority: extra
+Maintainer: William McEwan (wiak) <https://github.com/mcewanw>
+Installed-Size: 295
+Depends: libc6, libgtk2.0-0, libglade2-0, procps, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango1.0-0, libcairo2, libfreetype6, libfontconfig1, libxml2, libvte9
+Replaces: gtkwialog
+Filename: ./Extra/gtkdialog_0.8.5-wiak-B-1_amd64.deb
+Size: 115576
+MD5sum: e6f2987346d9b745d16a546185877820
+SHA1: 819571ed550481b59acc3875764855455ea1034e
+SHA256: 059bbbf73fe595d9ff2cec6c3ccdaa7ee54dffab865ec55f8e2cbaa0b8e41a8b
+SHA512: 260d81b9f001cd7953db2d717d32c9d6db78d822c2618ba7f617b7d5e774e8024e0d14d7863b698b250fb966fcd9f7510647a277d936646fd6741d10b7939d23
+Description: 
+ Gtkwialog is a fork of Pere László's Gtkdialog, a small utility for
+ fast and easy GUI building
+ Gtkwialog uses various, more secure and flexible, glib calls than
+ legacy Gtkdialog to effect its action and input tag command spawning.
+ Gtkwialog fork by wiak. (package made as replacement for gtkdialog by fredx181)
+
 Package: cast2chrome
 Architecture: all
 Version: 0.0.4
