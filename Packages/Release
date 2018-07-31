@@ -6,24 +6,24 @@ Codename: xenial
 Architectures: i386
 Components: main
 Description: XenialDog repository
-Date: Sat, 21 Jul 2018 22:12:23 +0000
+Date: Tue, 31 Jul 2018 15:41:00 +0000
 MD5Sum:
- f106a877e2399be6d4a3e7c441f12263            98515 Packages
- d81643b14c85bdc5c4852ae755071537            37027 Packages.gz
- 5a0a9df64d4f0540225909985aba4838              185 Release
- d81643b14c85bdc5c4852ae755071537            37027 Translation-en.gz
+ 380f2aff4bc3c49c51a9b1c35572c569            99235 Packages
+ 1f500ab9645b4b5d0fa9f9bd6f005869            37295 Packages.gz
+ b7be5244fed6408d532f215068955183              185 Release
+ 1f500ab9645b4b5d0fa9f9bd6f005869            37295 Translation-en.gz
 SHA1:
- ae022a146bbb3c28ec23e2b31c274d5f98db3881            98515 Packages
- fdbf0c0d7c7250e31defcb9b6930a0b937243498            37027 Packages.gz
- 7e73b2656ba5e6959b069d6e7a60b603cd15e6f9              185 Release
- fdbf0c0d7c7250e31defcb9b6930a0b937243498            37027 Translation-en.gz
+ 2701dcfd9a7190c4efad33878fe138e1feafd7bf            99235 Packages
+ f64059409f0b50a648b63d15818fe6f76e05e908            37295 Packages.gz
+ d7a709df813e3bff96a972a220058d9d74c2d94a              185 Release
+ f64059409f0b50a648b63d15818fe6f76e05e908            37295 Translation-en.gz
 SHA256:
- 4c1736cad53869322db9ad89ad7c6861e69d58071c8aa80ef65646832656a946            98515 Packages
- 046b9b6c7bfb9dde330bd6bc71ca7ff508349ee9f46345d6af9f3fb973d6d361            37027 Packages.gz
- f4bd41ddd7c7caa5e00025664071de8c21ef9a14f5d5269156c40e9a9afa4fd3              185 Release
- 046b9b6c7bfb9dde330bd6bc71ca7ff508349ee9f46345d6af9f3fb973d6d361            37027 Translation-en.gz
+ d0ec0f4a5cf06dfc65150d4851b5619409c9b5d26845b5596e49b40966e467f5            99235 Packages
+ c983bf4bcd3defdd84d37806fd85e51072b3fa988daf0332071cf13b9a27d375            37295 Packages.gz
+ ed1ebfabdf4498da83baa6ae216be3d0b954819e747dd891ced260ee0f37f856              185 Release
+ c983bf4bcd3defdd84d37806fd85e51072b3fa988daf0332071cf13b9a27d375            37295 Translation-en.gz
 SHA512:
- 21d6690584bddf74c32d95fa28a6c8c5d7cbd226310c1020f78e0f85d96ba5c8180098e9bd4405c07f5d48a803b83c7e1e3152979b418359bca3f7a08e7602c7            98515 Packages
- 81ba1c1e17e896221e288c947ba9a06dd519098a014e18766d4c2d0bc66433ce1873f64a0375dcabdd78ce70203267b3b7e6e52b3623531eae220d9e3a3f68cf            37027 Packages.gz
- 5d81c9464596eeb3d033921a4a379e462a4b1dc670ebfdb82d754e3bdde03689f496bc70a6d1d6e20838c7b296132e43985fd2857e2bd07b007a6cd5cebdd3a6              185 Release
- 81ba1c1e17e896221e288c947ba9a06dd519098a014e18766d4c2d0bc66433ce1873f64a0375dcabdd78ce70203267b3b7e6e52b3623531eae220d9e3a3f68cf            37027 Translation-en.gz
+ 547f75bc933ba7fb53a02563cbf4dadb4faa295d0d90cadcbc579af851f34608dbaf0b171b2b39ac495ba4f8b11331021fddc4a52c7c92045340b33f6af06fae            99235 Packages
+ f9bd5dff7cc8b6bd33d8127b3896b5bea4320be6c7e14ea8f56dc179f19cb948cef9876d24dd79b4c38ce868e153db2afc5ad97c26d6b574c57b711f7cd1e822            37295 Packages.gz
+ 75923467b8ca084f3fb9e38c75168b7c1bc0573876c4a4080bcc5007b0ad99dc1482b761bc22b7982fd97844df3ecc3aca79cc3b50c5134ae4f43797a5249fa2              185 Release
+ f9bd5dff7cc8b6bd33d8127b3896b5bea4320be6c7e14ea8f56dc179f19cb948cef9876d24dd79b4c38ce868e153db2afc5ad97c26d6b574c57b711f7cd1e822            37295 Translation-en.gz
