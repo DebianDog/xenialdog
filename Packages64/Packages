@@ -2123,6 +2123,25 @@ Description: Create iso, edit iso, burn iso or write (hybrid) iso to usb. Change
   - Display progress bar for writing ISO to USB
   - Changed entry box for to enter usb drive, to: display a list of available drives to choose from.
 
+Package: wiagit
+Architecture: all
+Version: 0.0.3
+Maintainer: wiak <https://github.com/wiake>
+Installed-Size: 151
+Depends: bash, gtkdialog, git, gitk
+Filename: ./Extra/wiagit_0.0.3_all.deb
+Size: 13568
+MD5sum: 6467523de36389524b97894cdcdff98c
+SHA1: 70a672f7c38781868501a76460f7c0e739ad553a
+SHA256: 59234fbe8d702ea4b7ec1bd487b56d6f887a74549fa966e12875b331ad678953
+SHA512: 36203c905b3b5a1757e36086c46988558a03d0594d0a0d8fd6f5d6ee393b7e185b2cc7b002cf0abe03dee1b79c4f8469d76f7b2b74a6f886a9c91b866bcf94bb
+Homepage: https://github.com/wiake
+Description:
+ wiagit is a GUI frontend for git,
+ git documentation, and a general purpose
+ user-editable commandline storage program.
+ It is written in bash/gtkwialog v 0.8.5 and above.
+
 Package: firewall-ng
 Architecture: amd64
 Version: 1.0.1
