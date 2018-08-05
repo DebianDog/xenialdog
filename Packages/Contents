@@ -102,6 +102,8 @@ etc/wiagit/cmd_lists/COMMIT1combo			    wiagit
 etc/wiagit/cmd_lists/CONFIG1combo			    wiagit
 etc/wiagit/cmd_lists/DIFF1combo				    wiagit
 etc/wiagit/cmd_lists/DOCScombo				    wiagit
+etc/wiagit/cmd_lists/GENERAL1combo			    wiagit
+etc/wiagit/cmd_lists/GITCMD1combo			    wiagit
 etc/wiagit/cmd_lists/HELP1combo				    wiagit
 etc/wiagit/cmd_lists/INITCOMMIT1combo			    wiagit
 etc/wiagit/cmd_lists/LOG1combo				    wiagit
@@ -124,6 +126,7 @@ etc/wiagit/cmd_lists/cCcombo				    wiagit
 etc/wiagit/cmd_lists/dDcombo				    wiagit
 etc/wiagit/cmd_lists/eEcombo				    wiagit
 etc/wiagit/cmd_lists/fFcombo				    wiagit
+etc/wiagit/cmd_lists/oOcombo				    wiagit
 etc/wiagit/wiagitrc					    wiagit
 etc/wiagit/wiagitrcBKUP					    wiagit
 etc/wpa/wpa.conf					    wifibox-dhcpcd,wifibox
@@ -974,6 +977,9 @@ usr/local/bin/weav					    weav
 usr/local/bin/wee.mbr					    xenialdoginstallscripts
 usr/local/bin/wex					    wex
 usr/local/bin/wiagit					    wiagit
+usr/local/bin/wiagitm					    wiagit
+usr/local/bin/wiagitmt					    wiagit
+usr/local/bin/wiagitt					    wiagit
 usr/local/bin/xenialdog-full-install			    xenialdoginstallscripts
 usr/local/bin/xenialdog-install				    xenialdoginstallscripts
 usr/local/bin/xload					    jwm-setup
@@ -2902,6 +2908,8 @@ usr/local/smokey-get/jemimah				    smokey-get-gdrive-get
 usr/local/smokey-get/pemasu				    smokey-get-gdrive-get
 usr/local/smokey-get/saintless				    smokey-get-gdrive-get
 usr/local/smokey-get/stu90				    smokey-get-gdrive-get
+usr/local/wiagit/wiagit					    wiagit
+usr/local/wiagit/wiagitm				    wiagit
 usr/local/youtube-get2/1url.desktop			    youtube-get2
 usr/local/youtube-get2/2playlist.desktop		    youtube-get2
 usr/local/youtube-get2/3ytuser.desktop			    youtube-get2
@@ -3024,6 +3032,7 @@ usr/share/applications/upgrade-kernel.desktop		    upgrade-kernel
 usr/share/applications/weav.desktop			    weav
 usr/share/applications/wex.desktop			    wex
 usr/share/applications/wiagit.desktop			    wiagit
+usr/share/applications/wiagitm.desktop			    wiagit
 usr/share/applications/wifi-box.desktop			    wifibox-dhcpcd,wifibox
 usr/share/applications/xenialdog-frugal-install.desktop	    xenialdoginstallscripts
 usr/share/applications/xenialdog-full-install.desktop	    xenialdoginstallscripts
@@ -3705,6 +3714,7 @@ usr/share/icons/hicolor/64x64/apps/mpv.png		    mpv
 usr/share/icons/hicolor/72x72/apps/findnrun.png		    findnrun
 usr/share/icons/hicolor/96x96/apps/yad.png		    yad
 usr/share/icons/hicolor/icon-theme.cache		    yad
+usr/share/icons/hicolor/scalable/apps/Git_icon.svg	    wiagit
 usr/share/icons/hicolor/scalable/apps/ceni.svg		    ceni
 usr/share/icons/hicolor/scalable/apps/findnrun.svg	    findnrun
 usr/share/icons/hicolor/scalable/apps/gnome-mplayer.svg	    gnome-mplayer-1.0.7
