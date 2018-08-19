@@ -63,8 +63,10 @@ etc/skel/Startup/firewall-puppy				    Firewall-Puppy
 etc/skel/Startup/killmenu-cached			    jwm-setup
 etc/skel/Startup/netmon_wce				    wifibox
 etc/skel/Startup/peasyfwmon_tray			    peasyfwmon
+etc/skel/Startup/peasywifi_tray				    PeasyWiFi
 etc/skel/startup-jwm					    jwm-setup
 etc/slitaz/wifibox_udhcpc				    wifibox
+etc/sudoers.d/peasywifi					    PeasyWiFi
 etc/systemd/system/frisbee.service			    frisbee
 etc/systemd/system/multi-user.target.wants/frisbee.service  frisbee
 etc/udhcpc/default.script				    wifibox
@@ -148,6 +150,7 @@ home/puppy/Startup/firewall-puppy			    Firewall-Puppy
 home/puppy/Startup/killmenu-cached			    jwm-setup
 home/puppy/Startup/netmon_wce				    wifibox
 home/puppy/Startup/peasyfwmon_tray			    peasyfwmon
+home/puppy/Startup/peasywifi_tray			    PeasyWiFi
 home/puppy/startup-jwm					    jwm-setup
 lib/dhcpcd/dhcpcd-hooks					    frisbee
 lib/dhcpcd/dhcpcd-run-hooks				    frisbee
