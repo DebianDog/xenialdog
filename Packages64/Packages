@@ -1536,6 +1536,28 @@ SHA512: 1403cf7fb5f5f1594f6510472708ae78c28a07d0b6994ae04baaebf1a6ff32b53838706e
 Description: Run a live preinstalled system from read-only media
 Tag: admin::boot, admin::filesystem, implemented-in::shell, protocol::smb, role::plugin, scope::utility, special::completely-tagged, works-with-format::iso9660
 
+Package: PeasyWiFi
+Architecture: amd64
+Version: 4.4-3
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: libc6, gtkdialog, gettext-base, net-tools, wpasupplicant, wireless-tools, x11-utils
+Conflicts: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd, frisbee
+Replaces: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd, frisbee
+Filename: ./Extra/peasywifi_4.4-3_amd64.deb
+Size: 16372
+MD5sum: 5dac9ae27dfc1af82efe61a3d25db589
+SHA1: e8a8729cedc7beb7bb0881393ba8fc6769162e21
+SHA256: d1a8b17972c80be71ecd8794fef2e99e0b025b4b483b8de9978c124af3a94721
+SHA512: 36c4ea1ddb944b12a4a4c7259422c0e65eac60f2a2429c2ea9a477876da742aa75068861c575d602569c20e2cb8b91ecd85139f3ba71549b37603c4563519d47
+Description: Reliable network manager
+ -changes in v4.4-0 in peasywifi script by rcrsn51:
+ - added option (Ethernet tab) to bring the interface down
+ - added Names button (to select interface names)
+ - A modification to Names. It resets the Ethernet profiles in /etc/pwf/ethernet
+ - Updated Help screen
+
 Package: findnrun
 Architecture: all
 Version: 1.10.6-1
