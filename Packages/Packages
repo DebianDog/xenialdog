@@ -1253,6 +1253,28 @@ Description: Conky-clock v2 Luxe edition, choose analog clock display on the Des
  Choice from 300 clock images with the appropriate hands
  Option to display the date on the clock
 
+Package: gtkdialog
+Architecture: i386
+Version: 0.8.7-wiak-B-2
+Priority: extra
+Maintainer: William McEwan (wiak) <https://github.com/wiake>
+Installed-Size: 332
+Depends: libc6, libgtk2.0-0, libglade2-0, procps, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango1.0-0, libcairo2, libfreetype6, libfontconfig1, libxml2, libvte9
+Conflicts: gtkwialog
+Replaces: gtkwialog
+Filename: ./Extra/gtkdialog_0.8.7-wiak-B-2_i386.deb
+Size: 121204
+MD5sum: e6c6d4264c695b49b8fad44139727ef6
+SHA1: 8f8eba6284c2e49b7ec9eb44d9874941dd001ff0
+SHA256: 4351a91a48f7dc3b90f6475a9c81d7ecd5268d18cf5044bf50b2cc75268407e5
+SHA512: fa5466d74690f11c9e7ee45f86532acec8591973677512af96f69ec593171961a1c21e3ec12c1f3e01fbfa3c18d47f2bb16fa2c880e0d297c5594ed01e10a217
+Description:
+ Gtkwialog is a fork of Pere László's Gtkdialog, a small utility for
+ fast and easy GUI building
+ Gtkwialog uses various, more secure and flexible, glib calls than
+ legacy Gtkdialog to effect its action tag command spawning.
+ Gtkwialog fork by wiak. (package made as replacement for gtkdialog by fredx181)
+
 Package: youtube-get2
 Architecture: all
 Version: 0.1.9
@@ -1404,6 +1426,27 @@ SHA1: 1256b13aa56101e3c4ec364f31a2d05fd756196b
 SHA256: 6827fa728443a05e07c497961a42e05e1b22797936e95ca77a716e833fc05b63
 SHA512: 882f1d5ab67f7b637f48f0e52fcb26142b992d6f7034ac811fcfdc53661e4d729e424499d19454c81370ff35d6ec279df1840973c0f19502be7268819231a859
 Description: gtkdialog
+
+Package: redshift-gui-lite
+Architecture: i386
+Version: 0.0.4
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 389
+Depends: libc6, curl
+Conflicts: redshiftgui
+Replaces: redshiftgui
+Filename: ./Extra/redshift-gui-lite_0.0.4_i386.deb
+Size: 174740
+MD5sum: 1742bbf80f32780376d9223d7c5570c8
+SHA1: 131a52dbd4e05fbd714903c678958caba58fc0cd
+SHA256: 31c0190a63be545fcd54a99769b8bba6ecf4ee214995aef756758ffa7fe3926f
+SHA512: 1113c002d985dd534b5768b3c958e8a06a146c3e854e7e6ef686822503ad84fbf59e1a78c0f19c2a23eee2e171cd2ce9a89b3bdfda82086dad7fb7e0e8e62f59
+Description: Monitor color adjustment tool
+ Redshift-gui light is using yad (notification icon)
+ and the redshift commandline utility (yad and redshift are builtin) 
+ Options are: Manual mode and Auto mode, see 'Redshift Help' (right-click on icon)
 
 Package: findnrun
 Architecture: all
@@ -1910,6 +1953,23 @@ Description: Light and eye-candy dock to launch your programs (core package)
  .
  This package is the core of Cairo-Dock project.
 
+Package: xlunch
+Architecture: i386
+Version: 4.1.1-3
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 1600
+Depends: libatk1.0-0, libc6, libcairo2, libfontconfig1, libfreetype6, libgdk-pixbuf2.0-0, libglib2.0-0, libgtk2.0-0, libmenu-cache3, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libimlib2, libpng16-16, xterm, librsvg2-bin, devilspie2
+Filename: ./Extra/xlunch_4.1.1-3_i386.deb
+Size: 1319828
+MD5sum: 076b9c06755ddc994e5f48e55a42f1bc
+SHA1: e4ca13c6e16b7ebc46f182bc6c91be75f6b03244
+SHA256: e07739313194faf06c92efaf8a5ff98b71c0a247abc1ef3e10c4619d338e67f0
+SHA512: 082c221fa593e9254289ada212c206d08c6040b99022149e17ef28827112ecaa6991250ee5a7ff703f6f70fcd716b55f434c4aed355a40d0d406a645b539043e
+Description: xlunch by Tomas M
+ Graphical app launcher
+
 Package: youtube-get2
 Architecture: i386
 Version: 0.1.7
@@ -2218,4 +2278,20 @@ SHA256: e8931815e3e88b08756fddddd688a4ad268a05bde20e09290013096aa861f9f7
 SHA512: f05ab05457e2b4864080a4651d15abab2f827655854d58d53c970ee7f665d2732919db52b443b26334c76137cd1dcd4c50c3746e3e5c297eafec3bcf330dc9a4
 Description: Warning - This package works only in XenialDog!
  bugfix 2016-11-25: v1.0.1 make backup of /usr/sbin/update-initramfs (and restore later) instead previously create symlink to /usr/share/casper/casper-update-initramfs and improved checking for which kernel version just upgraded to
+
+Package: create-portable
+Architecture: i386
+Version: 1.0.3
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 900
+Depends: libc6, unionfs-fuse, xorriso, yad, linux-user-chroot
+Filename: ./Extra/create-portable_1.0.3_i386.deb
+Size: 100178
+MD5sum: 2ea620e65f8c041600ed8a17b67c8d89
+SHA1: f69d8d4776ce07b143af106a58c7c6ec3b5ed79e
+SHA256: 8075628cba7e2634bc10a5aaaace28a6823aed0fd94da55fae77fb5ef28d9d30
+SHA512: 8e17cd93efd5b3c11b17eec56c355e5397ce22d4fe2c138e700c74a7febe80ae7af8a9bf1229660c26effd3ffee8e89b2d7be4e8085f7d6b8beb495fded99211
+Description: Create portable AppImage
 
