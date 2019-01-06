@@ -634,6 +634,7 @@ usr/local/.dogradio/data/Paradise.desktop		    dogradio
 usr/local/.dogradio/data/RADIO1.desktop			    dogradio
 usr/local/.dogradio/data/Radio 2.desktop		    dogradio
 usr/local/.dogradio/data/Sky Radio Lovesong.desktop	    dogradio
+usr/local/.dogradio/data/Soma fm Groove Salad Electronica-Am.desktop dogradio
 usr/local/.dogradio/data/Swiss Jazz.desktop		    dogradio
 usr/local/.dogradio/data/USA Dance Groove Dance-DJ USA.desktop dogradio
 usr/local/.dogradio/data/conkyfunc			    dogradio
@@ -704,6 +705,8 @@ usr/local/.dogradio/playlist/playlist.World		    dogradio
 usr/local/.dogradio/playlist/playlist.default		    dogradio
 usr/local/.dogradio/v0.0.2				    dogradio
 usr/local/.dogradio/v0.0.4				    dogradio
+usr/local/.dogradio/v0.0.8				    dogradio
+usr/local/.dogradio/v0.0.9				    dogradio
 usr/local/01-create-appimage64/.DirIcon			    create-portable
 usr/local/01-create-appimage64/AppImageAssistant.desktop    create-portable
 usr/local/01-create-appimage64/AppImageAssistant.png	    create-portable
@@ -3026,6 +3029,8 @@ usr/local/youtube-get2/icons/yt-user.png		    youtube-get2
 usr/local/yradio/icons/edit.png				    yradio
 usr/local/yradio/icons/fav.png				    yradio
 usr/local/yradio/icons/gtk-help.png			    yradio
+usr/local/yradio/icons/gtk-new (kopie 1).png		    yradio
+usr/local/yradio/icons/gtk-new.png			    yradio
 usr/local/yradio/icons/internet_radio_48.png		    yradio
 usr/local/yradio/icons/internetradio.png		    yradio
 usr/local/yradio/icons/pause_play.png			    yradio
