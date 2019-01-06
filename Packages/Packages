@@ -591,6 +591,22 @@ SHA512: 472b692b7b7309c106609792fc03a5f3ee50dd2c4914921214cc1eb8a3fe897c1a81622b
 Description: Mount .squashfs as unprivileged user.
  Squashfuse lets you mount SquashFS archives in user-space
 
+Package: yradio
+Architecture: i386
+Version: 0.0.7-1
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 878
+Depends: yad (>= 1:0.36.0), gnome-mplayer-1.0.7 | gmplayer, xdotool, unzip, streamripper
+Filename: ./Included/yradio_0.0.7-1_i386.deb
+Size: 190156
+MD5sum: 304c70957bfa496ce4641fc1ab46d87e
+SHA1: 42b3d20aa46aeceaa1ed81fff910db8c2a12a87e
+SHA256: 209ae76bdf8bb32996ae4d793a0ebbe4b33a402dd037a6ac2b992715bf693371
+SHA512: 1e221a5eb43e09eb6695f9241bdbb01c9045f1098c255552cfdd51a33b2dd9754fa06f422e7f5c13a937e6cd35d773343a4261ddb389b86fb4ac006f2f14b39f
+Description: Internet Radio Player
+
 Package: remaster-scripts
 Architecture: i386
 Version: 1.0.1
@@ -606,6 +622,25 @@ SHA512: 15c8d53cebefc909c5202d4ea5f94b2b44976401ba0dedae30965ef9eb5f0e2b9d5a9ee5
 Description: Warning - This package works only in XenialDog!
  .
  For creating a *.squashfs module from changes (from /live/cow directory) or full system remaster (from / directory).
+
+Package: dogradio
+Architecture: i386
+Version: 0.0.9-1
+Maintainer: fredx181
+Installed-Size: 3100
+Depends: libc6, gtk2-engines-murrine, yad, sed, conky, gnome-mplayer-1.0.7 | gmplayer | mplayer, file, streamripper
+Filename: ./Included/dogradio_0.0.9-1_i386.deb
+Size: 903020
+MD5sum: 315714c3f7ca42c8c4fd32cf1b6d3f8c
+SHA1: 9633704680a401f540bb6a4163514f6e87db749a
+SHA256: 4576ca78d57e244128e559e8e59a86c47abb9073fdc2992abb0877deeea9fa53
+SHA512: 0fafecb764a9b1453f3f4ce246d1f9011130a21f0633684c86ce1e2cb5ecfbc42a8cad51a80b32eb7053eb151c603b915e3007df95e259fd1b0eb3520a7f72dc
+Description: Dogradio is a GUI displaying icons for playing radio streams.
+ - Change in v 0.0.5: added option to rip streams (from right-click on tray-icon) 
+ - Using yad for the icons GUI
+ - Easy add/remove radio stream items
+ - Using conky for 'conky ticker', showing metadata
+ (can be enabled/disabled from tray icon menu + other settings)
 
 Package: desktop-editor
 Architecture: i386
