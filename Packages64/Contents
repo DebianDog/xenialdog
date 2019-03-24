@@ -838,6 +838,8 @@ usr/local/bin/desktop_drive_icons			    desktop-drive-icons
 usr/local/bin/dogradio					    dogradio
 usr/local/bin/dogradiorip				    dogradio
 usr/local/bin/drive-info				    xendogmountscripts
+usr/local/bin/dropbox_gui				    dropboxgui
+usr/local/bin/dropbox_uploader.sh			    dropboxgui
 usr/local/bin/filemnt					    filemnt-pcmanfm
 usr/local/bin/firefox					    firefox-portable
 usr/local/bin/firewall_install				    Firewall-Puppy
@@ -847,6 +849,8 @@ usr/local/bin/firewallstatusrestart			    firewall-ng
 usr/local/bin/fixdepinstall				    fixdepinstall
 usr/local/bin/flashplayerchoice				    flashplayerchoice
 usr/local/bin/gdialog					    zenity-2.30
+usr/local/bin/gdrive					    googledrivegui2
+usr/local/bin/gdrive_gui2				    googledrivegui2
 usr/local/bin/gentriesquick				    xlunch
 usr/local/bin/gethosts					    debdog-advert-blocker
 usr/local/bin/gnome-mplayer				    gnome-mplayer-1.0.6
@@ -2969,6 +2973,7 @@ usr/local/share/perl/5.22.1/Test/Warn.pm		    youtube-viewer
 usr/local/share/perl/5.22.1/UNIVERSAL/can.pm		    youtube-viewer
 usr/local/share/perl/5.22.1/UNIVERSAL/isa.pm		    youtube-viewer
 usr/local/share/pixmaps/gtk-close.png			    dogradio
+usr/local/share/pixmaps/gtk-help.png			    googledrivegui2
 usr/local/share/pixmaps/gtk-info.png			    dogradio
 usr/local/share/pixmaps/gtk-media-play.png		    dogradio
 usr/local/share/pixmaps/gtk-new.png			    dogradio
@@ -3092,6 +3097,7 @@ usr/share/applications/debdog-advert-blocker.desktop	    debdog-advert-blocker
 usr/share/applications/desktop_view_edit.desktop	    desktop-editor
 usr/share/applications/domycommand.desktop		    domycommand
 usr/share/applications/domyfile.desktop			    domyfile
+usr/share/applications/dropboxGUI.desktop		    dropboxgui
 usr/share/applications/edit-sfs.desktop			    edit-sfs-rox,edit-sfs-pcmanfm
 usr/share/applications/epdfview.desktop			    epdfview
 usr/share/applications/ffconvert.desktop		    ffconvert
@@ -3106,6 +3112,7 @@ usr/share/applications/flashplayerchoice.desktop	    flashplayerchoice
 usr/share/applications/frisbee.desktop			    frisbee
 usr/share/applications/geany.desktop			    geany
 usr/share/applications/gnome-mplayer.desktop		    gnome-mplayer-1.0.6
+usr/share/applications/googledrivegui2.desktop		    googledrivegui2
 usr/share/applications/gtk-youtube-viewer.desktop	    youtube-viewer
 usr/share/applications/jwm-theme-change.desktop		    jwm-setup
 usr/share/applications/jwm.desktop			    jwm-setup
@@ -5378,6 +5385,7 @@ usr/share/pixmaps/disc.png				    mount-wizard
 usr/share/pixmaps/dload.png				    youtube-get2
 usr/share/pixmaps/drive.png				    mount-wizard
 usr/share/pixmaps/drive24.png				    mount-wizard
+usr/share/pixmaps/dropbox.png				    dropboxgui
 usr/share/pixmaps/epdfview.xpm				    epdfview
 usr/share/pixmaps/fd.png				    mount-wizard
 usr/share/pixmaps/ffconvert.png				    ffconvert
@@ -5394,6 +5402,7 @@ usr/share/pixmaps/gnibbles.png				    grub4dosconfig
 usr/share/pixmaps/gnome-mplayer.xpm			    gnome-mplayer-1.0.6
 usr/share/pixmaps/go-next.png				    youtube-get2
 usr/share/pixmaps/go-previous.png			    youtube-get2
+usr/share/pixmaps/google-drive-128.png			    googledrivegui2
 usr/share/pixmaps/gtk-go-back.png			    youtube-get2
 usr/share/pixmaps/gtk-go-forward.png			    youtube-get2
 usr/share/pixmaps/gtk-info.png				    youtube-get2
