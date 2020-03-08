@@ -6,3 +6,28 @@ Codename: xenial
 Architectures: amd64
 Components: main
 Description: XenialDog repository
+Date: Sun, 08 Mar 2020 12:25:35 +0000
+MD5Sum:
+ d703c2051a6cb0b3c649ef61abca5614           110164 Packages
+ 6b0c14044f9c7b6fd06cac38fc888c45            41234 Packages.gz
+ 9d964e9660428dc1b01025b1cd9f8317              186 Release
+ 2945f89ace9b1cfd658dc93aa5bea53f            64818 Translation-en
+ 6b0c14044f9c7b6fd06cac38fc888c45            41234 Translation-en.gz
+SHA1:
+ 768b3d43b696b330d61cfdf0f18c3333d92bea7e           110164 Packages
+ 4555eef931c6dfd4d21afdb0380bbd7da83abd8e            41234 Packages.gz
+ 8591bc09e090062e62d032b7708be0141431cabb              186 Release
+ 84980b31beec81c1314aade96d32c62c58c6a946            64818 Translation-en
+ 4555eef931c6dfd4d21afdb0380bbd7da83abd8e            41234 Translation-en.gz
+SHA256:
+ b5fea008bb3f19d754070d0d220369ca0630b2b87e32d1b2cb9d46161bad2714           110164 Packages
+ eba8f260f19beb6b3c986a887bdc3c5f962c8cf208968703791ae654b6c40c58            41234 Packages.gz
+ 318eb866e5e2bdde167a007843d2796270583fa8da90bed5257c4cef7af3978c              186 Release
+ 45c7b2eb3186c23e08b516476f6610afed7e2a0eb0e9e1d1dc803a662f13a68d            64818 Translation-en
+ eba8f260f19beb6b3c986a887bdc3c5f962c8cf208968703791ae654b6c40c58            41234 Translation-en.gz
+SHA512:
+ e7888fc35a2067693b8141714713c23852d7eed5da08b84ae1ee5027409234084510221eb6e022e03e925297bc4a245b9cde841c86dc43d37a4936ea65df15fc           110164 Packages
+ dc2a3b47999bd7b1e3394a8943ac3120968c456aa1a484a7da4e2c9eae33ef2ddb473ff65970d630bfa6ce11032def1bffdd881d3fdf1c14b625e00d86228c41            41234 Packages.gz
+ ddec3037963aa7129367cd3d657f9e4fb69b15ec70b27efc849d45e38c5a6e7fdfd55e357677054a2ebb6ff313ef27b6e4372a09d50e9a2c232334c58620408f              186 Release
+ b64d9562b00b1b8db5405b96c28aeb20189a7faac2716f5bf36497a1c578dca1927ce7323d02638fbb81d5889d161ce78e2cbf4af05134a512654875fd42aa9c            64818 Translation-en
+ dc2a3b47999bd7b1e3394a8943ac3120968c456aa1a484a7da4e2c9eae33ef2ddb473ff65970d630bfa6ce11032def1bffdd881d3fdf1c14b625e00d86228c41            41234 Translation-en.gz
