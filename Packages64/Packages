@@ -1362,6 +1362,28 @@ Description: Monitor color adjustment tool
  and the redshift commandline utility (yad and redshift are builtin) 
  Options are: Manual mode and Auto mode, see 'Redshift Help' (right-click on icon)
 
+Package: gtkdialog
+Architecture: amd64
+Version:  0.8.8-wiak-B-2
+Priority: extra
+Maintainer: William McEwan (wiak) <https://github.com/mcewanw>
+Installed-Size: 295
+Depends: libc6, libgtk2.0-0, libglade2-0, procps, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango1.0-0, libcairo2, libfreetype6, libfontconfig1, libxml2, libvte9
+Conflicts: gtkwialog
+Replaces: gtkwialog
+Filename: ./Extra/gtkdialog_0.8.8-wiak-B-2_amd64.deb
+Size: 117650
+MD5sum: 7de0a6c57babc94257fd25768f738a00
+SHA1: c96266a82dca21b777d31057578d4b7461671cdb
+SHA256: a314128f77ad62ef86ac238adfca1e12272d85bed80edc7ad5208bf5a98b2ca5
+SHA512: f89707a7f473b25850398304ef04cac4b5715d1e700a5f67221c018afc2ed8c23b1736115f936bbeb13f8b147310dcf46272c3bda6a8e588479cccba8dea1579
+Description: 
+ Gtkwialog is a fork of Pere László's Gtkdialog, a small utility for
+ fast and easy GUI building
+ Gtkwialog uses various, more secure and flexible, glib calls than
+ legacy Gtkdialog to effect its action and input tag command spawning.
+ Gtkwialog fork by wiak. (package made as replacement for gtkdialog by fredx181)
+
 Package: wiagit
 Architecture: all
 Version: 0.0.1
